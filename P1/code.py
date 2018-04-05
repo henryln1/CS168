@@ -162,12 +162,116 @@ def trialTime(N, numberOfRuns, numberOfStrategies):
 
 	plot_histogram(stacked, "test30")
 
-trialTime(200000, 30, 4)
+#trialTime(200000, 30, 4)
 
 
 
-# def testMethod():
-# 	print(oneRandomBin(10))
-# 	return
 
-# testMethod()
+
+#QUESTION 2 CODE
+
+import hashlib
+import random as r
+
+def dataStream(): 
+
+	numberBuckets = 256
+	numTables = 4
+	numberTrials = 10
+
+	array = np.zeros((numTables, numberBuckets))
+	print("shape of array: ", array.shape)
+
+	def increment(x, hashV):
+		for j in range(numTables):
+			array[j][hashV] += 1
+
+	def count(trial, x):
+		stringForm = str(x) + str(trial - 1)
+		MD5Score = hashlib.md5(stringForm.encode("utf-8")).hexdigest()
+
+		minValue = float('inf')
+		for j in range(numTables):
+			hashHex = MD5Score[:2]
+			MD5Score = MD5Score[2:]
+			hashValue = int(hashHex, 16)
+			if array[j][hashValue] < minValue:
+				minValue = array[j][hashValue]
+		return minValue
+
+
+	def countMinSketch(trial, x):
+
+		stringForm = str(x) + str(trial - 1)
+		MD5Score = hashlib.md5(stringForm.encode("utf-8")).hexdigest()
+
+		for j in range(numTables):
+
+			hashHex = MD5Score[:2]
+			MD5Score = MD5Score[2:]
+			hashValue = int(hashHex, 16)
+			increment(x, hashValue)
+
+	forward = []
+	for i in range(1, 10):
+		lowerBound = 1000 * (i - 1) + 1
+		upperBound = 1000 * i
+		integer = r.randint(lowerBound, upperBound)
+		for j in range(i):
+			forward.append(integer)
+	#9001 to 9050
+	for i in range(1, 51):
+		for j in range(i ** 2):
+			forward.append(9000 + i)
+
+
+	reverse = list(reversed(forward))
+	randomized = forward[:]
+	random.shuffle(randomized)
+
+	def findHeavyHitters(trial):
+		heavy = []
+		for val in randomized:
+			if count(trial, val) >= len(reverse) * 0.01:
+				heavy.append(val)
+		return list(set(heavy))
+
+	numberHeavyHitters = 0
+	freq9050 = 0
+	for i in range(1, numberTrials + 1):
+
+		for value in randomized:
+			countMinSketch(i, value)
+		freq9050 += count(i, max(forward))
+		#print("freq9050: ", freq9050)
+		#print("heavy hitters", findHeavyHitters(i))
+		numberHeavyHitters += len(findHeavyHitters(i))
+		array = np.zeros((numTables, numberBuckets)) #reset array for next trial
+
+	print("Average number of heavy hitters average per trial: ", numberHeavyHitters/numberTrials)
+	print("Average frequency of element 9050 average per trial: ", freq9050/numberTrials)
+
+#print("forward")
+dataStream()
+
+
+#RESULTS
+#forward
+#Average number of heavy hitters average per trial:  30.9
+#Average frequency of element 9050 average per trial:  2550.9
+
+
+
+#reverse
+# Average number of heavy hitters average per trial:  30.8
+# Average frequency of element 9050 average per trial:  2550.0
+
+
+# random
+# Average number of heavy hitters average per trial:  30.8
+# Average frequency of element 9050 average per trial:  2550.0
+
+
+
+
+
