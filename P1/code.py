@@ -61,9 +61,6 @@ import random
 # 	return max(bins)
 
 def oneRandomBin(N):
-
-
-
 	bins1 = [0 for x in range(N)]
 
 	for ball in range(N):
@@ -148,23 +145,25 @@ def trialTime(N, numberOfRuns, numberOfStrategies):
 	stacked = np.zeros((N, numberOfStrategies))
 
 	for i in range(numberOfRuns):
+		print("strategy one")
 		first = oneRandomBin(N)
 		stacked[first - 1, 0] += 1
 
+		print("strategy two")
 		second = twoRandomBin(N)
 		stacked[second - 1, 1] += 1
 
+		print("strategy three")
 		third = threeRandomBin(N)
 		stacked[third - 1, 2] += 1
 
+		print("strategy four")
 		fourth = halfRandomBin(N)
 		stacked[fourth - 1, 3] += 1
 
 	plot_histogram(stacked, "test30")
 
-#trialTime(200000, 30, 4)
-
-
+# trialTime(200000, 30, 4)
 
 
 
@@ -189,7 +188,6 @@ def dataStream():
 	def count(trial, x):
 		stringForm = str(x) + str(trial - 1)
 		MD5Score = hashlib.md5(stringForm.encode("utf-8")).hexdigest()
-
 		minValue = float('inf')
 		for j in range(numTables):
 			hashHex = MD5Score[:2]
@@ -291,9 +289,8 @@ def conservative():
 	array = np.zeros((numTables, numberBuckets))
 	print("shape of array: ", array.shape)
 
-	def increment(x, hashV):
-		for j in range(numTables):
-			array[j][hashV] += 1
+	def increment(j, hashV):
+		array[j][hashV] += 1
 
 	def count(trial, x):
 		stringForm = str(x) + str(trial - 1)
@@ -367,7 +364,7 @@ def conservative():
 	freq9050 = 0
 	for i in range(1, numberTrials + 1):
 
-		for value in forward:
+		for value in randomized:
 			countMinSketch(i, value)
 		freq9050 += count(i, max(reverse))
 		#print("freq9050: ", freq9050)
@@ -382,15 +379,15 @@ def conservative():
 conservative()
 
 
-#RESULTS Conversative
+#RESULTS Conversative... numbers after slash are what i got after my change -kaylee
 #random
-# Average number of heavy hitters average per trial:  77.6
+# Average number of heavy hitters average per trial:  77.6 / 21.2
 # Average frequency of element 9050 average per trial:  2500.0
 
 #reverse
-# Average number of heavy hitters average per trial:  79.2
+# Average number of heavy hitters average per trial:  79.2 / 21.2
 # Average frequency of element 9050 average per trial:  2500.0
 
 #forward
-# Average number of heavy hitters average per trial:  159.9
-# Average frequency of element 9050 average per trial:  2864.9
+# Average number of heavy hitters average per trial:  159.9 / 22.2
+# Average frequency of element 9050 average per trial:  2864.9 / 2577.2
