@@ -165,11 +165,7 @@ def dataStream(conservative, data):
 
 	array = np.zeros((numTables, numberBuckets))
 
-	def increment(x, hashV):
-		for j in range(numTables):
-			array[j][hashV] += 1
-
-	def increment_cons(j, hashV):
+	def increment(j, hashV):
 		array[j][hashV] += 1
 
 	def count(trial, x):
@@ -200,13 +196,13 @@ def dataStream(conservative, data):
 				hashValues.append(hashValue)
 				js.append(j)
 			else:
-				increment(x, hashValue)
+				increment(j, hashValue)
 
 		if conservative:
 			smallest = min(currCount)
 			for i in range(len(currCount)):
 				if currCount[i] == smallest:
-					increment_cons(js[i], hashValues[i])
+					increment(js[i], hashValues[i])
 
 	def findHeavyHitters(trial):
 		heavy = []
@@ -259,16 +255,16 @@ dataStream(conservative = True, data = reverse)
 
 #RESULTS
 #forward
-# Average number of heavy hitters average per trial:  403.6
-# Average frequency of element 9050 average per trial:  3215.5
+# Average number of heavy hitters average per trial:  23.8
+# Average frequency of element 9050 average per trial:  2645.7
 
 #reverse
-# Average number of heavy hitters average per trial:  403.6
-# Average frequency of element 9050 average per trial:  3215.5
+# Average number of heavy hitters average per trial:  23.8
+# Average frequency of element 9050 average per trial:  2645.7
 
 # random
-# Average number of heavy hitters average per trial:  403.6
-# Average frequency of element 9050 average per trial:  3215.5
+# Average number of heavy hitters average per trial:  23.8
+# Average frequency of element 9050 average per trial:  2645.7
 
 
 #RESULTS Conversative
