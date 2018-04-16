@@ -134,15 +134,15 @@ def findSimilarity(func, filename):
             matrix[i][j] = float(total_similarities)/num_similarities
     makeHeatMap(matrix, groups, plt.cm.Blues, filename)
 
-print("Jaccard Similarity...")
-findSimilarity(jaccard, "jaccard.png")
-print("Jaccard Done")
-print("L2 Similarity...")
-findSimilarity(l2sim, "l2sim.png")
-print("L2 Done")
-print("Cosine Similarity...")
-findSimilarity(cosine, "cosine.png")
-print("Cosine Done")
+# print("Jaccard Similarity...")
+# findSimilarity(jaccard, "jaccard.png")
+# print("Jaccard Done")
+# print("L2 Similarity...")
+# findSimilarity(l2sim, "l2sim.png")
+# print("L2 Done")
+# print("Cosine Similarity...")
+# findSimilarity(cosine, "cosine.png")
+# print("Cosine Done")
 
 # QUESTION 2
 # TODO: fix baseline? & improve heatmap look
@@ -175,9 +175,9 @@ def baseline():
     print(classification_error)
     makeHeatMap(matrix, groups, plt.cm.Blues, "baseline.png")
 
-# print("Baseline...")
-# baseline()
-# print("Baseline Done")
+print("Baseline...")
+baseline()
+print("Baseline Done")
 
 def projection(d):
     new_articles = []
@@ -229,22 +229,22 @@ def cosine_arr(x, y):
     y_term = math.sqrt(y_term)
     return float(numerator)/(x_term * y_term)
 
-# print("Projecting w d = 10...")
-# projection1 = projection(10)
-# print("Finding nearest neighbors...")
-# nearest_neighbor(projection1, "projection1.png")
-# print("Projecting w d = 25...")
-# projection2 = projection(25)
-# print("Finding nearest neigbors...")
-# nearest_neighbor(projection2, "projection2.png")
-# print("Projecting w d = 50...")
-# projection3 = projection(50)
-# print("Finding nearest neigbors...")
-# nearest_neighbor(projection3, "projection3.png")
-# print("Projecting w d = 100...")
-# projection4 = projection(100)
-# print("Finding nearest neighbors...")
-# nearest_neighbor(projection4, "projection4.png")
+print("Projecting w d = 10...")
+projection1 = projection(10)
+print("Finding nearest neighbors...")
+nearest_neighbor(projection1, "projection1.png")
+print("Projecting w d = 25...")
+projection2 = projection(25)
+print("Finding nearest neigbors...")
+nearest_neighbor(projection2, "projection2.png")
+print("Projecting w d = 50...")
+projection3 = projection(50)
+print("Finding nearest neigbors...")
+nearest_neighbor(projection3, "projection3.png")
+print("Projecting w d = 100...")
+projection4 = projection(100)
+print("Finding nearest neighbors...")
+nearest_neighbor(projection4, "projection4.png")
 
 
 #Question 3
