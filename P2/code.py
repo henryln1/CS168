@@ -248,12 +248,11 @@ def cosine_arr(x, y):
 
 
 # QUESTION 3
-
+# TODO: plot classification error vs average sq size, improve timing?
 matrices = []
 new_articles = []
 l = 128
 d = 5
-combined_sq_size = 0
 
 def create_matrices():
     for table in range(l):
@@ -280,32 +279,34 @@ def classification(q):
     hashvalues = hash_article(q)
     best_similarity = float("-inf")
     best_group = -1
+    sq_size = 0
     for i in range(num_articles):
         group_id = labels_reversed[i]
         datapoint = new_articles[i]
+        article = articles[i]
         if datapoint == hashvalues:
             continue
         for j in range(l):
             if hashvalues[j] == datapoint[j]:
-                print(hashvalues)
-                print(datapoint)
-                similarity = sp.distance.cdist(hashvalues, datapoint, 'cosine') # produces nan - can probably replace those w zeros?
-                print(similarity)
-                if similarity > best_similarity: # this doesn't work bc the above produces a matrix
+                word_ids = reduce(set.union, map(set, map(dict.keys, [q, article])))
+                similarity = cosine(q, article, word_ids)
+                if similarity > best_similarity:
                     best_similarity = similarity
                     best_group = group_id
-                combined_sq_size += 1
+                sq_size += 1
                 break
-    return best_group  
+    return (best_group, sq_size)  
 
 
 def lsh(d):
+    combined_sq_size = 0
     create_matrices()
     hyperplane_hashing()
     error_count = 0
     for i in range(num_articles):
         actual_group = labels_reversed[i]
-        suggested_group = classification(articles[i])
+        suggested_group, sq_size = classification(articles[i])
+        combined_sq_size += sq_size
         error_count += 1
     print("Classification Error")
     classification_error = float(error_count)/num_articles
