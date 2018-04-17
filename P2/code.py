@@ -4,9 +4,9 @@ import math
 import matplotlib.pyplot as plt
 import numpy as np
 import warnings
+import scipy.spatial as sp
 
 # QUESTION 1
-# TODO: make heatmaps look better
 
 # groups - groups[i] is name of group i + 1
 groups = []
@@ -145,10 +145,10 @@ def findSimilarity(func, filename):
 # print("Cosine Done")
 
 # QUESTION 2
-# TODO: fix baseline? & improve heatmap look
 
 num_articles = len(labels_reversed)
 num_groups = len(groups)
+
 def baseline(): 
     matrix = np.zeros((num_groups, num_groups))
     error_count = 0
@@ -175,9 +175,9 @@ def baseline():
     print(classification_error)
     makeHeatMap(matrix, groups, plt.cm.Blues, "baseline.png")
 
-print("Baseline...")
-baseline()
-print("Baseline Done")
+# print("Baseline...")
+# baseline()
+# print("Baseline Done")
 
 def projection(d):
     new_articles = []
@@ -229,31 +229,94 @@ def cosine_arr(x, y):
     y_term = math.sqrt(y_term)
     return float(numerator)/(x_term * y_term)
 
-print("Projecting w d = 10...")
-projection1 = projection(10)
-print("Finding nearest neighbors...")
-nearest_neighbor(projection1, "projection1.png")
-print("Projecting w d = 25...")
-projection2 = projection(25)
-print("Finding nearest neigbors...")
-nearest_neighbor(projection2, "projection2.png")
-print("Projecting w d = 50...")
-projection3 = projection(50)
-print("Finding nearest neigbors...")
-nearest_neighbor(projection3, "projection3.png")
-print("Projecting w d = 100...")
-projection4 = projection(100)
-print("Finding nearest neighbors...")
-nearest_neighbor(projection4, "projection4.png")
+# print("Projecting w d = 10...")
+# projection1 = projection(10)
+# print("Finding nearest neighbors...")
+# nearest_neighbor(projection1, "projection1.png")
+# print("Projecting w d = 25...")
+# projection2 = projection(25)
+# print("Finding nearest neigbors...")
+# nearest_neighbor(projection2, "projection2.png")
+# print("Projecting w d = 50...")
+# projection3 = projection(50)
+# print("Finding nearest neigbors...")
+# nearest_neighbor(projection3, "projection3.png")
+# print("Projecting w d = 100...")
+# projection4 = projection(100)
+# print("Finding nearest neighbors...")
+# nearest_neighbor(projection4, "projection4.png")
 
 
-#Question 3
+# QUESTION 3
 
-# def local_sensitivity(d):
-# 	l = 128
-# 	list_hash_tables = []
-# 	for tableNumber in l:
-# 		matrix = np.random.normal(size = (d, max_word_id))
-# 	return
+matrices = []
+new_articles = []
+l = 128
+d = 5
+combined_sq_size = 0
+
+def create_matrices():
+    for table in range(l):
+        matrix = np.random.normal(size = (d, max_word_id))
+        matrices.append(matrix)
+
+def hyperplane_hashing():
+    for article in articles:
+        new_articles.append(hash_article(article))
+    return new_articles
+
+def hash_article(article):
+    full_vector = np.zeros(max_word_id,)
+    new_article = []
+    for k, v in article.items():
+        full_vector[k - 1] = v
+    for i in range(l):
+        hashvalue_full = np.inner(full_vector, matrices[i])
+        hashvalue_i = [1 if i > 0 else 0 for i in hashvalue_full]
+        new_article.append(hashvalue_i)
+    return new_article
+
+def classification(q):
+    hashvalues = hash_article(q)
+    best_similarity = float("-inf")
+    best_group = -1
+    for i in range(num_articles):
+        group_id = labels_reversed[i]
+        datapoint = new_articles[i]
+        if datapoint == hashvalues:
+            continue
+        for j in range(l):
+            if hashvalues[j] == datapoint[j]:
+                print(hashvalues)
+                print(datapoint)
+                similarity = sp.distance.cdist(hashvalues, datapoint, 'cosine') # produces nan - can probably replace those w zeros?
+                print(similarity)
+                if similarity > best_similarity: # this doesn't work bc the above produces a matrix
+                    best_similarity = similarity
+                    best_group = group_id
+                combined_sq_size += 1
+                break
+    return best_group  
+
+
+def lsh(d):
+    create_matrices()
+    hyperplane_hashing()
+    error_count = 0
+    for i in range(num_articles):
+        actual_group = labels_reversed[i]
+        suggested_group = classification(articles[i])
+        error_count += 1
+    print("Classification Error")
+    classification_error = float(error_count)/num_articles
+    print(classification_error)
+    print("Average Size of Sq")
+    sq_size = float(combined_sq_size)/num_articles
+    print(sq_size)
+
+for d in range(5, 21):
+    print("LSH for d value " + str(d))
+    lsh(d)
+
 
 
