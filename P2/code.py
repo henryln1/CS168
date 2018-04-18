@@ -248,23 +248,25 @@ def cosine_arr(x, y):
 
 
 # QUESTION 3
-# TODO: plot classification error vs average sq size, improve timing?
-matrices = []
-new_articles = []
+# TODO: plot classification error vs average sq size, improve timing
 l = 128
-d = 5
 
-def create_matrices():
+def create_matrices(d):
+    matrices = []
     for table in range(l):
         matrix = np.random.normal(size = (d, max_word_id))
         matrices.append(matrix)
+    print("Shape of matrix")
+    print(matrices[0].shape)
+    return matrices
 
-def hyperplane_hashing():
+def hyperplane_hashing(matrices):
+    new_articles = []
     for article in articles:
-        new_articles.append(hash_article(article))
+        new_articles.append(hash_article(article, matrices))
     return new_articles
 
-def hash_article(article):
+def hash_article(article, matrices):
     full_vector = np.zeros(max_word_id,)
     new_article = []
     for k, v in article.items():
@@ -275,8 +277,8 @@ def hash_article(article):
         new_article.append(hashvalue_i)
     return new_article
 
-def classification(q):
-    hashvalues = hash_article(q)
+def classification(q, matrices, new_articles):
+    hashvalues = hash_article(q, matrices)
     best_similarity = float("-inf")
     best_group = -1
     sq_size = 0
@@ -300,24 +302,40 @@ def classification(q):
 
 def lsh(d):
     combined_sq_size = 0
-    create_matrices()
-    hyperplane_hashing()
+    matrices = create_matrices(d)
+    new_articles = hyperplane_hashing(matrices)
     error_count = 0
     for i in range(num_articles):
         actual_group = labels_reversed[i]
-        suggested_group, sq_size = classification(articles[i])
+        suggested_group, sq_size = classification(articles[i], matrices, new_articles)
         combined_sq_size += sq_size
-        error_count += 1
+        if actual_group != suggested_group:
+            error_count += 1
     print("Classification Error")
     classification_error = float(error_count)/num_articles
     print(classification_error)
     print("Average Size of Sq")
     sq_size = float(combined_sq_size)/num_articles
     print(sq_size)
+    return (classification_error, sq_size)
 
+
+def makePlot(classificationErrors, averageSqSizes, outputFileName):
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore")
+        plt.title("Classification error vs Average Sq Size")
+        plt.axis([0, 1000, 0.5, 0.75])
+        print(classificationErrors)
+        print(averageSqSizes)
+        plt.plot(averageSqSizes, classificationErrors, 'ro')
+        plt.savefig(outputFileName, format = 'png')
+        plt.close()
+
+classificationErrors = []
+averageSqSizes = []
 for d in range(5, 21):
     print("LSH for d value " + str(d))
-    lsh(d)
-
-
-
+    classification_error, sq_size = lsh(d)
+    classificationErrors.append(classification_error)
+    averageSqSizes.append(sq_size)
+makePlot(classificationErrors, averageSqSizes, "lsh.png")
