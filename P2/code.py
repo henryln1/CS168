@@ -134,15 +134,15 @@ def findSimilarity(func, filename):
             matrix[i][j] = float(total_similarities)/num_similarities
     makeHeatMap(matrix, groups, plt.cm.Blues, filename)
 
-# print("Jaccard Similarity...")
-# findSimilarity(jaccard, "jaccard.png")
-# print("Jaccard Done")
-# print("L2 Similarity...")
-# findSimilarity(l2sim, "l2sim.png")
-# print("L2 Done")
-# print("Cosine Similarity...")
-# findSimilarity(cosine, "cosine.png")
-# print("Cosine Done")
+print("Jaccard Similarity...")
+findSimilarity(jaccard, "jaccard.png")
+print("Jaccard Done")
+print("L2 Similarity...")
+findSimilarity(l2sim, "l2sim.png")
+print("L2 Done")
+print("Cosine Similarity...")
+findSimilarity(cosine, "cosine.png")
+print("Cosine Done")
 
 # QUESTION 2
 
@@ -155,7 +155,7 @@ def baseline():
     for i in range(num_articles):
         group_id = labels_reversed[i]
         best_similarity = float("-inf")
-        nearest_article_group = -1 # what if more than one nearest article?
+        nearest_article_group = -1 
         for j in range(num_articles):
             if i == j:
                 continue
@@ -175,9 +175,9 @@ def baseline():
     print(classification_error)
     makeHeatMap(matrix, groups, plt.cm.Blues, "baseline.png")
 
-# print("Baseline...")
-# baseline()
-# print("Baseline Done")
+print("Baseline...")
+baseline()
+print("Baseline Done")
 
 def projection(d):
     new_articles = []
@@ -229,26 +229,25 @@ def cosine_arr(x, y):
     y_term = math.sqrt(y_term)
     return float(numerator)/(x_term * y_term)
 
-# print("Projecting w d = 10...")
-# projection1 = projection(10)
-# print("Finding nearest neighbors...")
-# nearest_neighbor(projection1, "projection1.png")
-# print("Projecting w d = 25...")
-# projection2 = projection(25)
-# print("Finding nearest neigbors...")
-# nearest_neighbor(projection2, "projection2.png")
-# print("Projecting w d = 50...")
-# projection3 = projection(50)
-# print("Finding nearest neigbors...")
-# nearest_neighbor(projection3, "projection3.png")
-# print("Projecting w d = 100...")
-# projection4 = projection(100)
-# print("Finding nearest neighbors...")
-# nearest_neighbor(projection4, "projection4.png")
+print("Projecting w d = 10...")
+projection1 = projection(10)
+print("Finding nearest neighbors...")
+nearest_neighbor(projection1, "projection1.png")
+print("Projecting w d = 25...")
+projection2 = projection(25)
+print("Finding nearest neigbors...")
+nearest_neighbor(projection2, "projection2.png")
+print("Projecting w d = 50...")
+projection3 = projection(50)
+print("Finding nearest neigbors...")
+nearest_neighbor(projection3, "projection3.png")
+print("Projecting w d = 100...")
+projection4 = projection(100)
+print("Finding nearest neighbors...")
+nearest_neighbor(projection4, "projection4.png")
 
 
 # QUESTION 3
-# TODO: plot classification error vs average sq size, improve timing
 l = 128
 
 def create_matrices(d):
@@ -325,8 +324,6 @@ def makePlot(classificationErrors, averageSqSizes, outputFileName):
         warnings.simplefilter("ignore")
         plt.title("Classification error vs Average Sq Size")
         plt.axis([0, 1000, 0.5, 0.75])
-        print(classificationErrors)
-        print(averageSqSizes)
         plt.plot(averageSqSizes, classificationErrors, 'ro')
         plt.savefig(outputFileName, format = 'png')
         plt.close()
