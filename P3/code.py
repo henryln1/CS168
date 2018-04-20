@@ -23,7 +23,7 @@ iterations = 20
 #print(a)
 
 gd_a = {}
-def gradientDescent(): #DOESN'T WORK
+def gradientDescent(): #does it work or not? hmmmmmm
 	for lr in learning_rates:
 		a = np.zeros(shape=(d, 1))
 
