@@ -3,6 +3,7 @@ import numpy as np
 from collections import defaultdict
 import warnings
 import matplotlib.pyplot as plt
+import math
 
 #PART 1
 
@@ -138,12 +139,17 @@ y_train = X_train.dot(a_true) + np.random.normal(0,0.5,size=(train_n,1))
 X_test = np.random.normal(0,1, size=(test_n,d))
 y_test = X_test.dot(a_true) + np.random.normal(0,0.5,size=(test_n,1))
 num_trials = 10
-#import math
+
+def normalized_error(x, a , y):
+	numerator = np.matmul(x, a) - y
+	numerator = math.sqrt(np.sum(np.square(numerator)))
+	denominator = math.sqrt(np.sum(np.square(y)))
+	return float(numerator) / denominator
 
 def part_2a():
 	a = solve_for_a_2()
-	train_error = train_fn(a)
-	test_error = test_fn(a)
+	train_error = normalized_error(X_train, a, y_train) # idk if this is correct but i switched both to using the normalized error fn
+	test_error = normalized_error(X_test, a, y_test)
 	return train_error, test_error
 
 def solve_for_a_2():
@@ -151,23 +157,23 @@ def solve_for_a_2():
 	a = np.matmul(inv, y_train) 
 	return a
 
-def train_fn(a):
-	sqrd_error = 0
-	a_t = a.T
-	for i in range(n):
-		curr = X_train[i].reshape((d, 1))
-		error = a_t.dot(curr) - y_train[i]
-		sqrd_error += np.power(error, 2)
-	return sqrd_error
+# def train_fn(a):
+# 	sqrd_error = 0
+# 	a_t = a.T
+# 	for i in range(n):
+# 		curr = X_train[i].reshape((d, 1))
+# 		error = a_t.dot(curr) - y_train[i]
+# 		sqrd_error += np.power(error, 2)
+# 	return sqrd_error
 
-def test_fn(a):
-	error = 0
-	for i in range(n):
-		curr = X_test[i].reshape((d, 1))
-		numerator = np.linalg.norm(np.matmul(X_test, a) - y_test)
-		denom = np.linalg.norm(y_test)
-		error += numerator/denom
-	return error
+# def test_fn(a):
+# 	error = 0
+# 	for i in range(n):
+# 		curr = X_test[i].reshape((d, 1))
+# 		numerator = np.linalg.norm(np.matmul(X_test, a) - y_test)
+# 		denom = np.linalg.norm(y_test)
+# 		error += numerator/denom
+# 	return error
 
 train_err = 0
 test_err = 0
@@ -179,12 +185,12 @@ for n in range(num_trials):
 train_err /= num_trials
 test_err /= num_trials
 
-# print("2A")
-# print("Avg train err: ", train_err)
-# print("Avg test err: ", test_err)
+print("2A")
+print("Avg train err: ", train_err)
+print("Avg test err: ", test_err)
 
-#Avg train err:  [[12951.94950903]]
-#Avg test err:  28.456756214230317
+# Avg train err:  1.08482770211125681e-14
+# Avg test err:  0.5823632339833625
 
 #BBBBBBBBBB
 
@@ -229,9 +235,6 @@ def part_b():
 		lambda_test.append(test_error/num_trials)
 	return
 
-
-import math 
-
 def partb_plot(lambdas, train, test, outputFileName):
 	with warnings.catch_warnings():
 		warnings.simplefilter("ignore")
@@ -256,11 +259,6 @@ num_trials = 10
 
 #step_sizes_dict = {}
 
-def normalized_error(x, a , y):
-	numerator = np.matmul(x, a) - y
-	numerator = math.sqrt(np.sum(np.square(numerator)))
-	denominator = math.sqrt(np.sum(np.square(y)))
-	return float(numerator) / denominator
 
 training_sgd2_error = {
 	0.00005: [],
