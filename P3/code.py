@@ -246,8 +246,8 @@ def partb_plot(lambdas, train, test, outputFileName):
 		plt.close()
 
 
-part_b()
-partb_plot(lambdas, lambda_train, lambda_test, "2b")
+# part_b()
+# partb_plot(lambdas, lambda_train, lambda_test, "2b")
 
 #CCCCC
 num_iterations = 1000000
@@ -256,8 +256,25 @@ num_trials = 10
 
 #step_sizes_dict = {}
 
+def normalized_error(x, a , y):
+	numerator = np.matmul(x, a) - y
+	numerator = math.sqrt(np.sum(np.square(numerator)))
+	denominator = math.sqrt(np.sum(np.square(y)))
+	return float(numerator) / denominator
+
+training_sgd2_error = {
+	0.00005: [],
+	0.0005: [],
+	0.005: []
+}
+test_sgd2_error = {
+	0.00005: [],
+	0.0005: [],
+	0.005: []
+}
 def SGD_2(): #does for train and test simultaneously
 	for step in step_sizes:
+		#print(step)
 		training_error = 0.0
 		test_error = 0.0
 		for trial in range(num_trials):
@@ -270,15 +287,41 @@ def SGD_2(): #does for train and test simultaneously
 				gradient = 2 * curr_train * (a.T.dot(curr_train) - y_train[random_point])
 
 				a -= step * gradient
-				loss = obj_fn(a)
+				#loss = obj_fn(a)
 				#sgd_a[lr].append(loss)
-			training_error += train_fn(a)
-			test_error += test_fn(a)
+			curr_training_error = normalized_error(X_train, a, y_train)
+			curr_test_error = normalized_error(X_test, a, y_test)
+			training_error += curr_training_error
+			test_error += curr_test_error
+			training_sgd2_error[step].append(curr_training_error)
+			#print(len(training_sgd2_error[step]))
+			test_sgd2_error[step].append(curr_test_error)
+
 		print("Step size: ", step)
 		print("Average Training Error: ", training_error/ num_trials)
 		print("Average Test Error: ", test_error / num_trials)
 
 #SGD_2()
+
+def partc_plot(lambdas, training, test, outputFileName): #Dunno how he wants this plotted
+	with warnings.catch_warnings():
+		warnings.simplefilter("ignore")
+		plt.title("Training and Test Errors each Iteration for Different Step Sizes")
+		iterations = [x for x in range(10)]
+		plt.plot(iterations, training[lambdas[0]], 'rs', label = "Training 0.00005")
+		plt.plot(iterations, test[lambdas[0]], 'bs', label = "Test 0.00005")
+		plt.plot(iterations, training[lambdas[1]], 'r--', label = "Training 0.0005")
+		plt.plot(iterations, test[lambdas[1]], 'b--', label = "Test 0.0005")
+		plt.plot(iterations, training[lambdas[2]], 'r^ ', label = "Training 0.005")
+		plt.plot(iterations, test[lambdas[2]], 'b^', label = "Test 0.005")
+		plt.xlabel("Iterations")
+		plt.ylabel("Error")
+		plt.legend(shadow=True, fontsize='x-large', loc = 0)
+		plt.savefig(outputFileName + ".png", format = 'png')
+		plt.close()	
+
+SGD_2()
+partc_plot(step_sizes, training_sgd2_error, test_sgd2_error, "2c") 
 #this thing takes so long to run, idk if we can speed it up or its just like that
 
 #C NOT DONE YET, should we do part about computing error corresponding to true coefficient vector f(a*)
@@ -288,6 +331,38 @@ def SGD_2(): #does for train and test simultaneously
 
 
 #DDDDDDDDDD
+
+total_iterations = 1000000
+step_sizes = [0.00005, 0.005]
+
+error_training_each_iteration = {
+	0.00005: [],
+	0.005: []
+}
+
+error_test_each100_iteration = {
+	0.00005: [],
+	0.005: []
+}
+
+def SGD_3():
+	for step in step_sizes:
+
+		a = np.zeros(shape=(d, 1))
+		for i in range(total_iterations):
+			random_point = random.randint(0, n - 1)
+			curr_train = X_train[random_point].reshape((d, 1))
+			gradient = 2 * curr_train * (a.T.dot(curr_train) - y_train[random_point])
+
+			a -= step * gradient
+			curr_training_error = normalized_error(X_train, a, y_train)
+			error_training_each_iteration[step].append(curr_training_error)
+			if i % 100 == 0:
+				curr_test_error = normalized_error(X_test, a, y_test)
+				error_test_each100_iteration[step].append(curr_test_error)
+	#NOT FINISHED
+
+
 
 
 
