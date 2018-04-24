@@ -219,8 +219,8 @@ def part_b():
 	for l in lambdas:
 		training_error = 0.0
 		test_error = 0.0
-		a = solve_for_a_2b(X_train, y_train, l)
 		for iteration in range(num_trials):
+			a = solve_for_a_2b(X_train, y_train, l)
 			#print("Current Lambda: ", l)
 			print("Iteration: ", iteration)
 			train_error_curr = normalized_error(X_train, a, y_train)
@@ -393,10 +393,10 @@ def plot_2d(outputFileName, y_dict, x_axis, title, y_label = "Error"):
 		plt.close()	
 
 # NEEDS TO BE RUN
-SGD_3()
-plot_2d("2d_1_1mill_log", error_training_each_iteration, [math.log(x) for x in range(1, total_iterations + 1)], "Training Error vs Iteration Number")
-plot_2d("2d_2_1mill_log", error_test_each100_iteration, [math.log(x * 100) for x in range(1, 10001)], "Test Error vs Iteration Number")
-plot_2d("2d_3_1mill_log", l2_norms, [math.log(x) for x in range(1, total_iterations + 1)], "SGD Solution l2 Norm vs Iteration Number", "l2 norm of SGD Solution")
+# SGD_3()
+# plot_2d("2d_1_1mill_log", error_training_each_iteration, [math.log(x) for x in range(1, total_iterations + 1)], "Training Error vs Iteration Number")
+# plot_2d("2d_2_1mill_log", error_test_each100_iteration, [math.log(x * 100) for x in range(1, 10001)], "Test Error vs Iteration Number")
+# plot_2d("2d_3_1mill_log", l2_norms, [math.log(x) for x in range(1, total_iterations + 1)], "SGD Solution l2 Norm vs Iteration Number", "l2 norm of SGD Solution")
 
 
 #EEEEEEEEEEEE
@@ -446,12 +446,53 @@ def plot_2e():
 train_n = 100
 test_n = 10000
 d = 200
-X_train = np.random.normal(0,1, size=(train_n,d))
-a_true = np.random.normal(0,1, size=(d,1))
-y_train = X_train.dot(a_true) + np.random.normal(0,0.5,size=(train_n,1))
-X_test = np.random.normal(0,1, size=(test_n,d))
-y_test = X_test.dot(a_true) + np.random.normal(0,0.5,size=(test_n,1))
+custom_trials = 1000
+num_trials = 1000
+
+custom_train_error = []
+custom_test_error = []
 
 
+# lambdas = [0.00000005, 0.0000005, 0.000005, 0.00005, 0.0005, 0.005, 0.05, 0.5, 5, 50, 500]
+
+l = 0.000005
+
+def custom_regularization():
+	training_error = 0.0
+	testing_error = 0.0
+	for iteration in range(num_trials):
+		X_train = np.random.normal(0,1, size=(train_n,d))
+		a_true = np.random.normal(0,1, size=(d,1))
+		y_train = X_train.dot(a_true) + np.random.normal(0,0.5,size=(train_n,1))
+		X_test = np.random.normal(0,1, size=(test_n,d))
+		y_test = X_test.dot(a_true) + np.random.normal(0,0.5,size=(test_n,1))
+		a = solve_for_a_2b(X_train, y_train, l)
+		#print("Current Lambda: ", l)
+		if iteration % 100 == 0:
+			print("Iteration: ", iteration)
+		train_error_curr = normalized_error(X_train, a, y_train)
+		test_error_curr = normalized_error(X_test, a, y_test)
+		#print("Training Error: ", train_error)
+		#print("Testing Error: ", test_error)
+		training_error += train_error_curr
+		testing_error += test_error_curr
+	return training_error, testing_error
 
 
+# def plot_3():
+# 	with warnings.catch_warnings(): 
+# 		plt.title("Error vs iteration")
+# 		plt.plot([x for x in range(1, 1001)], custom_training_error, 'rs', label = "Training Error")
+# 		plt.plot([x for x in range(1, 1001)], custom_test_error, 'bs', label = "Test Error")
+# 		plt.xlabel("iteration")
+# 		plt.ylabel("Error")
+# 		plt.legend(shadow=True, fontsize='x-large', loc = 0)
+# 		plt.savefig("3.png", format = 'png')
+# 		plt.close()	
+
+print("custom")
+training_error , testing_error = custom_regularization()
+train_avg = training_error / custom_trials
+test_avg = testing_error / custom_trials
+print(train_avg)
+print(test_avg)
