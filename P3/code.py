@@ -386,17 +386,17 @@ def plot_2d(outputFileName, y_dict, x_axis, title, y_label = "Error"):
 		plt.title(title)
 		plt.plot(x_axis, y_dict[step_sizes[0]], 'rs', label = "0.00005")
 		plt.plot(x_axis, y_dict[step_sizes[1]], 'bs', label = "0.005")
-		plt.xlabel("Iterations")
-		plt.ylabel("Error")
+		plt.xlabel("log(Iterations)")
+		plt.ylabel(y_label)
 		plt.legend(shadow=True, fontsize='x-large', loc = 0)
 		plt.savefig(outputFileName + ".png", format = 'png')
 		plt.close()	
 
 # NEEDS TO BE RUN
 SGD_3()
-plot_2d("2d_1_1mill", error_training_each_iteration, [x for x in range(total_iterations)], "Training Error vs Iteration Number")
-plot_2d("2d_2_1mill", error_test_each100_iteration, [x * 100 for x in range(1, 10001)], "Test Error vs Iteration Number")
-plot_2d("2d_3_1mill", l2_norms, [x for x in range(total_iterations)], "SGD Solution l2 Norm vs Iteration Number", "l2 norm of SGD Solution")
+plot_2d("2d_1_1mill_log", error_training_each_iteration, [math.log(x) for x in range(1, total_iterations + 1)], "Training Error vs Iteration Number")
+plot_2d("2d_2_1mill_log", error_test_each100_iteration, [math.log(x * 100) for x in range(1, 10001)], "Test Error vs Iteration Number")
+plot_2d("2d_3_1mill_log", l2_norms, [math.log(x) for x in range(1, total_iterations + 1)], "SGD Solution l2 Norm vs Iteration Number", "l2 norm of SGD Solution")
 
 
 #EEEEEEEEEEEE
