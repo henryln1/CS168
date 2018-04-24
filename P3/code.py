@@ -277,7 +277,8 @@ def SGD_2(): #does for train and test simultaneously
 		test_error = 0.0
 		for trial in range(num_trials):
 			print("Trial ", trial)
-			a = np.zeros(shape=(d, 1))
+			a = solve_for_a_2()
+
 
 			for i in range(num_iterations):
 				random_point = random.randint(0, n - 1)
@@ -317,19 +318,19 @@ def SGD_2(): #does for train and test simultaneously
 # 		plt.savefig(outputFileName + ".png", format = 'png')
 # 		plt.close()	
 
-#SGD_2()
+# SGD_2()
 
-#Step size:  0.005
-# Average Training Error:  0.945414598553814
-# Average Test Error:  0.9704421367327896
+# Step size:  0.005
+# Average Training Error:  4.3481452074957776e-14
+# Average Test Error:  0.8165234129641803
 
 # Step size:  0.0005
-# Average Training Error:  0.9454145985538138
-# Average Test Error:  0.9704421367327896
+# Average Training Error:  4.423861977227671e-14
+# Average Test Error:  0.8165234129641805
 
 # Step size:  5e-05
-# Average Training Error:  0.9454145985538143
-# Average Test Error:  0.9704421367327909
+# Average Training Error:  5.3175481716220075e-14
+# Average Test Error:  0.8165234129641832
 
 # partc_plot(step_sizes, training_sgd2_error, test_sgd2_error, "2c") 
 # print("Error for true coefficient vector")
@@ -364,7 +365,7 @@ l2_norms = {
 def SGD_3():
 	for step in step_sizes:
 		print("Current Step: ", step)
-		a = np.zeros(shape=(d, 1))
+		a = solve_for_a_2()
 		for i in range(total_iterations):
 			if i % 100000 == 0:
 				print("Current Iteration: ", i)
@@ -393,10 +394,10 @@ def plot_2d(outputFileName, y_dict, x_axis, title, y_label = "Error"):
 		plt.close()	
 
 # NEEDS TO BE RUN
-# SGD_3()
-# plot_2d("2d_1_1mill_log", error_training_each_iteration, [math.log(x) for x in range(1, total_iterations + 1)], "Training Error vs Iteration Number")
-# plot_2d("2d_2_1mill_log", error_test_each100_iteration, [math.log(x * 100) for x in range(1, 10001)], "Test Error vs Iteration Number")
-# plot_2d("2d_3_1mill_log", l2_norms, [math.log(x) for x in range(1, total_iterations + 1)], "SGD Solution l2 Norm vs Iteration Number", "l2 norm of SGD Solution")
+SGD_3()
+plot_2d("2d_1_1mill_log", error_training_each_iteration, [math.log(x) for x in range(1, total_iterations + 1)], "Training Error vs Iteration Number")
+plot_2d("2d_2_1mill_log", error_test_each100_iteration, [math.log(x * 100) for x in range(1, 10001)], "Test Error vs Iteration Number")
+plot_2d("2d_3_1mill_log", l2_norms, [math.log(x) for x in range(1, total_iterations + 1)], "SGD Solution l2 Norm vs Iteration Number", "l2 norm of SGD Solution")
 
 
 #EEEEEEEEEEEE
