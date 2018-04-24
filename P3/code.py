@@ -249,7 +249,6 @@ def partb_plot(lambdas, train, test, outputFileName):
 		plt.savefig(outputFileName + ".png", format = 'png')
 		plt.close()
 
-# NEEDS TO BE REPLOTTED
 # part_b()
 # partb_plot(lambdas, lambda_train, lambda_test, "2b")
 
@@ -300,31 +299,46 @@ def SGD_2(): #does for train and test simultaneously
 		print("Average Training Error: ", training_error/ num_trials)
 		print("Average Test Error: ", test_error / num_trials)
 
+
+# def partc_plot(lambdas, training, test, outputFileName): #Dunno how he wants this plotted
+# 	with warnings.catch_warnings(): # can't see the triangles on the graph - should we move 0.005 to its own graph
+# 		warnings.simplefilter("ignore")
+# 		plt.title("Training and Test Errors each Iteration for Different Step Sizes")
+# 		iterations = [x for x in range(10)]
+# 		plt.plot(iterations, training[lambdas[0]], 'rs', label = "Training 0.00005")
+# 		plt.plot(iterations, test[lambdas[0]], 'bs', label = "Test 0.00005")
+# 		plt.plot(iterations, training[lambdas[1]], 'r--', label = "Training 0.0005")
+# 		plt.plot(iterations, test[lambdas[1]], 'b--', label = "Test 0.0005")
+# 		plt.plot(iterations, training[lambdas[2]], 'r^ ', label = "Training 0.005")
+# 		plt.plot(iterations, test[lambdas[2]], 'b^', label = "Test 0.005")
+# 		plt.xlabel("Iterations")
+# 		plt.ylabel("Error")
+# 		plt.legend(shadow=True, fontsize='x-large', loc = 0)
+# 		plt.savefig(outputFileName + ".png", format = 'png')
+# 		plt.close()	
+
 #SGD_2()
 
-def partc_plot(lambdas, training, test, outputFileName): #Dunno how he wants this plotted
-	with warnings.catch_warnings(): # can't see the triangles on the graph - should we move 0.005 to its own graph
-		warnings.simplefilter("ignore")
-		plt.title("Training and Test Errors each Iteration for Different Step Sizes")
-		iterations = [x for x in range(10)]
-		plt.plot(iterations, training[lambdas[0]], 'rs', label = "Training 0.00005")
-		plt.plot(iterations, test[lambdas[0]], 'bs', label = "Test 0.00005")
-		plt.plot(iterations, training[lambdas[1]], 'r--', label = "Training 0.0005")
-		plt.plot(iterations, test[lambdas[1]], 'b--', label = "Test 0.0005")
-		plt.plot(iterations, training[lambdas[2]], 'r^ ', label = "Training 0.005")
-		plt.plot(iterations, test[lambdas[2]], 'b^', label = "Test 0.005")
-		plt.xlabel("Iterations")
-		plt.ylabel("Error")
-		plt.legend(shadow=True, fontsize='x-large', loc = 0)
-		plt.savefig(outputFileName + ".png", format = 'png')
-		plt.close()	
+#Step size:  0.005
+# Average Training Error:  0.945414598553814
+# Average Test Error:  0.9704421367327896
 
-# SGD_2()
+# Step size:  0.0005
+# Average Training Error:  0.9454145985538138
+# Average Test Error:  0.9704421367327896
+
+# Step size:  5e-05
+# Average Training Error:  0.9454145985538143
+# Average Test Error:  0.9704421367327909
+
 # partc_plot(step_sizes, training_sgd2_error, test_sgd2_error, "2c") 
 # print("Error for true coefficient vector")
 # print("training: ", normalized_error(X_train, a_true, y_train)) # 0.04064638868719073
 # print("test: ", normalized_error(X_test, a_true, y_test)) # 0.04741816119303346
 #this thing takes so long to run, idk if we can speed it up or its just like that
+
+
+
 
 
 #DDDDDDDDDD
@@ -349,8 +363,11 @@ l2_norms = {
 
 def SGD_3():
 	for step in step_sizes:
+		print("Current Step: ", step)
 		a = np.zeros(shape=(d, 1))
 		for i in range(total_iterations):
+			if i % 100000 == 0:
+				print("Current Iteration: ", i)
 			random_point = random.randint(0, n - 1)
 			curr_train = X_train[random_point].reshape((d, 1))
 			gradient = 2 * curr_train * (a.T.dot(curr_train) - y_train[random_point])
@@ -376,10 +393,10 @@ def plot_2d(outputFileName, y_dict, x_axis, title, y_label = "Error"):
 		plt.close()	
 
 # NEEDS TO BE RUN
-# SGD_3()
-# plot_2d("2d_1", error_training_each_iteration, [x for x in range(1000000)], "Training Error vs Iteration Number")
-# plot_2d("2d_2", error_test_each100_iteration, [x * 100 for x in range(1, 1001)], "Test Error vs Iteration Number")
-# plot_2d("2d_3", l2_norms, [x for x in range(1000000)], "SGD Solution l2 Norm vs Iteration Number", "l2 norm of SGD Solution")
+SGD_3()
+plot_2d("2d_1_1mill", error_training_each_iteration, [x for x in range(total_iterations)], "Training Error vs Iteration Number")
+plot_2d("2d_2_1mill", error_test_each100_iteration, [x * 100 for x in range(1, 10001)], "Test Error vs Iteration Number")
+plot_2d("2d_3_1mill", l2_norms, [x for x in range(total_iterations)], "SGD Solution l2 Norm vs Iteration Number", "l2 norm of SGD Solution")
 
 
 #EEEEEEEEEEEE
@@ -390,10 +407,13 @@ test_errors = []
 
 def SGD_4():
 	for radius in radius_opts:
+		print("Radius: ", radius)
 		a = np.random.uniform(size=(d, 1)) * radius
 		total_train_err = 0.0
 		total_test_err = 0.0
 		for i in range(total_iterations):
+			if i % 100000 == 0:
+				print("Current Iteration: ", i)
 			random_point = random.randint(0, n - 1)
 			curr_train = X_train[random_point].reshape((d, 1))
 			gradient = 2 * curr_train * (a.T.dot(curr_train) - y_train[random_point])
@@ -403,8 +423,8 @@ def SGD_4():
 			total_train_err += curr_training_error
 			curr_test_error = normalized_error(X_test, a, y_test)
 			total_test_err += curr_test_error
-		training_errors.append(total_train_err/iterations)
-		test_errors.append(total_test_err/iterations)
+		training_errors.append(total_train_err/total_iterations)
+		test_errors.append(total_test_err/total_iterations)
 
 def plot_2e():
 	with warnings.catch_warnings(): 
@@ -417,8 +437,8 @@ def plot_2e():
 		plt.savefig("2e.png", format = 'png')
 		plt.close()		
 
-SGD_4()
-plot_2e()
+# SGD_4()
+# plot_2e()
 
 
 #PART 3
@@ -431,3 +451,7 @@ a_true = np.random.normal(0,1, size=(d,1))
 y_train = X_train.dot(a_true) + np.random.normal(0,0.5,size=(train_n,1))
 X_test = np.random.normal(0,1, size=(test_n,d))
 y_test = X_test.dot(a_true) + np.random.normal(0,0.5,size=(test_n,1))
+
+
+
+
