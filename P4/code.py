@@ -65,7 +65,8 @@ def run_PCA(nucleobases, comp_number):
 	#print(dim_reduced_nucleobases.shape)
 	return dim_reduced_nucleobases
 
-
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import warnings
 from collections import defaultdict
@@ -190,7 +191,7 @@ def pca_recover(X, Y):
 	vector_list = [X, Y]
 	vector_array = np.array(vector_list)
 	pca = run_PCA(vector_array, 1)
-	slope = pca[0][1] / pca[0][0]
+	slope = pca[0][0] / pca[1][0]
 	return slope
 
 def ls_recover(X, Y):
@@ -198,21 +199,27 @@ def ls_recover(X, Y):
 	Y_mean = np.mean(Y)
 	numerator = np.dot(X - X_mean, Y - Y_mean)
 	denominator = ((X - X_mean)**2).sum()
+	print(numerator/denominator)
 	return numerator/denominator
 
 from numpy.random import randn
 
 # 2CCCCCCCC
-X = [x * .001 for x in range(1, 1001)]
 cs = [c * .05 for c in range(11)]
 
 def make_Y(c):
-	Y = numpy.array([2 * i * .001 for i in range(1, 1001)])
+	Y = np.array([2 * i * .001 for i in range(1, 1001)])
 	noise = randn(1000) * np.sqrt(c)
 	Y += noise
 	return Y
 
-def make_plot_2c():
+def make_X(c):
+	X = np.array([i * .001 for i in range(1, 1001)])
+	noise = randn(1000) * np.sqrt(c)
+	X += noise
+	return X
+
+def make_plot_2(filename, X = None):
 	# c on horizontal axis
 	# pca-recover on vertical - red dot
 	# ls-recover on vertical - blue dot
@@ -221,16 +228,21 @@ def make_plot_2c():
 	for i in range(30):
 		for c in cs:
 			Y = make_Y(c)
+			if X is None:
+				X = make_X(c)
 			pca = pca_recover(X, Y)
 			ls = ls_recover(X, Y)
 			plt.plot(c, pca, 'rs', label="PCA-Recover")
 			plt.plot(c, ls, 'bs', label="LS-Recover")
 
-	plt.legend(shadow=True, fontsize='x-large', title="Legend", loc = 0)
-	plt.savefig("2c.png", format = 'png')
+	plt.savefig(filename + ".png", format = 'png')
 	plt.close()
 
-make_plot_2c()
+X = [x * .001 for x in range(1, 1001)]
+make_plot_2("2c", X)
+make_plot_2("2d")
+
+
 
 
 	
