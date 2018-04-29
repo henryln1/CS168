@@ -182,5 +182,61 @@ def make_plot_1F(nucleobases_size, interesting_vector, file_name):
 	plt.savefig(file_name + ".png", format = 'png')
 	plt.close()
 
-interesting_vector = run_PCA_get_v(nucleobases_binary, 3, 3)
-make_plot_1F(10101, interesting_vector, "1F")
+# interesting_vector = run_PCA_get_v(nucleobases_binary, 3, 3)
+# make_plot_1F(10101, interesting_vector, "1F")
+
+# 2AAAAAAAAAAAv - can use for 2b if needed
+def pca_recover(X, Y):
+	vector_list = [X, Y]
+	vector_array = np.array(vector_list)
+	pca = run_PCA(vector_array, 1)
+	slope = pca[0][1] / pca[0][0]
+	return slope
+
+def ls_recover(X, Y):
+	X_mean = np.mean(X)
+	Y_mean = np.mean(Y)
+	numerator = np.dot(X - X_mean, Y - Y_mean)
+	denominator = ((X - X_mean)**2).sum()
+	return numerator/denominator
+
+from numpy.random import randn
+
+# 2CCCCCCCC
+X = [x * .001 for x in range(1, 1001)]
+cs = [c * .05 for c in range(11)]
+
+def make_Y(c):
+	Y = numpy.array([2 * i * .001 for i in range(1, 1001)])
+	noise = randn(1000) * np.sqrt(c)
+	Y += noise
+	return Y
+
+def make_plot_2c():
+	# c on horizontal axis
+	# pca-recover on vertical - red dot
+	# ls-recover on vertical - blue dot
+	plt.title("PCA-Recover & LS-Recover vs c")
+
+	for i in range(30):
+		for c in cs:
+			Y = make_Y(c)
+			pca = pca_recover(X, Y)
+			ls = ls_recover(X, Y)
+			plt.plot(c, pca, 'rs', label="PCA-Recover")
+			plt.plot(c, ls, 'bs', label="LS-Recover")
+
+	plt.legend(shadow=True, fontsize='x-large', title="Legend", loc = 0)
+	plt.savefig("2c.png", format = 'png')
+	plt.close()
+
+make_plot_2c()
+
+
+	
+
+
+identifiers, sexes, population_tag, nucleobases = process_text_file('p4dataset2018.txt')
+nucleobases_binary = convert_array_to_binary(nucleobases)
+
+	
