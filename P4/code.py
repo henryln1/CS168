@@ -109,8 +109,8 @@ def make_plot_PCA(nucleobases_PCA, population_tags, file_name): #assumes that th
 	plt.close()
 
 
-identifiers, sexes, population_tag, nucleobases = process_text_file('p4dataset2018.txt')
-nucleobases_binary = convert_array_to_binary(nucleobases)
+# identifiers, sexes, population_tag, nucleobases = process_text_file('p4dataset2018.txt')
+# nucleobases_binary = convert_array_to_binary(nucleobases)
 
 
 
@@ -215,43 +215,50 @@ from numpy.random import randn
 cs = [c * .05 for c in range(11)]
 print(cs)
 
-def make_Y(c, noise):
+def make_Y(c):
 	Y = np.array([2 * i * .001 for i in range(1, 1001)])
-	#noise = randn(1000) * np.sqrt(c)
+	noise = randn(1000) * math.sqrt(c)
 	Y += noise
 	return Y
 
-def make_X(c, noise):
+import time 
+
+def make_X(c):
 	X = np.array([i * .001 for i in range(1, 1001)])
-	#noise = randn(1000) * np.sqrt(c)
+	test_rand = randn(1000)
+	test_c = math.sqrt(c)
+	noise = randn(1000) * math.sqrt(c)
 	X += noise
 	#print("shape of X: ", X.shape)
 	return X
 
 
-def make_plot_2(filename, X = None):
+def make_plot_2(filename, title, X = None):
 	# c on horizontal axis
 	# pca-recover on vertical - red dot
 	# ls-recover on vertical - blue dot
-	plt.title("PCA-Recover & LS-Recover vs c")
-
+	plt.title(title)
+	plt.xlabel("Noise Level")
+	plt.ylabel("Slope")
+	
 	for i in range(30):
 		for c in cs:
-			noise = randn(1000) * np.sqrt(c)
-			Y = make_Y(c, noise)
+			# noise = randn(1000) * np.sqrt(c)
+			Y = make_Y(c)
 			if X is None:
-				X = make_X(c, noise)
+				X = make_X(c)
+			# print(X)
 			pca = pca_recover(X, Y)
 			ls = ls_recover(X, Y)
-
-			#plt.plot(c, pca, 'rs', label = 'pca')
-			plt.plot(c, ls, 'bs', label = 'ls')
+			plt.plot(c, pca, 'rs', label = 'pca', alpha=0.3)
+			plt.plot(c, ls, 'bs', label = 'ls', alpha=0.3)
+			X = None
 	plt.savefig(filename + ".png", format = 'png')
 	plt.close()
 
 X = [x * .001 for x in range(1, 1001)]
-make_plot_2("2c", X)
-make_plot_2("2d")
+make_plot_2("2c", "Noise on Y", X)
+make_plot_2("2d", "Noise on X and Y")
 
 
 
