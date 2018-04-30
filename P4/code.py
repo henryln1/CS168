@@ -190,10 +190,10 @@ def make_plot_1F(nucleobases_size, interesting_vector, file_name):
 def pca_recover(X, Y):
 	vector_list = [X, Y]
 	vector_array = np.array(vector_list)
-	#print("shape of vector array: ", vector_array.shape)
-	pca = run_PCA_get_v(vector_array, 1, 1)
-	slope = pca[0][1] / pca[0][0]
-	return slope
+	print("shape of vector array: ", vector_array.shape)
+	pca = PCA(n_components = 2)
+	pca.fit(vector_array.T)
+	return pca.components_[0][1] / pca.components_[0][0]
 
 def ls_recover(X, Y):
 	X_mean = np.mean(X)
@@ -251,11 +251,12 @@ def make_plot_2(filename, title, X, flag):
 			# print("X", np.sum(X))
 			# print("Y", np.sum(Y))
 
-			if (np.sum(Y) / np.sum(X)) >= 2:
-				print(c)
-				print("X", np.sum(X))
-				print("Y", np.sum(Y))
+			# if (np.sum(Y) / np.sum(X)) >= 2:
+			# 	print(c)
+			# 	print("X", np.sum(X))
+			# 	print("Y", np.sum(Y))
 			pca = pca_recover(X, Y)
+			print("value of pca: ", pca)
 			ls = ls_recover(X, Y)
 			plt.plot(c, pca, 'rs', label = 'pca', alpha=0.3)
 			plt.plot(c, ls, 'bs', label = 'ls', alpha=0.3)
