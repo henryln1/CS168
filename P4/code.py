@@ -213,7 +213,7 @@ from numpy.random import randn
 
 # 2CCCCCCCC
 cs = [c * .05 for c in range(11)]
-print(cs)
+# print(cs)
 
 def make_Y(c):
 	Y = np.array([2 * i * .001 for i in range(1, 1001)])
@@ -233,7 +233,7 @@ def make_X(c):
 	return X
 
 
-def make_plot_2(filename, title, X = None):
+def make_plot_2(filename, title, X, flag):
 	# c on horizontal axis
 	# pca-recover on vertical - red dot
 	# ls-recover on vertical - blue dot
@@ -245,20 +245,27 @@ def make_plot_2(filename, title, X = None):
 		for c in cs:
 			# noise = randn(1000) * np.sqrt(c)
 			Y = make_Y(c)
-			if X is None:
+			if flag != 'c':
 				X = make_X(c)
 			# print(X)
+			# print("X", np.sum(X))
+			# print("Y", np.sum(Y))
+
+			if (np.sum(Y) / np.sum(X)) >= 2:
+				print(c)
+				print("X", np.sum(X))
+				print("Y", np.sum(Y))
 			pca = pca_recover(X, Y)
 			ls = ls_recover(X, Y)
 			plt.plot(c, pca, 'rs', label = 'pca', alpha=0.3)
 			plt.plot(c, ls, 'bs', label = 'ls', alpha=0.3)
-			X = None
+			#X = None
 	plt.savefig(filename + ".png", format = 'png')
 	plt.close()
 
 X = [x * .001 for x in range(1, 1001)]
-make_plot_2("2c", "Noise on Y", X)
-make_plot_2("2d", "Noise on X and Y")
+make_plot_2("2c", "Noise on Y", X, flag = 'c')
+make_plot_2("2d", "Noise on X and Y", X, flag = 'd')
 
 
 
