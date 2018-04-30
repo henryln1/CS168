@@ -165,7 +165,7 @@ def run_PCA_get_v(nucleobases, comp_number, interesting_v):
 	pca = PCA(comp_number)
 	dim_reduced_nucleobases = pca.fit_transform(nucleobases)
 	v_vector = pca.components_[interesting_v - 1:]
-	print(v_vector.shape)
+	#print(v_vector.shape)
 
 	return v_vector
 
@@ -213,16 +213,17 @@ from numpy.random import randn
 
 # 2CCCCCCCC
 cs = [c * .05 for c in range(11)]
+print(cs)
 
-def make_Y(c):
+def make_Y(c, noise):
 	Y = np.array([2 * i * .001 for i in range(1, 1001)])
-	noise = randn(1000) * np.sqrt(c)
+	#noise = randn(1000) * np.sqrt(c)
 	Y += noise
 	return Y
 
-def make_X(c):
+def make_X(c, noise):
 	X = np.array([i * .001 for i in range(1, 1001)])
-	noise = randn(1000) * np.sqrt(c)
+	#noise = randn(1000) * np.sqrt(c)
 	X += noise
 	#print("shape of X: ", X.shape)
 	return X
@@ -236,13 +237,15 @@ def make_plot_2(filename, X = None):
 
 	for i in range(30):
 		for c in cs:
-			Y = make_Y(c)
+			noise = randn(1000) * np.sqrt(c)
+			Y = make_Y(c, noise)
 			if X is None:
-				X = make_X(c)
+				X = make_X(c, noise)
 			pca = pca_recover(X, Y)
 			ls = ls_recover(X, Y)
-			plt.plot(c, pca, 'rs', label="PCA-Recover")
-			plt.plot(c, ls, 'bs', label="LS-Recover")
+
+			#plt.plot(c, pca, 'rs', label = 'pca')
+			plt.plot(c, ls, 'bs', label = 'ls')
 	plt.savefig(filename + ".png", format = 'png')
 	plt.close()
 
