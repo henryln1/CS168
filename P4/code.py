@@ -203,6 +203,17 @@ def ls_recover(X, Y):
 	#print(numerator/denominator)
 	return numerator/denominator
 
+# 2bbbbbbbbbbb
+for i in range(10):
+	X = np.random.uniform(size = 5)
+	Y = np.random.uniform(size = 5)
+	pca_0 = pca_recover(X, Y)
+	ls_0 = ls_recover(X, Y)
+	print("pca: ", pca_0)
+	print("ls: ", ls_0)
+	print("X: ", X)
+	print("Y: ", Y)
+
 # X_a = [x * 0.001 for x in range(1, 1001)]
 # y_a = [2 * x for x in X_a]
 
@@ -264,9 +275,9 @@ def make_plot_2(filename, title, X, flag):
 	plt.savefig(filename + ".png", format = 'png')
 	plt.close()
 
-X = [x * .001 for x in range(1, 1001)]
-make_plot_2("2c", "Noise on Y", X, flag = 'c')
-make_plot_2("2d", "Noise on X and Y", X, flag = 'd')
+# X = [x * .001 for x in range(1, 1001)]
+# make_plot_2("2c", "Noise on Y", X, flag = 'c')
+# make_plot_2("2d", "Noise on X and Y", X, flag = 'd')
 
 
 
