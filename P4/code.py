@@ -275,12 +275,23 @@ def make_plot_2(filename, title, X, flag):
 	plt.savefig(filename + ".png", format = 'png')
 	plt.close()
 
-# X = [x * .001 for x in range(1, 1001)]
+X = [x * .001 for x in range(1, 1001)]
 # make_plot_2("2c", "Noise on Y", X, flag = 'c')
 # make_plot_2("2d", "Noise on X and Y", X, flag = 'd')
 
+# Y = np.array([2 * i * .001 for i in range(1, 1001)])
+# noise = randn(1000) * math.sqrt(0.4)
+# noisy_Y = Y + noise
 
+# noise = randn(1000) * math.sqrt(0.4)
+# noisy_X = X + noise
 
+# def make_plot_temp(filename, x, y):	
+# 	plt.scatter(x, y)
+# 	plt.savefig(filename + ".png", format = 'png')
+# 	plt.close()
+
+# make_plot_temp("noisy on y and x, c = 0.4", noisy_Y, noisy_X)
 
 	
 
