@@ -121,7 +121,6 @@ im_array = imread("p5_image.gif", flatten=True)
 
 #2B
 
-U, S, V = np.linalg.svd(im_array)
 # print("shape of U :", U.shape)
 # print("shape of S: ", S)
 # print("shape of V: ", V.shape)
@@ -129,34 +128,55 @@ U, S, V = np.linalg.svd(im_array)
 
 #ranks of k we care about
 k = [1, 3, 10, 20, 50, 100, 150, 200, 400, 800, 1170]
-k = [100]
+#k = [1]
 
 def calculate_k_approximation(k_rank, U, S, V):
 
 
-    S = np.diag(S) #1170 by 1170
-    print(S.shape)
-    S = S[:k_rank, :k_rank] #take top k components
-    print("shape of S", S.shape)
+    # S = np.diag(S) #1170 by 1170
+    # S = S[:k_rank, :k_rank] #take top k components
+    # print("S truncated: ", S)
+    # print("shape of S", S.shape)
+    # print("V before truncation: ", V)
+    # V = V[:, :k_rank] #take top k vectors
+    # print("V after truncation: ", V)
+    # V_transposed = V.T #transpose
+    # print("shape of V transposed: ", V_transposed.shape) # k by 1170
+    # U = U[:, :k_rank] #take top k vectors
+    # print("shape of U: ", U.shape) # 1600 by k
 
-    V = V[:, :k_rank] #take top k vectors
-    V_transposed = V.T #transpose
-    print(V_transposed.shape) # k by 1170
-    U = U[:, :k_rank] #take top k vectors
-    print(U.shape) # 1600 by k
+    # A = np.matmul(U, S)
+    # A = np.matmul(A, V_transposed)
 
-    A = np.matmul(U, S)
-    A = np.matmul(A, V_transposed)
-
+    S = np.diag(S)
+    # print("original S: ", S)
+    S = S[:k_rank, :k_rank]
+    # print("truncated S: ", S)
+    # print("shape of S: ", S.shape)
+    U = U[:, :k_rank]
+    V = V
+    V = V[:k_rank, :]
+    # print("current V: ", V)
+    # print("shape of V: ", V.shape)
+    # print("shape of U: ", U.shape)
+    # print("current U", U)
+    # print("test: ", np.matmul(np.matmul(U, S), V))
+    #A = np.zeros((1,1))
+    A = np.matmul(np.matmul(U, S), V)
+    # print(A)
     return A
+
+#im_array = np.array([[1, 1, 1], [2, 2, 2], [3, 3, 3]])
+U, S, V = np.linalg.svd(im_array)
+
 
 for curr_k in k:
     curr = calculate_k_approximation(curr_k, U, S, V)
 
-print(curr.shape)
-plt.imshow(curr)
-plt.show()   
-plt.savefig("testing.png", format = 'png')
+# print(curr.shape)
+    plt.imshow(curr, cmap="gray")
+    name = "rank_" + str(curr_k) + "_approximation.png"
+    plt.savefig(name, format = 'png')
 
 # temp = U * S * V
 # plt.imshow(temp)
