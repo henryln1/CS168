@@ -44,15 +44,15 @@ def projection(A, B):
 
 
 
-co_occurence_matrix = read_csv('../co_occur.csv')
-with open("dictionary.txt") as file:
-    word_dictionary = file.readlines()
-word_dictionary = list(map(str.strip, word_dictionary))
-normalized_matrix = normalize(co_occurence_matrix)
-print("shape of normalized_matrix: ", normalized_matrix.shape)
+# co_occurence_matrix = read_csv('../co_occur.csv')
+# with open("dictionary.txt") as file:
+#     word_dictionary = file.readlines()
+# word_dictionary = list(map(str.strip, word_dictionary))
+# normalized_matrix = normalize(co_occurence_matrix)
+# print("shape of normalized_matrix: ", normalized_matrix.shape)
 
 # 1B
-U, singular_vals, VT = randomized_svd(normalized_matrix, n_components = 100, random_state=None)
+# U, singular_vals, VT = randomized_svd(normalized_matrix, n_components = 100, random_state=None)
 # plot("Singular Values of rank-100 approx of M", [x for x in range(100)], singular_vals, "Ranking", "Singular Value", "1b")
 
 # 1C - not sure how we want to choose vectors
@@ -60,8 +60,8 @@ U, singular_vals, VT = randomized_svd(normalized_matrix, n_components = 100, ran
 # print("VT: ", VT)
 
 # 1D
-embeddings = preprocessing.normalize(U, norm='l2')
-embeddings_len = len(embeddings)
+# embeddings = preprocessing.normalize(U, norm='l2')
+# embeddings_len = len(embeddings)
 # woman_idx = word_dictionary.index("woman")
 # man_idx = word_dictionary.index("man")
 # v = embeddings[woman_idx] - embeddings[man_idx]
@@ -92,32 +92,75 @@ embeddings_len = len(embeddings)
 # top_10 = similarities_counter.most_common(10)
 # print("Top 10 closest words to Stanford: ", top_10) # stanford, harvard, cornell, ucla, yale, princeton, penn, auburn, mit, berkeley...
 
-with open("analogy_task.txt") as f:
-    analogies = f.readlines()
-num_correct_analogies = 0
-for analogy in analogies:
-    words = analogy.split()
-    indices = [word_dictionary.index(word) for word in words]
-    vec = embeddings[indices[1]] - embeddings[indices[0]] + embeddings[indices[2]]
-    target = vec / np.linalg.norm(vec)
-    best_word = None
-    best_similarity = -1
-    for i in range(embeddings_len):
-        similarity = np.dot(target, embeddings[i])
-        if similarity > best_similarity:
-            best_word = word_dictionary[i]
-            best_similarity = similarity
-    if best_word == words[3]:
-        num_correct_analogies += 1
-accuracy = float(num_correct_analogies) / len(analogies)
-print("Analogy Accuracy: ", accuracy)
+# with open("analogy_task.txt") as f:
+#     analogies = f.readlines()
+# num_correct_analogies = 0
+# for analogy in analogies:
+#     words = analogy.split()
+#     indices = [word_dictionary.index(word) for word in words]
+#     vec = embeddings[indices[1]] - embeddings[indices[0]] + embeddings[indices[2]]
+#     target = vec / np.linalg.norm(vec)
+#     best_word = None
+#     best_similarity = -1
+#     for i in range(embeddings_len):
+#         similarity = np.dot(target, embeddings[i])
+#         if similarity > best_similarity:
+#             best_word = word_dictionary[i]
+#             best_similarity = similarity
+#     if best_word == words[3]:
+#         num_correct_analogies += 1
+# accuracy = float(num_correct_analogies) / len(analogies)
+# print("Analogy Accuracy: ", accuracy)
 
 #question 2
+#CODE DOES NOT WORK YET
 
 from scipy.ndimage import imread
 
 im_array = imread("p5_image.gif", flatten=True)
 
+#2B
+
+U, S, V = np.linalg.svd(im_array)
+# print("shape of U :", U.shape)
+# print("shape of S: ", S)
+# print("shape of V: ", V.shape)
+
+
+#ranks of k we care about
+k = [1, 3, 10, 20, 50, 100, 150, 200, 400, 800, 1170]
+k = [100]
+
+def calculate_k_approximation(k_rank, U, S, V):
+
+
+    S = np.diag(S) #1170 by 1170
+    print(S.shape)
+    S = S[:k_rank, :k_rank] #take top k components
+    print("shape of S", S.shape)
+
+    V = V[:, :k_rank] #take top k vectors
+    V_transposed = V.T #transpose
+    print(V_transposed.shape) # k by 1170
+    U = U[:, :k_rank] #take top k vectors
+    print(U.shape) # 1600 by k
+
+    A = np.matmul(U, S)
+    A = np.matmul(A, V_transposed)
+
+    return A
+
+for curr_k in k:
+    curr = calculate_k_approximation(curr_k, U, S, V)
+
+print(curr.shape)
+plt.imshow(curr)
+plt.show()   
+plt.savefig("testing.png", format = 'png')
+
+# temp = U * S * V
+# plt.imshow(temp)
+# plt.show()
 #visualizes the image
 # plt.imshow(im_array, cmap="gray")
 # plt.show()
