@@ -55,25 +55,24 @@ print("shape of normalized_matrix: ", normalized_matrix.shape)
 U, singular_vals, VT = randomized_svd(normalized_matrix, n_components = 100, random_state=None)
 # plot("Singular Values of rank-100 approx of M", [x for x in range(100)], singular_vals, "Ranking", "Singular Value", "1b")
 
-# 1C - not sure how we want to choose vectors
-# print("U: ", U)
-# print("VT: ", VT)
-np_U = np.array(U)
-for i in range(5):
-    singular_vec = U.T[i]
-    enumerated = dict(enumerate(singular_vec))
-    singular_vec_counter = Counter(enumerated)
-    ordered = singular_vec_counter.most_common()
-    biggest_vals = ordered[0:11]
-    smallest_vals = ordered[-10:]
-    print("biggest_vals")
-    for idx, val in biggest_vals:
-        print(word_dictionary[idx])
-        print(val)
-    print("smallest_vals")
-    for idx, val in smallest_vals:
-        print(word_dictionary[idx])
-        print(val)
+# 1C
+# np_U = np.array(U)
+# for i in range(5):
+#     singular_vec = U.T[i]
+#     enumerated = dict(enumerate(singular_vec))
+#     singular_vec_counter = Counter(enumerated)
+#     ordered = singular_vec_counter.most_common()
+#     biggest_vals = ordered[0:11]
+#     smallest_vals = ordered[-10:]
+#     print("i")
+#     print("biggest_vals")
+#     for idx, val in biggest_vals:
+#         print(word_dictionary[idx])
+#         print(val)
+#     print("smallest_vals")
+#     for idx, val in smallest_vals:
+#         print(word_dictionary[idx])
+#         print(val)
 
 
 # 1D
