@@ -58,17 +58,27 @@ U, singular_vals, VT = randomized_svd(normalized_matrix, n_components = 100, ran
 # 1C - not sure how we want to choose vectors
 # print("U: ", U)
 # print("VT: ", VT)
-# test_idx = word_dictionary.index("the")
-# enumerated = dict(enumerate(U[test_idx]))
-# test_counter = Counter(enumerated)
-# test_top_10 = test_counter.most_common(10)
-# for index, val in test_top_10:
-#     print(word_dictionary[index])
+np_U = np.array(U)
+for i in range(5):
+    singular_vec = U.T[i]
+    enumerated = dict(enumerate(singular_vec))
+    singular_vec_counter = Counter(enumerated)
+    ordered = singular_vec_counter.most_common()
+    biggest_vals = ordered[0:11]
+    smallest_vals = ordered[-10:]
+    print("biggest_vals")
+    for idx, val in biggest_vals:
+        print(word_dictionary[idx])
+        print(val)
+    print("smallest_vals")
+    for idx, val in smallest_vals:
+        print(word_dictionary[idx])
+        print(val)
 
 
 # 1D
-embeddings = preprocessing.normalize(U, norm='l2')
-embeddings_len = len(embeddings)
+# embeddings = preprocessing.normalize(U, norm='l2')
+# embeddings_len = len(embeddings)
 # woman_idx = word_dictionary.index("woman")
 # man_idx = word_dictionary.index("man")
 # v = embeddings[woman_idx] - embeddings[man_idx]
@@ -99,36 +109,36 @@ embeddings_len = len(embeddings)
 # top_10 = similarities_counter.most_common(10)
 # print("Top 10 closest words to Stanford: ", top_10) # stanford, harvard, cornell, ucla, yale, princeton, penn, auburn, mit, berkeley...
 
-import time 
-with open("analogy_task.txt") as f:
-    analogies = f.readlines()
-num_correct_analogies = 0
-for analogy in analogies:
-    words = analogy.split()
-    hints = words[0:3]
-    indices = [word_dictionary.index(word) for word in words]
-    vec = embeddings[indices[1]] - embeddings[indices[0]] + embeddings[indices[2]]
-    target = vec / np.linalg.norm(vec)
-    best_word = None
-    best_similarity = -1
-    for i in range(embeddings_len):
-        if word_dictionary[i] in hints:
-            continue
-        similarity = np.dot(target, embeddings[i])
-        if similarity > best_similarity:
-            best_word = word_dictionary[i]
-            best_similarity = similarity
-    if best_word == words[3]:
-        num_correct_analogies += 1
-        with open('analogy_successes.txt', 'a') as analogy_file:
-            analogy_file.write(analogy + '\n')
-            analogy_file.write(best_word + '\n')
-    else:
-        with open('analogy_errors.txt', 'a') as analogy_file:
-            analogy_file.write(analogy + '\n')
-            analogy_file.write(best_word + '\n')
-accuracy = float(num_correct_analogies) / len(analogies)
-print("Analogy Accuracy: ", accuracy)
+# import time 
+# with open("analogy_task.txt") as f:
+#     analogies = f.readlines()
+# num_correct_analogies = 0
+# for analogy in analogies:
+#     words = analogy.split()
+#     hints = words[0:3]
+#     indices = [word_dictionary.index(word) for word in words]
+#     vec = embeddings[indices[1]] - embeddings[indices[0]] + embeddings[indices[2]]
+#     target = vec / np.linalg.norm(vec)
+#     best_word = None
+#     best_similarity = -1
+#     for i in range(embeddings_len):
+#         if word_dictionary[i] in hints:
+#             continue
+#         similarity = np.dot(target, embeddings[i])
+#         if similarity > best_similarity:
+#             best_word = word_dictionary[i]
+#             best_similarity = similarity
+#     if best_word == words[3]:
+#         num_correct_analogies += 1
+#         with open('analogy_successes.txt', 'a') as analogy_file:
+#             analogy_file.write(analogy + '\n')
+#             analogy_file.write(best_word + '\n')
+#     else:
+#         with open('analogy_errors.txt', 'a') as analogy_file:
+#             analogy_file.write(analogy + '\n')
+#             analogy_file.write(best_word + '\n')
+# accuracy = float(num_correct_analogies) / len(analogies)
+# print("Analogy Accuracy: ", accuracy)
 
 
 #question 2
