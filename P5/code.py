@@ -29,10 +29,11 @@ def plot(title, X, Y, X_label, Y_label, filename, X_ticks = None):
 
 def plot_numberline(title, X, labels, filename): # I don't think this is what they want but I'm not sure what else to do :s
     plt.title(title)
-    plt.scatter(X, np.zeros_like(X))
-    plt.yticks([])
-    for i, label in enumerate(labels):
-        plt.annotate(label, (X[i], 0), rotation = 'vertical')
+    # plt.scatter(X, np.zeros_like(X))
+    # plt.yticks([])
+    # for i, label in enumerate(labels):
+    #     plt.annotate(label, (X[i], 0), rotation = 'vertical')
+    plt.scatter(labels, X)
     plt.savefig(filename + ".png", format = 'png')
     plt.close()
 
@@ -40,7 +41,7 @@ def plot_numberline(title, X, labels, filename): # I don't think this is what th
 def projection(A, B):
     dot_prod = np.dot(A, B)
     mag_a = np.linalg.norm(A)
-    return dot_prod/mag_a 
+    return dot_prod / mag_a 
 
 
 
@@ -75,29 +76,29 @@ U, singular_vals, VT = randomized_svd(normalized_matrix, n_components = 100, ran
 #         print(val)
 
 
-# 1D
-# embeddings = preprocessing.normalize(U, norm='l2')
-# embeddings_len = len(embeddings)
-# woman_idx = word_dictionary.index("woman")
-# man_idx = word_dictionary.index("man")
-# v = embeddings[woman_idx] - embeddings[man_idx]
-# d_i_words = ["boy", "girl", "brother", "sister", "king", "queen", "he", "she", "john", "mary", "wall", "tree"]
-# i_projections = []
-# for word in d_i_words:
-#     curr_idx = word_dictionary.index(word)
-#     curr_projection = projection(v, embeddings[curr_idx])
-#     i_projections.append(curr_projection)
-# plot_numberline("Projections onto v", i_projections, d_i_words, "1d_i")
-# #plot("Projections onto v", [x for x in range(len(d_i_words))], i_projections, "Word", "Projection", "1d_i", X_ticks = d_i_words)
+#1D
+embeddings = preprocessing.normalize(U, norm='l2')
+embeddings_len = len(embeddings)
+woman_idx = word_dictionary.index("woman")
+man_idx = word_dictionary.index("man")
+v = embeddings[woman_idx] - embeddings[man_idx]
+d_i_words = ["boy", "girl", "brother", "sister", "king", "queen", "he", "she", "john", "mary", "wall", "tree"]
+i_projections = []
+for word in d_i_words:
+    curr_idx = word_dictionary.index(word)
+    curr_projection = projection(v, embeddings[curr_idx])
+    i_projections.append(curr_projection)
+plot_numberline("Projections onto v", i_projections, d_i_words, "1d_i_1")
+#plot("Projections onto v", [x for x in range(len(d_i_words))], i_projections, "Word", "Projection", "1d_i", X_ticks = d_i_words)
 
-# d_ii_words = ["math", "matrix", "history", "nurse", "doctor", "pilot", "teacher", "engineer", "science", "arts", "literature", "bob", "alice"]
-# ii_projections = []
-# for word in d_ii_words:
-#     curr_idx = word_dictionary.index(word)
-#     curr_projection = projection(v, embeddings[curr_idx])
-#     ii_projections.append(curr_projection)
-# plot_numberline("Projections onto v", ii_projections, d_ii_words, "1d_ii")
-# #plot("Projections onto v",[x for x in range(len(d_ii_words))], ii_projections, "Word", "Projection", "1d_ii", X_ticks =  d_ii_words)
+d_ii_words = ["math", "matrix", "history", "nurse", "doctor", "pilot", "teacher", "engineer", "science", "arts", "literature", "bob", "alice"]
+ii_projections = []
+for word in d_ii_words:
+    curr_idx = word_dictionary.index(word)
+    curr_projection = projection(v, embeddings[curr_idx])
+    ii_projections.append(curr_projection)
+plot_numberline("Projections onto v", ii_projections, d_ii_words, "1d_ii_1")
+#plot("Projections onto v",[x for x in range(len(d_ii_words))], ii_projections, "Word", "Projection", "1d_ii", X_ticks =  d_ii_words)
 
 # 1E
 
@@ -110,39 +111,39 @@ U, singular_vals, VT = randomized_svd(normalized_matrix, n_components = 100, ran
 # print("Top 10 closest words to Stanford: ", top_10) # stanford, harvard, cornell, ucla, yale, princeton, penn, auburn, mit, berkeley...
 
 
-embeddings = preprocessing.normalize(U, norm='l2')
-embeddings_len = len(embeddings)
+# embeddings = preprocessing.normalize(U, norm='l2')
+# embeddings_len = len(embeddings)
 
-import time 
-with open("analogy_task.txt") as f:
-    analogies = f.readlines()
-num_correct_analogies = 0
-for analogy in analogies:
-    words = analogy.split()
-    hints = words[0:3]
-    indices = [word_dictionary.index(word) for word in words]
-    vec = embeddings[indices[1]] - embeddings[indices[0]] + embeddings[indices[2]]
-    target = vec / np.linalg.norm(vec)
-    best_word = None
-    best_similarity = -1
-    for i in range(embeddings_len):
-        if word_dictionary[i] in hints:
-            continue
-        similarity = np.dot(target, embeddings[i])
-        if similarity > best_similarity:
-            best_word = word_dictionary[i]
-            best_similarity = similarity
-    if best_word == words[3]:
-        num_correct_analogies += 1
-        with open('analogy_successes_1.txt', 'a') as analogy_file:
-            analogy_file.write(analogy + '\n')
-            analogy_file.write(best_word + '\n')
-    else:
-        with open('analogy_errors_1.txt', 'a') as analogy_file:
-            analogy_file.write(analogy + '\n')
-            analogy_file.write(best_word + '\n')
-accuracy = float(num_correct_analogies) / len(analogies)
-print("Analogy Accuracy: ", accuracy)
+# import time 
+# with open("analogy_task.txt") as f:
+#     analogies = f.readlines()
+# num_correct_analogies = 0
+# for analogy in analogies:
+#     words = analogy.split()
+#     hints = words[0:3]
+#     indices = [word_dictionary.index(word) for word in words]
+#     vec = embeddings[indices[1]] - embeddings[indices[0]] + embeddings[indices[2]]
+#     target = vec / np.linalg.norm(vec)
+#     best_word = None
+#     best_similarity = -1
+#     for i in range(embeddings_len):
+#         if word_dictionary[i] in hints:
+#             continue
+#         similarity = np.dot(target, embeddings[i])
+#         if similarity > best_similarity:
+#             best_word = word_dictionary[i]
+#             best_similarity = similarity
+#     if best_word == words[3]:
+#         num_correct_analogies += 1
+#         with open('analogy_successes_1.txt', 'a') as analogy_file:
+#             analogy_file.write(analogy + '\n')
+#             analogy_file.write(best_word + '\n')
+#     else:
+#         with open('analogy_errors_1.txt', 'a') as analogy_file:
+#             analogy_file.write(analogy + '\n')
+#             analogy_file.write(best_word + '\n')
+# accuracy = float(num_correct_analogies) / len(analogies)
+# print("Analogy Accuracy: ", accuracy)
 
 
 #question 2
