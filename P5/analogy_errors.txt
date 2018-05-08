@@ -13809,3 +13809,7623 @@ write writes walk walks
 walking
 write writes work works
 verse
+athens greece beijing china
+
+korea
+athens greece cairo egypt
+
+morocco
+athens greece canberra australia
+
+iceland
+athens greece helsinki finland
+
+iceland
+athens greece london england
+
+britain
+athens greece madrid spain
+
+argentina
+athens greece moscow russia
+
+romania
+athens greece oslo norway
+
+iceland
+athens greece ottawa canada
+
+saskatchewan
+athens greece stockholm sweden
+
+norway
+bangkok thailand beijing china
+
+korea
+bangkok thailand canberra australia
+
+queensland
+bangkok thailand madrid spain
+
+argentina
+bangkok thailand oslo norway
+
+iceland
+bangkok thailand ottawa canada
+
+manitoba
+bangkok thailand stockholm sweden
+
+norway
+beijing china canberra australia
+
+queensland
+beijing china helsinki finland
+
+iceland
+beijing china london england
+
+britain
+beijing china madrid spain
+
+argentina
+beijing china oslo norway
+
+iceland
+beijing china stockholm sweden
+
+norway
+berlin germany cairo egypt
+
+morocco
+berlin germany london england
+
+britain
+berlin germany oslo norway
+
+finland
+berlin germany beijing china
+
+korea
+cairo egypt helsinki finland
+
+norway
+cairo egypt london england
+
+britain
+cairo egypt oslo norway
+
+greece
+canberra australia helsinki finland
+
+netherlands
+canberra australia london england
+
+uk
+canberra australia madrid spain
+
+brazil
+canberra australia moscow russia
+
+germany
+canberra australia oslo norway
+
+germany
+canberra australia stockholm sweden
+
+germany
+canberra australia athens greece
+
+italy
+canberra australia bangkok thailand
+
+japan
+canberra australia beijing china
+
+japan
+canberra australia cairo egypt
+
+africa
+helsinki finland london england
+
+britain
+helsinki finland moscow russia
+
+poland
+helsinki finland ottawa canada
+
+quebec
+helsinki finland beijing china
+
+korea
+helsinki finland cairo egypt
+
+turkey
+helsinki finland canberra australia
+
+zealand
+london england moscow russia
+
+hungary
+london england ottawa canada
+
+saskatchewan
+london england stockholm sweden
+
+norway
+london england beijing china
+
+korea
+london england canberra australia
+
+wales
+london england helsinki finland
+
+norway
+madrid spain beijing china
+
+korea
+madrid spain london england
+
+britain
+moscow russia ottawa canada
+
+saskatchewan
+moscow russia stockholm sweden
+
+norway
+moscow russia cairo egypt
+
+morocco
+moscow russia helsinki finland
+
+norway
+moscow russia london england
+
+britain
+oslo norway stockholm sweden
+
+denmark
+oslo norway beijing china
+
+korea
+oslo norway cairo egypt
+
+turkey
+oslo norway helsinki finland
+
+denmark
+ottawa canada stockholm sweden
+
+germany
+ottawa canada bangkok thailand
+
+singapore
+ottawa canada beijing china
+
+japan
+ottawa canada cairo egypt
+
+africa
+ottawa canada helsinki finland
+
+netherlands
+ottawa canada london england
+
+australia
+ottawa canada moscow russia
+
+germany
+ottawa canada oslo norway
+
+germany
+paris france beijing china
+
+korea
+paris france cairo egypt
+
+morocco
+paris france canberra australia
+
+queensland
+paris france ottawa canada
+
+saskatchewan
+rome italy stockholm sweden
+
+netherlands
+rome italy beijing china
+
+korea
+rome italy cairo egypt
+
+morocco
+rome italy canberra australia
+
+queensland
+rome italy helsinki finland
+
+netherlands
+rome italy london england
+
+australia
+rome italy madrid spain
+
+argentina
+rome italy moscow russia
+
+ukraine
+rome italy oslo norway
+
+netherlands
+rome italy ottawa canada
+
+manitoba
+stockholm sweden beijing china
+
+korea
+stockholm sweden canberra australia
+
+wales
+tokyo japan bangkok thailand
+
+korea
+tokyo japan beijing china
+
+korea
+tokyo japan london england
+
+britain
+tokyo japan stockholm sweden
+
+norway
+athens greece beijing china
+
+korea
+athens greece belgrade serbia
+
+romania
+athens greece budapest hungary
+
+romania
+athens greece cairo egypt
+
+morocco
+athens greece canberra australia
+
+iceland
+athens greece copenhagen denmark
+
+iceland
+athens greece helsinki finland
+
+iceland
+bangkok thailand beijing china
+
+korea
+bangkok thailand belgrade serbia
+
+romania
+bangkok thailand budapest hungary
+
+ukraine
+bangkok thailand canberra australia
+
+queensland
+bangkok thailand kiev ukraine
+
+bulgaria
+beijing china belgrade serbia
+
+ukraine
+beijing china brussels belgium
+
+europe
+beijing china budapest hungary
+
+russia
+beijing china canberra australia
+
+queensland
+beijing china dublin ireland
+
+england
+beijing china helsinki finland
+
+iceland
+beijing china kiev ukraine
+
+bulgaria
+beijing china kingston jamaica
+
+cornwall
+belgrade serbia brussels belgium
+
+luxembourg
+belgrade serbia cairo egypt
+
+syria
+belgrade serbia canberra australia
+
+zimbabwe
+belgrade serbia helsinki finland
+
+estonia
+belgrade serbia kiev ukraine
+
+bulgaria
+belgrade serbia kingston jamaica
+
+cornwall
+berlin germany cairo egypt
+
+morocco
+berlin germany copenhagen denmark
+
+sweden
+berlin germany kiev ukraine
+
+hungary
+berlin germany kingston jamaica
+
+cornwall
+berlin germany lima peru
+
+chile
+brussels belgium cairo egypt
+
+turkey
+brussels belgium kiev ukraine
+
+hungary
+brussels belgium kingston jamaica
+
+denmark
+brussels belgium lima peru
+
+argentina
+brussels belgium london england
+
+britain
+budapest hungary canberra australia
+
+wales
+budapest hungary kiev ukraine
+
+bulgaria
+budapest hungary kingston jamaica
+
+denmark
+budapest hungary lima peru
+
+chile
+budapest hungary london england
+
+britain
+cairo egypt helsinki finland
+
+norway
+cairo egypt kiev ukraine
+
+bulgaria
+cairo egypt kingston jamaica
+
+cornwall
+cairo egypt london england
+
+britain
+canberra australia copenhagen denmark
+
+germany
+canberra australia helsinki finland
+
+netherlands
+canberra australia kiev ukraine
+
+greece
+canberra australia kingston jamaica
+
+canada
+canberra australia lima peru
+
+brazil
+canberra australia lisbon portugal
+
+brazil
+canberra australia london england
+
+uk
+canberra australia madrid spain
+
+brazil
+copenhagen denmark helsinki finland
+
+norway
+copenhagen denmark kiev ukraine
+
+hungary
+copenhagen denmark kingston jamaica
+
+cornwall
+copenhagen denmark lima peru
+
+chile
+copenhagen denmark london england
+
+britain
+dublin ireland kiev ukraine
+
+hungary
+dublin ireland kingston jamaica
+
+canada
+dublin ireland lima peru
+
+chile
+dublin ireland london england
+
+britain
+helsinki finland kiev ukraine
+
+romania
+helsinki finland kingston jamaica
+
+denmark
+helsinki finland lima peru
+
+chile
+helsinki finland london england
+
+britain
+helsinki finland moscow russia
+
+poland
+helsinki finland ottawa canada
+
+quebec
+kiev ukraine lima peru
+
+argentina
+kiev ukraine lisbon portugal
+
+argentina
+kiev ukraine london england
+
+britain
+kiev ukraine madrid spain
+
+argentina
+kiev ukraine oslo norway
+
+iceland
+kiev ukraine santiago chile
+
+costa
+kingston jamaica lima peru
+
+colombia
+kingston jamaica lisbon portugal
+
+colombia
+kingston jamaica london england
+
+africa
+kingston jamaica madrid spain
+
+argentina
+kingston jamaica moscow russia
+
+istanbul
+kingston jamaica oslo norway
+
+istanbul
+kingston jamaica ottawa canada
+
+haiti
+kingston jamaica paris france
+
+italy
+kingston jamaica santiago chile
+
+salvador
+kingston jamaica sofia bulgaria
+
+venezuela
+kingston jamaica stockholm sweden
+
+istanbul
+lima peru lisbon portugal
+
+malta
+lima peru london england
+
+britain
+lima peru madrid spain
+
+argentina
+lima peru oslo norway
+
+iceland
+lima peru ottawa canada
+
+manitoba
+lima peru stockholm sweden
+
+norway
+lisbon portugal london england
+
+britain
+lisbon portugal oslo norway
+
+sweden
+lisbon portugal sofia bulgaria
+
+romania
+london england moscow russia
+
+hungary
+london england ottawa canada
+
+saskatchewan
+london england santiago chile
+
+costa
+london england sofia bulgaria
+
+croatia
+london england stockholm sweden
+
+norway
+madrid spain sofia bulgaria
+
+denmark
+manila philippines moscow russia
+
+ukraine
+manila philippines oslo norway
+
+iceland
+manila philippines ottawa canada
+
+manitoba
+manila philippines paris france
+
+italy
+manila philippines santiago chile
+
+costa
+manila philippines sofia bulgaria
+
+romania
+manila philippines stockholm sweden
+
+netherlands
+manila philippines tokyo japan
+
+korea
+moscow russia ottawa canada
+
+saskatchewan
+moscow russia santiago chile
+
+costa
+moscow russia stockholm sweden
+
+norway
+oslo norway santiago chile
+
+portugal
+oslo norway sofia bulgaria
+
+denmark
+oslo norway stockholm sweden
+
+denmark
+ottawa canada santiago chile
+
+brazil
+ottawa canada sofia bulgaria
+
+greece
+ottawa canada stockholm sweden
+
+germany
+ottawa canada vienna austria
+
+germany
+ottawa canada warsaw poland
+
+germany
+paris france santiago chile
+
+costa
+paris france sofia bulgaria
+
+croatia
+rome italy santiago chile
+
+costa
+rome italy sofia bulgaria
+
+romania
+rome italy stockholm sweden
+
+netherlands
+rome italy vienna austria
+
+switzerland
+rome italy warsaw poland
+
+romania
+santiago chile sofia bulgaria
+
+ukraine
+santiago chile stockholm sweden
+
+finland
+santiago chile tokyo japan
+
+thailand
+santiago chile vienna austria
+
+germany
+santiago chile warsaw poland
+
+ukraine
+sofia bulgaria stockholm sweden
+
+finland
+sofia bulgaria vienna austria
+
+poland
+sofia bulgaria beijing china
+
+korea
+stockholm sweden beijing china
+
+korea
+tokyo japan vienna austria
+
+germany
+tokyo japan bangkok thailand
+
+korea
+tokyo japan beijing china
+
+korea
+tokyo japan belgrade serbia
+
+romania
+tokyo japan budapest hungary
+
+greece
+vienna austria beijing china
+
+korea
+vienna austria belgrade serbia
+
+croatia
+vienna austria cairo egypt
+
+morocco
+vienna austria canberra australia
+
+wales
+warsaw poland beijing china
+
+korea
+warsaw poland belgrade serbia
+
+romania
+warsaw poland cairo egypt
+
+morocco
+warsaw poland copenhagen denmark
+
+sweden
+brazil real canada dollar
+
+ontario
+brazil real europe euro
+
+global
+brazil real korea won
+
+shin
+brazil real usa dollar
+
+inc
+brazil real vietnam dong
+
+personal
+canada dollar korea won
+
+usd
+canada dollar vietnam dong
+
+dollars
+canada dollar brazil real
+
+dollars
+europe euro korea won
+
+usd
+europe euro usa dollar
+
+usd
+europe euro vietnam dong
+
+usd
+europe euro brazil real
+
+uruguay
+korea won usa dollar
+
+winner
+korea won vietnam dong
+
+winning
+korea won brazil real
+
+winning
+korea won canada dollar
+
+winning
+korea won europe euro
+
+winning
+usa dollar vietnam dong
+
+dollars
+usa dollar brazil real
+
+dollars
+usa dollar europe euro
+
+debt
+usa dollar korea won
+
+dollars
+vietnam dong brazil real
+
+da
+vietnam dong canada dollar
+
+yu
+vietnam dong europe euro
+
+den
+vietnam dong korea won
+
+yu
+vietnam dong usa dollar
+
+lin
+chicago illinois houston texas
+
+alabama
+chicago illinois philadelphia pennsylvania
+
+missouri
+chicago illinois phoenix arizona
+
+dakota
+chicago illinois dallas texas
+
+tennessee
+chicago illinois jacksonville florida
+
+nebraska
+chicago illinois indianapolis indiana
+
+kentucky
+chicago illinois austin texas
+
+missouri
+chicago illinois detroit michigan
+
+wisconsin
+chicago illinois memphis tennessee
+
+arkansas
+chicago illinois boston massachusetts
+
+maryland
+chicago illinois seattle washington
+
+oregon
+chicago illinois denver colorado
+
+arkansas
+chicago illinois nashville tennessee
+
+kentucky
+chicago illinois louisville kentucky
+
+arkansas
+chicago illinois milwaukee wisconsin
+
+iowa
+chicago illinois portland oregon
+
+maryland
+chicago illinois sacramento california
+
+wyoming
+chicago illinois mesa arizona
+
+nevada
+chicago illinois atlanta georgia
+
+kentucky
+chicago illinois miami florida
+
+maryland
+chicago illinois oakland california
+
+iowa
+chicago illinois cleveland ohio
+
+iowa
+chicago illinois minneapolis minnesota
+
+vermont
+chicago illinois arlington texas
+
+delaware
+chicago illinois tampa florida
+
+idaho
+chicago illinois pittsburgh pennsylvania
+
+iowa
+chicago illinois lexington kentucky
+
+delaware
+chicago illinois cincinnati ohio
+
+iowa
+houston texas philadelphia pennsylvania
+
+ohio
+houston texas phoenix arizona
+
+colorado
+houston texas jacksonville florida
+
+arkansas
+houston texas indianapolis indiana
+
+kentucky
+houston texas detroit michigan
+
+colorado
+houston texas memphis tennessee
+
+kentucky
+houston texas boston massachusetts
+
+pennsylvania
+houston texas seattle washington
+
+oregon
+houston texas denver colorado
+
+utah
+houston texas baltimore maryland
+
+oregon
+houston texas nashville tennessee
+
+kentucky
+houston texas milwaukee wisconsin
+
+colorado
+houston texas sacramento california
+
+nevada
+houston texas mesa arizona
+
+canyon
+houston texas atlanta georgia
+
+kansas
+houston texas oakland california
+
+arizona
+houston texas cleveland ohio
+
+kansas
+houston texas minneapolis minnesota
+
+missouri
+houston texas tampa florida
+
+arizona
+houston texas pittsburgh pennsylvania
+
+kansas
+houston texas lexington kentucky
+
+pennsylvania
+houston texas cincinnati ohio
+
+kansas
+houston texas toledo ohio
+
+nevada
+philadelphia pennsylvania phoenix arizona
+
+dakota
+philadelphia pennsylvania dallas texas
+
+illinois
+philadelphia pennsylvania jacksonville florida
+
+delaware
+philadelphia pennsylvania indianapolis indiana
+
+illinois
+philadelphia pennsylvania austin texas
+
+ohio
+philadelphia pennsylvania detroit michigan
+
+illinois
+philadelphia pennsylvania memphis tennessee
+
+missouri
+philadelphia pennsylvania seattle washington
+
+illinois
+philadelphia pennsylvania denver colorado
+
+illinois
+philadelphia pennsylvania nashville tennessee
+
+vermont
+philadelphia pennsylvania louisville kentucky
+
+missouri
+philadelphia pennsylvania milwaukee wisconsin
+
+vermont
+philadelphia pennsylvania portland oregon
+
+vermont
+philadelphia pennsylvania sacramento california
+
+wyoming
+philadelphia pennsylvania mesa arizona
+
+canyon
+philadelphia pennsylvania atlanta georgia
+
+illinois
+philadelphia pennsylvania miami florida
+
+illinois
+philadelphia pennsylvania oakland california
+
+maryland
+philadelphia pennsylvania cleveland ohio
+
+illinois
+philadelphia pennsylvania minneapolis minnesota
+
+vermont
+philadelphia pennsylvania arlington texas
+
+delaware
+philadelphia pennsylvania tampa florida
+
+wyoming
+philadelphia pennsylvania lexington kentucky
+
+delaware
+philadelphia pennsylvania cincinnati ohio
+
+missouri
+philadelphia pennsylvania toledo ohio
+
+wyoming
+phoenix arizona dallas texas
+
+kansas
+phoenix arizona jacksonville florida
+
+nebraska
+phoenix arizona indianapolis indiana
+
+nebraska
+phoenix arizona austin texas
+
+tennessee
+phoenix arizona detroit michigan
+
+kansas
+phoenix arizona boston massachusetts
+
+michigan
+phoenix arizona seattle washington
+
+oregon
+phoenix arizona denver colorado
+
+oklahoma
+phoenix arizona baltimore maryland
+
+alabama
+phoenix arizona louisville kentucky
+
+nebraska
+phoenix arizona milwaukee wisconsin
+
+kansas
+phoenix arizona sacramento california
+
+utah
+phoenix arizona atlanta georgia
+
+kansas
+phoenix arizona miami florida
+
+alabama
+phoenix arizona oakland california
+
+nebraska
+phoenix arizona cleveland ohio
+
+kansas
+phoenix arizona minneapolis minnesota
+
+oklahoma
+phoenix arizona arlington texas
+
+wyoming
+phoenix arizona tampa florida
+
+oklahoma
+phoenix arizona pittsburgh pennsylvania
+
+kansas
+phoenix arizona lexington kentucky
+
+mississippi
+phoenix arizona cincinnati ohio
+
+kansas
+phoenix arizona toledo ohio
+
+nebraska
+phoenix arizona henderson nevada
+
+dixon
+dallas texas jacksonville florida
+
+maryland
+dallas texas indianapolis indiana
+
+kentucky
+dallas texas detroit michigan
+
+carolina
+dallas texas memphis tennessee
+
+mississippi
+dallas texas boston massachusetts
+
+california
+dallas texas seattle washington
+
+california
+dallas texas denver colorado
+
+arizona
+dallas texas nashville tennessee
+
+kentucky
+dallas texas milwaukee wisconsin
+
+mississippi
+dallas texas portland oregon
+
+massachusetts
+dallas texas sacramento california
+
+nevada
+dallas texas mesa arizona
+
+sierra
+dallas texas atlanta georgia
+
+california
+dallas texas oakland california
+
+maryland
+dallas texas cleveland ohio
+
+michigan
+dallas texas minneapolis minnesota
+
+missouri
+dallas texas pittsburgh pennsylvania
+
+michigan
+dallas texas lexington kentucky
+
+pennsylvania
+dallas texas cincinnati ohio
+
+alabama
+dallas texas toledo ohio
+
+carolina
+dallas texas henderson nevada
+
+evans
+dallas texas orlando florida
+
+california
+jacksonville florida indianapolis indiana
+
+california
+jacksonville florida austin texas
+
+california
+jacksonville florida detroit michigan
+
+california
+jacksonville florida memphis tennessee
+
+california
+jacksonville florida boston massachusetts
+
+california
+jacksonville florida seattle washington
+
+california
+jacksonville florida denver colorado
+
+california
+jacksonville florida baltimore maryland
+
+california
+jacksonville florida nashville tennessee
+
+california
+jacksonville florida louisville kentucky
+
+texas
+jacksonville florida milwaukee wisconsin
+
+california
+jacksonville florida portland oregon
+
+california
+jacksonville florida mesa arizona
+
+sierra
+jacksonville florida atlanta georgia
+
+california
+jacksonville florida cleveland ohio
+
+california
+jacksonville florida minneapolis minnesota
+
+california
+jacksonville florida arlington texas
+
+california
+jacksonville florida pittsburgh pennsylvania
+
+california
+jacksonville florida lexington kentucky
+
+massachusetts
+jacksonville florida cincinnati ohio
+
+california
+jacksonville florida toledo ohio
+
+california
+jacksonville florida henderson nevada
+
+evans
+indianapolis indiana austin texas
+
+ohio
+indianapolis indiana detroit michigan
+
+kansas
+indianapolis indiana memphis tennessee
+
+mississippi
+indianapolis indiana seattle washington
+
+oregon
+indianapolis indiana denver colorado
+
+oklahoma
+indianapolis indiana nashville tennessee
+
+ohio
+indianapolis indiana louisville kentucky
+
+iowa
+indianapolis indiana portland oregon
+
+connecticut
+indianapolis indiana sacramento california
+
+wyoming
+indianapolis indiana mesa arizona
+
+nevada
+indianapolis indiana atlanta georgia
+
+ohio
+indianapolis indiana miami florida
+
+alabama
+indianapolis indiana oakland california
+
+maryland
+indianapolis indiana cleveland ohio
+
+kansas
+indianapolis indiana minneapolis minnesota
+
+connecticut
+indianapolis indiana arlington texas
+
+delaware
+indianapolis indiana tampa florida
+
+carolina
+indianapolis indiana pittsburgh pennsylvania
+
+michigan
+indianapolis indiana lexington kentucky
+
+delaware
+indianapolis indiana cincinnati ohio
+
+kansas
+indianapolis indiana toledo ohio
+
+arkansas
+indianapolis indiana henderson nevada
+
+butler
+indianapolis indiana orlando florida
+
+carolina
+indianapolis indiana chandler arizona
+
+bates
+austin texas detroit michigan
+
+minnesota
+austin texas memphis tennessee
+
+kansas
+austin texas boston massachusetts
+
+florida
+austin texas seattle washington
+
+minnesota
+austin texas denver colorado
+
+arizona
+austin texas baltimore maryland
+
+kansas
+austin texas nashville tennessee
+
+kansas
+austin texas louisville kentucky
+
+kansas
+austin texas milwaukee wisconsin
+
+minnesota
+austin texas portland oregon
+
+carolina
+austin texas sacramento california
+
+colorado
+austin texas mesa arizona
+
+canyon
+austin texas atlanta georgia
+
+kansas
+austin texas oakland california
+
+arizona
+austin texas cleveland ohio
+
+minnesota
+austin texas minneapolis minnesota
+
+kansas
+austin texas tampa florida
+
+minnesota
+austin texas pittsburgh pennsylvania
+
+minnesota
+austin texas lexington kentucky
+
+maryland
+austin texas cincinnati ohio
+
+kansas
+austin texas toledo ohio
+
+carolina
+austin texas henderson nevada
+
+hawkins
+austin texas orlando florida
+
+colorado
+austin texas chandler arizona
+
+bryant
+austin texas madison wisconsin
+
+missouri
+detroit michigan boston massachusetts
+
+ohio
+detroit michigan seattle washington
+
+oregon
+detroit michigan denver colorado
+
+nebraska
+detroit michigan nashville tennessee
+
+missouri
+detroit michigan louisville kentucky
+
+nebraska
+detroit michigan milwaukee wisconsin
+
+iowa
+detroit michigan portland oregon
+
+maryland
+detroit michigan sacramento california
+
+idaho
+detroit michigan mesa arizona
+
+nevada
+detroit michigan atlanta georgia
+
+illinois
+detroit michigan miami florida
+
+alabama
+detroit michigan oakland california
+
+nebraska
+detroit michigan cleveland ohio
+
+iowa
+detroit michigan minneapolis minnesota
+
+illinois
+detroit michigan arlington texas
+
+delaware
+detroit michigan tampa florida
+
+nebraska
+detroit michigan pittsburgh pennsylvania
+
+iowa
+detroit michigan lexington kentucky
+
+delaware
+detroit michigan cincinnati ohio
+
+nebraska
+detroit michigan toledo ohio
+
+nebraska
+detroit michigan henderson nevada
+
+harrison
+detroit michigan orlando florida
+
+nevada
+detroit michigan chandler arizona
+
+bates
+detroit michigan madison wisconsin
+
+missouri
+memphis tennessee boston massachusetts
+
+michigan
+memphis tennessee seattle washington
+
+michigan
+memphis tennessee denver colorado
+
+michigan
+memphis tennessee baltimore maryland
+
+michigan
+memphis tennessee louisville kentucky
+
+iowa
+memphis tennessee sacramento california
+
+utah
+memphis tennessee mesa arizona
+
+canyon
+memphis tennessee atlanta georgia
+
+kansas
+memphis tennessee miami florida
+
+michigan
+memphis tennessee oakland california
+
+michigan
+memphis tennessee cleveland ohio
+
+michigan
+memphis tennessee minneapolis minnesota
+
+wisconsin
+memphis tennessee arlington texas
+
+delaware
+memphis tennessee tampa florida
+
+minnesota
+memphis tennessee pittsburgh pennsylvania
+
+michigan
+memphis tennessee lexington kentucky
+
+vermont
+memphis tennessee cincinnati ohio
+
+michigan
+memphis tennessee toledo ohio
+
+carolina
+memphis tennessee henderson nevada
+
+stevens
+memphis tennessee orlando florida
+
+arizona
+memphis tennessee chandler arizona
+
+bates
+memphis tennessee madison wisconsin
+
+missouri
+boston massachusetts seattle washington
+
+connecticut
+boston massachusetts denver colorado
+
+arkansas
+boston massachusetts nashville tennessee
+
+vermont
+boston massachusetts louisville kentucky
+
+arkansas
+boston massachusetts milwaukee wisconsin
+
+vermont
+boston massachusetts portland oregon
+
+vermont
+boston massachusetts sacramento california
+
+vermont
+boston massachusetts mesa arizona
+
+nevada
+boston massachusetts atlanta georgia
+
+kentucky
+boston massachusetts miami florida
+
+louisiana
+boston massachusetts oakland california
+
+maryland
+boston massachusetts cleveland ohio
+
+maryland
+boston massachusetts minneapolis minnesota
+
+vermont
+boston massachusetts arlington texas
+
+delaware
+boston massachusetts tampa florida
+
+rhode
+boston massachusetts pittsburgh pennsylvania
+
+iowa
+boston massachusetts lexington kentucky
+
+delaware
+boston massachusetts cincinnati ohio
+
+kentucky
+boston massachusetts toledo ohio
+
+vermont
+boston massachusetts henderson nevada
+
+hancock
+boston massachusetts orlando florida
+
+rhode
+boston massachusetts chandler arizona
+
+wheeler
+boston massachusetts madison wisconsin
+
+delaware
+seattle washington denver colorado
+
+kansas
+seattle washington baltimore maryland
+
+york
+seattle washington nashville tennessee
+
+springfield
+seattle washington louisville kentucky
+
+ohio
+seattle washington milwaukee wisconsin
+
+kansas
+seattle washington portland oregon
+
+pennsylvania
+seattle washington sacramento california
+
+madison
+seattle washington mesa arizona
+
+jefferson
+seattle washington atlanta georgia
+
+houston
+seattle washington miami florida
+
+texas
+seattle washington oakland california
+
+jefferson
+seattle washington cleveland ohio
+
+kansas
+seattle washington minneapolis minnesota
+
+madison
+seattle washington arlington texas
+
+jefferson
+seattle washington tampa florida
+
+baltimore
+seattle washington pittsburgh pennsylvania
+
+kansas
+seattle washington lexington kentucky
+
+madison
+seattle washington cincinnati ohio
+
+kansas
+seattle washington toledo ohio
+
+santa
+seattle washington henderson nevada
+
+marshall
+seattle washington orlando florida
+
+columbus
+seattle washington chandler arizona
+
+marshall
+seattle washington madison wisconsin
+
+jefferson
+denver colorado baltimore maryland
+
+carolina
+denver colorado nashville tennessee
+
+texas
+denver colorado louisville kentucky
+
+wisconsin
+denver colorado milwaukee wisconsin
+
+minnesota
+denver colorado portland oregon
+
+california
+denver colorado sacramento california
+
+nevada
+denver colorado mesa arizona
+
+sierra
+denver colorado atlanta georgia
+
+texas
+denver colorado oakland california
+
+arizona
+denver colorado cleveland ohio
+
+minnesota
+denver colorado minneapolis minnesota
+
+nevada
+denver colorado arlington texas
+
+delaware
+denver colorado tampa florida
+
+minnesota
+denver colorado pittsburgh pennsylvania
+
+minnesota
+denver colorado lexington kentucky
+
+vermont
+denver colorado cincinnati ohio
+
+arizona
+denver colorado toledo ohio
+
+leÃ³n
+denver colorado henderson nevada
+
+thompson
+denver colorado orlando florida
+
+jose
+denver colorado chandler arizona
+
+patterson
+denver colorado madison wisconsin
+
+pennsylvania
+baltimore maryland nashville tennessee
+
+kentucky
+baltimore maryland louisville kentucky
+
+arkansas
+baltimore maryland portland oregon
+
+massachusetts
+baltimore maryland sacramento california
+
+nevada
+baltimore maryland mesa arizona
+
+nevada
+baltimore maryland atlanta georgia
+
+illinois
+baltimore maryland miami florida
+
+alabama
+baltimore maryland oakland california
+
+alabama
+baltimore maryland cleveland ohio
+
+illinois
+baltimore maryland minneapolis minnesota
+
+vermont
+baltimore maryland arlington texas
+
+delaware
+baltimore maryland tampa florida
+
+carolina
+baltimore maryland pittsburgh pennsylvania
+
+michigan
+baltimore maryland lexington kentucky
+
+delaware
+baltimore maryland cincinnati ohio
+
+kentucky
+baltimore maryland toledo ohio
+
+arkansas
+baltimore maryland henderson nevada
+
+stevens
+baltimore maryland orlando florida
+
+nevada
+baltimore maryland chandler arizona
+
+bates
+baltimore maryland madison wisconsin
+
+delaware
+nashville tennessee louisville kentucky
+
+nebraska
+nashville tennessee milwaukee wisconsin
+
+michigan
+nashville tennessee portland oregon
+
+michigan
+nashville tennessee sacramento california
+
+nebraska
+nashville tennessee mesa arizona
+
+nevada
+nashville tennessee atlanta georgia
+
+michigan
+nashville tennessee miami florida
+
+michigan
+nashville tennessee oakland california
+
+michigan
+nashville tennessee cleveland ohio
+
+michigan
+nashville tennessee minneapolis minnesota
+
+oklahoma
+nashville tennessee arlington texas
+
+delaware
+nashville tennessee tampa florida
+
+michigan
+nashville tennessee pittsburgh pennsylvania
+
+michigan
+nashville tennessee lexington kentucky
+
+delaware
+nashville tennessee cincinnati ohio
+
+nebraska
+nashville tennessee toledo ohio
+
+nebraska
+nashville tennessee henderson nevada
+
+butler
+nashville tennessee orlando florida
+
+arizona
+nashville tennessee chandler arizona
+
+bates
+nashville tennessee madison wisconsin
+
+missouri
+nashville tennessee irving texas
+
+franklin
+louisville kentucky portland oregon
+
+massachusetts
+louisville kentucky sacramento california
+
+nevada
+louisville kentucky mesa arizona
+
+canyon
+louisville kentucky atlanta georgia
+
+texas
+louisville kentucky miami florida
+
+texas
+louisville kentucky oakland california
+
+michigan
+louisville kentucky cleveland ohio
+
+kansas
+louisville kentucky minneapolis minnesota
+
+connecticut
+louisville kentucky arlington texas
+
+delaware
+louisville kentucky tampa florida
+
+minnesota
+louisville kentucky pittsburgh pennsylvania
+
+michigan
+louisville kentucky cincinnati ohio
+
+tennessee
+louisville kentucky toledo ohio
+
+carolina
+louisville kentucky henderson nevada
+
+stevens
+louisville kentucky orlando florida
+
+texas
+louisville kentucky chandler arizona
+
+greene
+louisville kentucky madison wisconsin
+
+pennsylvania
+louisville kentucky irving texas
+
+herbert
+milwaukee wisconsin portland oregon
+
+virginia
+milwaukee wisconsin sacramento california
+
+arkansas
+milwaukee wisconsin mesa arizona
+
+nevada
+milwaukee wisconsin atlanta georgia
+
+illinois
+milwaukee wisconsin miami florida
+
+virginia
+milwaukee wisconsin oakland california
+
+michigan
+milwaukee wisconsin cleveland ohio
+
+michigan
+milwaukee wisconsin minneapolis minnesota
+
+missouri
+milwaukee wisconsin arlington texas
+
+delaware
+milwaukee wisconsin tampa florida
+
+michigan
+milwaukee wisconsin pittsburgh pennsylvania
+
+michigan
+milwaukee wisconsin lexington kentucky
+
+vermont
+milwaukee wisconsin cincinnati ohio
+
+iowa
+milwaukee wisconsin toledo ohio
+
+arkansas
+milwaukee wisconsin henderson nevada
+
+stevens
+milwaukee wisconsin orlando florida
+
+carolina
+milwaukee wisconsin chandler arizona
+
+greene
+milwaukee wisconsin irving texas
+
+franklin
+portland oregon sacramento california
+
+idaho
+portland oregon mesa arizona
+
+nevada
+portland oregon atlanta georgia
+
+oklahoma
+portland oregon miami florida
+
+arizona
+portland oregon oakland california
+
+nebraska
+portland oregon cleveland ohio
+
+nebraska
+portland oregon minneapolis minnesota
+
+nebraska
+portland oregon arlington texas
+
+wyoming
+portland oregon tampa florida
+
+arizona
+portland oregon pittsburgh pennsylvania
+
+nebraska
+portland oregon lexington kentucky
+
+arkansas
+portland oregon cincinnati ohio
+
+nebraska
+portland oregon toledo ohio
+
+nebraska
+portland oregon henderson nevada
+
+dixon
+portland oregon orlando florida
+
+arizona
+portland oregon chandler arizona
+
+brooks
+portland oregon madison wisconsin
+
+missouri
+portland oregon irving texas
+
+jefferson
+sacramento california mesa arizona
+
+sierra
+sacramento california atlanta georgia
+
+florida
+sacramento california cleveland ohio
+
+texas
+sacramento california minneapolis minnesota
+
+texas
+sacramento california arlington texas
+
+massachusetts
+sacramento california pittsburgh pennsylvania
+
+florida
+sacramento california lexington kentucky
+
+massachusetts
+sacramento california cincinnati ohio
+
+texas
+sacramento california toledo ohio
+
+texas
+sacramento california henderson nevada
+
+evans
+sacramento california chandler arizona
+
+bates
+sacramento california madison wisconsin
+
+virginia
+sacramento california irving texas
+
+herbert
+mesa arizona atlanta georgia
+
+kansas
+mesa arizona miami florida
+
+kansas
+mesa arizona oakland california
+
+minnesota
+mesa arizona cleveland ohio
+
+minnesota
+mesa arizona minneapolis minnesota
+
+kansas
+mesa arizona arlington texas
+
+oklahoma
+mesa arizona tampa florida
+
+minnesota
+mesa arizona pittsburgh pennsylvania
+
+minnesota
+mesa arizona lexington kentucky
+
+illinois
+mesa arizona cincinnati ohio
+
+kansas
+mesa arizona toledo ohio
+
+kansas
+mesa arizona henderson nevada
+
+mason
+mesa arizona orlando florida
+
+kansas
+mesa arizona madison wisconsin
+
+illinois
+mesa arizona irving texas
+
+michigan
+atlanta georgia miami florida
+
+alabama
+atlanta georgia oakland california
+
+alabama
+atlanta georgia cleveland ohio
+
+michigan
+atlanta georgia minneapolis minnesota
+
+ohio
+atlanta georgia arlington texas
+
+delaware
+atlanta georgia tampa florida
+
+alabama
+atlanta georgia pittsburgh pennsylvania
+
+michigan
+atlanta georgia lexington kentucky
+
+delaware
+atlanta georgia cincinnati ohio
+
+alabama
+atlanta georgia toledo ohio
+
+arkansas
+atlanta georgia henderson nevada
+
+marshall
+atlanta georgia orlando florida
+
+louisiana
+atlanta georgia chandler arizona
+
+bates
+atlanta georgia madison wisconsin
+
+virginia
+atlanta georgia irving texas
+
+franklin
+miami florida oakland california
+
+minnesota
+miami florida cleveland ohio
+
+minnesota
+miami florida minneapolis minnesota
+
+connecticut
+miami florida arlington texas
+
+delaware
+miami florida pittsburgh pennsylvania
+
+minnesota
+miami florida lexington kentucky
+
+delaware
+miami florida cincinnati ohio
+
+minnesota
+miami florida toledo ohio
+
+carolina
+miami florida henderson nevada
+
+evans
+miami florida chandler arizona
+
+fletcher
+miami florida madison wisconsin
+
+pennsylvania
+miami florida irving texas
+
+herbert
+oakland california cleveland ohio
+
+texas
+oakland california minneapolis minnesota
+
+massachusetts
+oakland california arlington texas
+
+massachusetts
+oakland california pittsburgh pennsylvania
+
+texas
+oakland california lexington kentucky
+
+massachusetts
+oakland california cincinnati ohio
+
+texas
+oakland california toledo ohio
+
+mexico
+oakland california henderson nevada
+
+evans
+oakland california orlando florida
+
+mexico
+oakland california chandler arizona
+
+parker
+oakland california madison wisconsin
+
+pennsylvania
+oakland california irving texas
+
+herbert
+cleveland ohio minneapolis minnesota
+
+missouri
+cleveland ohio arlington texas
+
+delaware
+cleveland ohio tampa florida
+
+maryland
+cleveland ohio pittsburgh pennsylvania
+
+illinois
+cleveland ohio lexington kentucky
+
+pennsylvania
+cleveland ohio henderson nevada
+
+greene
+cleveland ohio orlando florida
+
+connecticut
+cleveland ohio chandler arizona
+
+greene
+cleveland ohio madison wisconsin
+
+pennsylvania
+cleveland ohio irving texas
+
+franklin
+minneapolis minnesota arlington texas
+
+maryland
+minneapolis minnesota tampa florida
+
+pittsburgh
+minneapolis minnesota pittsburgh pennsylvania
+
+michigan
+minneapolis minnesota lexington kentucky
+
+maryland
+minneapolis minnesota cincinnati ohio
+
+michigan
+minneapolis minnesota toledo ohio
+
+arizona
+minneapolis minnesota henderson nevada
+
+anderson
+minneapolis minnesota orlando florida
+
+colorado
+minneapolis minnesota chandler arizona
+
+brady
+minneapolis minnesota madison wisconsin
+
+michigan
+minneapolis minnesota irving texas
+
+willis
+minneapolis minnesota worcester massachusetts
+
+hampshire
+arlington texas pittsburgh pennsylvania
+
+minnesota
+arlington texas lexington kentucky
+
+ohio
+arlington texas cincinnati ohio
+
+kansas
+arlington texas toledo ohio
+
+arizona
+arlington texas henderson nevada
+
+edwards
+arlington texas chandler arizona
+
+brooks
+arlington texas madison wisconsin
+
+ohio
+arlington texas worcester massachusetts
+
+ohio
+arlington texas chicago illinois
+
+florida
+tampa florida pittsburgh pennsylvania
+
+texas
+tampa florida lexington kentucky
+
+massachusetts
+tampa florida cincinnati ohio
+
+texas
+tampa florida toledo ohio
+
+texas
+tampa florida henderson nevada
+
+evans
+tampa florida chandler arizona
+
+palmer
+tampa florida madison wisconsin
+
+virginia
+tampa florida irving texas
+
+franklin
+tampa florida worcester massachusetts
+
+hampshire
+tampa florida chicago illinois
+
+california
+tampa florida philadelphia pennsylvania
+
+texas
+tampa florida phoenix arizona
+
+california
+pittsburgh pennsylvania lexington kentucky
+
+delaware
+pittsburgh pennsylvania toledo ohio
+
+delaware
+pittsburgh pennsylvania henderson nevada
+
+harrison
+pittsburgh pennsylvania orlando florida
+
+massachusetts
+pittsburgh pennsylvania chandler arizona
+
+greene
+pittsburgh pennsylvania madison wisconsin
+
+massachusetts
+pittsburgh pennsylvania irving texas
+
+franklin
+pittsburgh pennsylvania worcester massachusetts
+
+hampshire
+pittsburgh pennsylvania chicago illinois
+
+massachusetts
+pittsburgh pennsylvania houston texas
+
+massachusetts
+pittsburgh pennsylvania phoenix arizona
+
+massachusetts
+pittsburgh pennsylvania dallas texas
+
+ohio
+pittsburgh pennsylvania jacksonville florida
+
+delaware
+pittsburgh pennsylvania indianapolis indiana
+
+illinois
+lexington kentucky cincinnati ohio
+
+kansas
+lexington kentucky toledo ohio
+
+arizona
+lexington kentucky henderson nevada
+
+edwards
+lexington kentucky orlando florida
+
+arizona
+lexington kentucky chandler arizona
+
+brooks
+lexington kentucky madison wisconsin
+
+missouri
+lexington kentucky irving texas
+
+herbert
+lexington kentucky worcester massachusetts
+
+hampshire
+lexington kentucky chicago illinois
+
+minnesota
+lexington kentucky houston texas
+
+kansas
+lexington kentucky philadelphia pennsylvania
+
+minnesota
+lexington kentucky phoenix arizona
+
+minnesota
+lexington kentucky dallas texas
+
+minnesota
+lexington kentucky jacksonville florida
+
+kansas
+lexington kentucky indianapolis indiana
+
+kansas
+cincinnati ohio henderson nevada
+
+stevens
+cincinnati ohio orlando florida
+
+texas
+cincinnati ohio chandler arizona
+
+greene
+cincinnati ohio madison wisconsin
+
+pennsylvania
+cincinnati ohio irving texas
+
+franklin
+cincinnati ohio worcester massachusetts
+
+hampshire
+cincinnati ohio houston texas
+
+virginia
+cincinnati ohio phoenix arizona
+
+pennsylvania
+cincinnati ohio dallas texas
+
+illinois
+cincinnati ohio jacksonville florida
+
+maryland
+cincinnati ohio indianapolis indiana
+
+illinois
+cincinnati ohio austin texas
+
+virginia
+cincinnati ohio detroit michigan
+
+illinois
+cincinnati ohio memphis tennessee
+
+illinois
+toledo ohio henderson nevada
+
+harrison
+toledo ohio orlando florida
+
+illinois
+toledo ohio chandler arizona
+
+greene
+toledo ohio madison wisconsin
+
+pennsylvania
+toledo ohio irving texas
+
+franklin
+toledo ohio worcester massachusetts
+
+hampshire
+toledo ohio houston texas
+
+illinois
+toledo ohio philadelphia pennsylvania
+
+illinois
+toledo ohio phoenix arizona
+
+illinois
+toledo ohio dallas texas
+
+illinois
+toledo ohio jacksonville florida
+
+illinois
+toledo ohio indianapolis indiana
+
+illinois
+toledo ohio austin texas
+
+illinois
+toledo ohio memphis tennessee
+
+illinois
+toledo ohio boston massachusetts
+
+pennsylvania
+toledo ohio seattle washington
+
+illinois
+henderson nevada orlando florida
+
+colorado
+henderson nevada chandler arizona
+
+idaho
+henderson nevada madison wisconsin
+
+missouri
+henderson nevada irving texas
+
+utah
+henderson nevada worcester massachusetts
+
+connecticut
+henderson nevada chicago illinois
+
+colorado
+henderson nevada houston texas
+
+arizona
+henderson nevada philadelphia pennsylvania
+
+kansas
+henderson nevada phoenix arizona
+
+colorado
+henderson nevada dallas texas
+
+colorado
+henderson nevada jacksonville florida
+
+utah
+henderson nevada indianapolis indiana
+
+utah
+henderson nevada austin texas
+
+oklahoma
+henderson nevada detroit michigan
+
+colorado
+henderson nevada memphis tennessee
+
+oklahoma
+henderson nevada boston massachusetts
+
+colorado
+henderson nevada seattle washington
+
+colorado
+henderson nevada denver colorado
+
+utah
+henderson nevada baltimore maryland
+
+kansas
+orlando florida chandler arizona
+
+palmer
+orlando florida madison wisconsin
+
+virginia
+orlando florida irving texas
+
+franklin
+orlando florida worcester massachusetts
+
+hampshire
+orlando florida chicago illinois
+
+michigan
+orlando florida houston texas
+
+michigan
+orlando florida philadelphia pennsylvania
+
+michigan
+orlando florida phoenix arizona
+
+california
+orlando florida dallas texas
+
+michigan
+orlando florida indianapolis indiana
+
+michigan
+orlando florida memphis tennessee
+
+ohio
+orlando florida boston massachusetts
+
+michigan
+orlando florida seattle washington
+
+michigan
+orlando florida denver colorado
+
+michigan
+orlando florida baltimore maryland
+
+michigan
+orlando florida nashville tennessee
+
+ohio
+chandler arizona madison wisconsin
+
+illinois
+chandler arizona worcester massachusetts
+
+connecticut
+chandler arizona chicago illinois
+
+kansas
+chandler arizona houston texas
+
+kansas
+chandler arizona philadelphia pennsylvania
+
+kansas
+chandler arizona dallas texas
+
+kansas
+chandler arizona jacksonville florida
+
+kansas
+chandler arizona indianapolis indiana
+
+kansas
+chandler arizona detroit michigan
+
+minnesota
+chandler arizona memphis tennessee
+
+kansas
+chandler arizona boston massachusetts
+
+chicago
+chandler arizona seattle washington
+
+minnesota
+chandler arizona denver colorado
+
+kansas
+chandler arizona baltimore maryland
+
+kansas
+chandler arizona nashville tennessee
+
+kansas
+chandler arizona louisville kentucky
+
+kansas
+chandler arizona milwaukee wisconsin
+
+kansas
+madison wisconsin irving texas
+
+herbert
+madison wisconsin worcester massachusetts
+
+hampshire
+madison wisconsin chicago illinois
+
+minnesota
+madison wisconsin houston texas
+
+minnesota
+madison wisconsin philadelphia pennsylvania
+
+minnesota
+madison wisconsin phoenix arizona
+
+minnesota
+madison wisconsin dallas texas
+
+minnesota
+madison wisconsin jacksonville florida
+
+minnesota
+madison wisconsin indianapolis indiana
+
+minnesota
+madison wisconsin austin texas
+
+oklahoma
+madison wisconsin detroit michigan
+
+minnesota
+madison wisconsin memphis tennessee
+
+oklahoma
+madison wisconsin boston massachusetts
+
+minnesota
+madison wisconsin seattle washington
+
+minnesota
+madison wisconsin denver colorado
+
+minnesota
+madison wisconsin baltimore maryland
+
+minnesota
+madison wisconsin nashville tennessee
+
+minnesota
+madison wisconsin louisville kentucky
+
+minnesota
+madison wisconsin portland oregon
+
+minnesota
+irving texas worcester massachusetts
+
+maryland
+irving texas chicago illinois
+
+florida
+irving texas philadelphia pennsylvania
+
+florida
+irving texas phoenix arizona
+
+colorado
+irving texas jacksonville florida
+
+oklahoma
+irving texas indianapolis indiana
+
+kansas
+irving texas detroit michigan
+
+minnesota
+irving texas memphis tennessee
+
+oklahoma
+irving texas boston massachusetts
+
+florida
+irving texas seattle washington
+
+florida
+irving texas denver colorado
+
+kansas
+irving texas baltimore maryland
+
+florida
+irving texas nashville tennessee
+
+kansas
+irving texas louisville kentucky
+
+oklahoma
+irving texas milwaukee wisconsin
+
+kansas
+irving texas portland oregon
+
+florida
+irving texas sacramento california
+
+colorado
+irving texas mesa arizona
+
+colorado
+irving texas atlanta georgia
+
+florida
+worcester massachusetts chicago illinois
+
+florida
+worcester massachusetts houston texas
+
+florida
+worcester massachusetts philadelphia pennsylvania
+
+florida
+worcester massachusetts phoenix arizona
+
+florida
+worcester massachusetts dallas texas
+
+florida
+worcester massachusetts indianapolis indiana
+
+texas
+worcester massachusetts detroit michigan
+
+minnesota
+worcester massachusetts memphis tennessee
+
+texas
+worcester massachusetts seattle washington
+
+florida
+worcester massachusetts denver colorado
+
+minnesota
+worcester massachusetts baltimore maryland
+
+florida
+worcester massachusetts nashville tennessee
+
+texas
+worcester massachusetts louisville kentucky
+
+texas
+worcester massachusetts milwaukee wisconsin
+
+minnesota
+worcester massachusetts portland oregon
+
+florida
+worcester massachusetts sacramento california
+
+florida
+worcester massachusetts mesa arizona
+
+california
+worcester massachusetts atlanta georgia
+
+florida
+worcester massachusetts oakland california
+
+florida
+worcester massachusetts cleveland ohio
+
+minnesota
+worcester massachusetts minneapolis minnesota
+
+florida
+worcester massachusetts arlington texas
+
+maryland
+worcester massachusetts pittsburgh pennsylvania
+
+minnesota
+worcester massachusetts lexington kentucky
+
+missouri
+worcester massachusetts cincinnati ohio
+
+minnesota
+boy girl brother sister
+
+wife
+boy girl grandfather grandmother
+
+cousin
+boy girl grandson granddaughter
+
+eldest
+boy girl nephew niece
+
+cousin
+boy girl uncle aunt
+
+cousin
+brother sister man woman
+
+girl
+father mother nephew niece
+
+cousin
+father mother uncle aunt
+
+cousin
+grandfather grandmother grandson granddaughter
+
+niece
+grandson granddaughter husband wife
+
+aunt
+he she king queen
+
+prince
+he she man woman
+
+girl
+he she nephew niece
+
+grandson
+he she son daughter
+
+brother
+he she sons daughters
+
+siblings
+he she uncle aunt
+
+brother
+he she brother sister
+
+son
+he she brothers sisters
+
+sons
+he she grandfather grandmother
+
+grandson
+he she grandson granddaughter
+
+nephew
+his her nephew niece
+
+cousin
+his her son daughter
+
+brother
+his her sons daughters
+
+son
+his her uncle aunt
+
+brother
+his her brother sister
+
+son
+his her brothers sisters
+
+sons
+his her grandfather grandmother
+
+grandson
+his her grandson granddaughter
+
+nephew
+husband wife nephew niece
+
+cousin
+husband wife uncle aunt
+
+cousin
+husband wife brother sister
+
+son
+husband wife grandfather grandmother
+
+daughter
+husband wife grandson granddaughter
+
+descendant
+king queen nephew niece
+
+granddaughter
+king queen uncle aunt
+
+cousin
+king queen brother sister
+
+daughter
+king queen grandson granddaughter
+
+eldest
+man woman nephew niece
+
+cousin
+man woman uncle aunt
+
+cousin
+man woman brother sister
+
+daughter
+man woman grandson granddaughter
+
+eldest
+nephew niece husband wife
+
+aunt
+prince princess brother sister
+
+daughter
+prince princess nephew niece
+
+granddaughter
+son daughter brother sister
+
+wife
+son daughter man woman
+
+girl
+son daughter nephew niece
+
+granddaughter
+sons daughters brother sister
+
+daughter
+uncle aunt brother sister
+
+daughter
+uncle aunt king queen
+
+princess
+apparent apparently complete completely
+
+actually
+apparent apparently free freely
+
+initially
+apparent apparently immediate immediately
+
+reportedly
+apparent apparently most mostly
+
+quite
+apparent apparently possible possibly
+
+otherwise
+apparent apparently precise precisely
+
+supposedly
+apparent apparently professional professionally
+
+already
+apparent apparently quick quickly
+
+surprisingly
+apparent apparently rapid rapidly
+
+initially
+apparent apparently rare rarely
+
+reportedly
+apparent apparently safe safely
+
+already
+apparent apparently serious seriously
+
+reportedly
+apparent apparently slow slowly
+
+too
+apparent apparently sudden suddenly
+
+reportedly
+apparent apparently typical typically
+
+essentially
+apparent apparently usual usually
+
+essentially
+complete completely free freely
+
+totally
+complete completely immediate immediately
+
+totally
+complete completely most mostly
+
+totally
+complete completely obvious obviously
+
+totally
+complete completely occasional occasionally
+
+totally
+complete completely possible possibly
+
+totally
+complete completely precise precisely
+
+totally
+complete completely professional professionally
+
+totally
+complete completely quick quickly
+
+totally
+complete completely rare rarely
+
+totally
+complete completely safe safely
+
+totally
+complete completely serious seriously
+
+totally
+complete completely slow slowly
+
+totally
+complete completely sudden suddenly
+
+totally
+complete completely typical typically
+
+entirely
+complete completely usual usually
+
+totally
+complete completely apparent apparently
+
+totally
+free freely immediate immediately
+
+sudden
+free freely most mostly
+
+seldom
+free freely obvious obviously
+
+evident
+free freely occasional occasionally
+
+periodically
+free freely possible possibly
+
+likely
+free freely precise precisely
+
+accurately
+free freely quick quickly
+
+automatically
+free freely safe safely
+
+carefully
+free freely serious seriously
+
+profound
+free freely slow slowly
+
+slower
+free freely sudden suddenly
+
+devastating
+free freely typical typically
+
+sharply
+free freely usual usually
+
+carefully
+free freely apparent apparently
+
+perceived
+free freely complete completely
+
+properly
+immediate immediately most mostly
+
+once
+immediate immediately obvious obviously
+
+quickly
+immediate immediately possible possibly
+
+quickly
+immediate immediately precise precisely
+
+quickly
+immediate immediately professional professionally
+
+quickly
+immediate immediately rapid rapidly
+
+quickly
+immediate immediately rare rarely
+
+subsequently
+immediate immediately safe safely
+
+quickly
+immediate immediately serious seriously
+
+quickly
+immediate immediately slow slowly
+
+quickly
+immediate immediately sudden suddenly
+
+quickly
+immediate immediately typical typically
+
+briefly
+immediate immediately usual usually
+
+briefly
+immediate immediately apparent apparently
+
+quickly
+immediate immediately complete completely
+
+finally
+immediate immediately free freely
+
+then
+most mostly obvious obviously
+
+explicit
+most mostly occasional occasionally
+
+mainly
+most mostly possible possibly
+
+initial
+most mostly precise precisely
+
+carefully
+most mostly professional professionally
+
+exclusively
+most mostly quick quickly
+
+brief
+most mostly rapid rapidly
+
+predominantly
+most mostly rare rarely
+
+exclusively
+most mostly safe safely
+
+shelter
+most mostly serious seriously
+
+mainly
+most mostly slow slowly
+
+slower
+most mostly sudden suddenly
+
+prolonged
+most mostly typical typically
+
+predominantly
+most mostly usual usually
+
+typical
+most mostly apparent apparently
+
+solely
+most mostly complete completely
+
+exclusively
+most mostly free freely
+
+exclusively
+most mostly immediate immediately
+
+initial
+obvious obviously occasional occasionally
+
+mostly
+obvious obviously possible possibly
+
+otherwise
+obvious obviously precise precisely
+
+perfectly
+obvious obviously professional professionally
+
+technically
+obvious obviously quick quickly
+
+surprisingly
+obvious obviously rapid rapidly
+
+slow
+obvious obviously rare rarely
+
+otherwise
+obvious obviously safe safely
+
+otherwise
+obvious obviously serious seriously
+
+really
+obvious obviously slow slowly
+
+fast
+obvious obviously sudden suddenly
+
+hardly
+obvious obviously typical typically
+
+basically
+obvious obviously usual usually
+
+basically
+obvious obviously apparent apparently
+
+certainly
+obvious obviously complete completely
+
+neither
+obvious obviously free freely
+
+otherwise
+obvious obviously immediate immediately
+
+basically
+obvious obviously most mostly
+
+equally
+occasional occasionally possible possibly
+
+likely
+occasional occasionally professional professionally
+
+rarely
+occasional occasionally quick quickly
+
+fast
+occasional occasionally safe safely
+
+easily
+occasional occasionally serious seriously
+
+frequently
+occasional occasionally slow slowly
+
+faster
+occasional occasionally sudden suddenly
+
+rarely
+occasional occasionally usual usually
+
+commonly
+occasional occasionally apparent apparently
+
+rarely
+occasional occasionally complete completely
+
+actually
+occasional occasionally free freely
+
+instead
+occasional occasionally most mostly
+
+often
+occasional occasionally obvious obviously
+
+rarely
+possible possibly precise precisely
+
+supposedly
+possible possibly professional professionally
+
+presumably
+possible possibly quick quickly
+
+supposedly
+possible possibly rapid rapidly
+
+probably
+possible possibly rare rarely
+
+apparently
+possible possibly safe safely
+
+presumably
+possible possibly serious seriously
+
+probably
+possible possibly slow slowly
+
+probably
+possible possibly sudden suddenly
+
+probably
+possible possibly typical typically
+
+presumably
+possible possibly usual usually
+
+presumably
+possible possibly apparent apparently
+
+probably
+possible possibly complete completely
+
+probably
+possible possibly free freely
+
+supposedly
+possible possibly immediate immediately
+
+presumably
+possible possibly most mostly
+
+particularly
+possible possibly obvious obviously
+
+probably
+precise precisely quick quickly
+
+exactly
+precise precisely rapid rapidly
+
+gradual
+precise precisely safe safely
+
+always
+precise precisely serious seriously
+
+terrible
+precise precisely slow slowly
+
+naturally
+precise precisely sudden suddenly
+
+devastating
+precise precisely usual usually
+
+typically
+precise precisely apparent apparently
+
+magnitude
+precise precisely complete completely
+
+exactly
+precise precisely free freely
+
+explicitly
+precise precisely immediate immediately
+
+sudden
+precise precisely most mostly
+
+equally
+precise precisely possible possibly
+
+potential
+professional professionally quick quickly
+
+slow
+professional professionally rapid rapidly
+
+slow
+professional professionally rare rarely
+
+endangered
+professional professionally safe safely
+
+clean
+professional professionally slow slowly
+
+slower
+professional professionally sudden suddenly
+
+prolonged
+professional professionally typical typically
+
+similar
+professional professionally usual usually
+
+typical
+professional professionally apparent apparently
+
+obvious
+professional professionally complete completely
+
+unfinished
+professional professionally immediate immediately
+
+deliberate
+professional professionally most mostly
+
+more
+professional professionally obvious obviously
+
+evident
+professional professionally possible possibly
+
+impossible
+professional professionally precise precisely
+
+accurately
+quick quickly rare rarely
+
+subsequently
+quick quickly safe safely
+
+finally
+quick quickly serious seriously
+
+soon
+quick quickly slow slowly
+
+rapidly
+quick quickly sudden suddenly
+
+soon
+quick quickly typical typically
+
+eventually
+quick quickly usual usually
+
+eventually
+quick quickly apparent apparently
+
+soon
+quick quickly complete completely
+
+eventually
+quick quickly free freely
+
+eventually
+quick quickly immediate immediately
+
+soon
+quick quickly most mostly
+
+even
+quick quickly obvious obviously
+
+soon
+quick quickly occasional occasionally
+
+soon
+quick quickly possible possibly
+
+potential
+quick quickly precise precisely
+
+soon
+quick quickly professional professionally
+
+soon
+rapid rapidly rare rarely
+
+quickly
+rapid rapidly safe safely
+
+quickly
+rapid rapidly typical typically
+
+slowly
+rapid rapidly usual usually
+
+gradually
+rapid rapidly apparent apparently
+
+gradually
+rapid rapidly complete completely
+
+slowly
+rapid rapidly free freely
+
+slowly
+rapid rapidly immediate immediately
+
+gradually
+rapid rapidly most mostly
+
+even
+rapid rapidly obvious obviously
+
+evident
+rapid rapidly possible possibly
+
+potential
+rapid rapidly precise precisely
+
+exact
+rapid rapidly professional professionally
+
+gradually
+rare rarely safe safely
+
+seldom
+rare rarely serious seriously
+
+frequently
+rare rarely slow slowly
+
+continuously
+rare rarely sudden suddenly
+
+seldom
+rare rarely usual usually
+
+typically
+rare rarely apparent apparently
+
+seldom
+rare rarely complete completely
+
+seldom
+rare rarely free freely
+
+normally
+rare rarely immediate immediately
+
+seldom
+rare rarely most mostly
+
+generally
+rare rarely obvious obviously
+
+seldom
+rare rarely possible possibly
+
+likely
+rare rarely professional professionally
+
+seldom
+rare rarely quick quickly
+
+seldom
+rare rarely rapid rapidly
+
+seldom
+safe safely serious seriously
+
+profound
+safe safely slow slowly
+
+slower
+safe safely sudden suddenly
+
+unexpectedly
+safe safely usual usually
+
+typical
+safe safely apparent apparently
+
+presumed
+safe safely complete completely
+
+retrieve
+safe safely immediate immediately
+
+tremendous
+safe safely most mostly
+
+many
+safe safely obvious obviously
+
+profound
+safe safely possible possibly
+
+supposed
+safe safely precise precisely
+
+accurately
+safe safely quick quickly
+
+instantly
+safe safely rapid rapidly
+
+gradual
+safe safely rare rarely
+
+bats
+serious seriously slow slowly
+
+slower
+serious seriously sudden suddenly
+
+instantly
+serious seriously typical typically
+
+traditional
+serious seriously usual usually
+
+traditional
+serious seriously apparent apparently
+
+realizing
+serious seriously complete completely
+
+abandon
+serious seriously free freely
+
+instead
+serious seriously immediate immediately
+
+insisted
+serious seriously most mostly
+
+equally
+serious seriously obvious obviously
+
+pleased
+serious seriously possible possibly
+
+probable
+serious seriously precise precisely
+
+exact
+serious seriously quick quickly
+
+fast
+serious seriously rapid rapidly
+
+slow
+serious seriously rare rarely
+
+endangered
+serious seriously safe safely
+
+comfortable
+slow slowly sudden suddenly
+
+gradually
+slow slowly typical typically
+
+gradually
+slow slowly usual usually
+
+gradually
+slow slowly apparent apparently
+
+realizing
+slow slowly complete completely
+
+eventually
+slow slowly free freely
+
+gradually
+slow slowly immediate immediately
+
+gradually
+slow slowly most mostly
+
+many
+slow slowly obvious obviously
+
+evident
+slow slowly occasional occasionally
+
+gradually
+slow slowly possible possibly
+
+potential
+slow slowly precise precisely
+
+exact
+slow slowly professional professionally
+
+gradually
+slow slowly quick quickly
+
+gradually
+slow slowly rapid rapidly
+
+gradually
+slow slowly rare rarely
+
+significance
+slow slowly safe safely
+
+gradually
+slow slowly serious seriously
+
+soon
+sudden suddenly typical typically
+
+resembling
+sudden suddenly usual usually
+
+typical
+sudden suddenly apparent apparently
+
+meanwhile
+sudden suddenly complete completely
+
+finally
+sudden suddenly free freely
+
+inside
+sudden suddenly immediate immediately
+
+finally
+sudden suddenly most mostly
+
+even
+sudden suddenly obvious obviously
+
+suspicious
+sudden suddenly possible possibly
+
+missing
+sudden suddenly precise precisely
+
+accurate
+sudden suddenly professional professionally
+
+amateur
+sudden suddenly rapid rapidly
+
+slowly
+sudden suddenly rare rarely
+
+stolen
+sudden suddenly safe safely
+
+closer
+typical typically apparent apparently
+
+normally
+typical typically complete completely
+
+longer
+typical typically free freely
+
+normally
+typical typically immediate immediately
+
+normally
+typical typically most mostly
+
+often
+typical typically obvious obviously
+
+rarely
+typical typically possible possibly
+
+potential
+typical typically professional professionally
+
+normally
+typical typically quick quickly
+
+normally
+typical typically rapid rapidly
+
+normally
+typical typically safe safely
+
+always
+typical typically serious seriously
+
+usually
+typical typically slow slowly
+
+normally
+typical typically sudden suddenly
+
+normally
+usual usually apparent apparently
+
+normally
+usual usually complete completely
+
+still
+usual usually free freely
+
+normally
+usual usually immediate immediately
+
+normally
+usual usually most mostly
+
+often
+usual usually obvious obviously
+
+rarely
+usual usually possible possibly
+
+either
+usual usually precise precisely
+
+normally
+usual usually professional professionally
+
+normally
+usual usually quick quickly
+
+normally
+usual usually rapid rapidly
+
+normally
+usual usually safe safely
+
+always
+usual usually serious seriously
+
+often
+usual usually slow slowly
+
+normally
+usual usually sudden suddenly
+
+normally
+aware unaware certain uncertain
+
+various
+aware unaware clear unclear
+
+correct
+aware unaware known unknown
+
+called
+aware unaware likely unlikely
+
+presumably
+aware unaware possible impossible
+
+probable
+certain uncertain known unknown
+
+unclear
+certain uncertain likely unlikely
+
+unclear
+certain uncertain possible impossible
+
+unclear
+certain uncertain aware unaware
+
+unclear
+clear unclear known unknown
+
+mentioned
+clear unclear likely unlikely
+
+uncertain
+clear unclear possible impossible
+
+uncertain
+clear unclear certain uncertain
+
+differ
+known unknown likely unlikely
+
+uncertain
+known unknown possible impossible
+
+uncertain
+known unknown aware unaware
+
+uncertain
+known unknown certain uncertain
+
+varying
+known unknown clear unclear
+
+correct
+likely unlikely aware unaware
+
+satisfied
+likely unlikely certain uncertain
+
+other
+likely unlikely clear unclear
+
+consistent
+likely unlikely known unknown
+
+famous
+possible impossible aware unaware
+
+satisfied
+possible impossible certain uncertain
+
+necessary
+possible impossible clear unclear
+
+rough
+possible impossible known unknown
+
+called
+possible impossible likely unlikely
+
+unable
+bad worse big bigger
+
+huge
+bad worse good better
+
+reasonable
+bad worse great greater
+
+tremendous
+bad worse long longer
+
+shorter
+bad worse new newer
+
+in
+bad worse old older
+
+pregnant
+bad worse small smaller
+
+large
+big bigger great greater
+
+tremendous
+big bigger long longer
+
+shorter
+big bigger low lower
+
+higher
+big bigger new newer
+
+redesigned
+big bigger small smaller
+
+larger
+big bigger bad worse
+
+wrong
+cheap cheaper great greater
+
+tremendous
+cheap cheaper hard harder
+
+lightweight
+cheap cheaper long longer
+
+shorter
+cheap cheaper low lower
+
+higher
+cheap cheaper new newer
+
+the
+deep deeper great greater
+
+tremendous
+deep deeper long longer
+
+shorter
+deep deeper low lower
+
+higher
+deep deeper new newer
+
+cheaper
+deep deeper bad worse
+
+wrong
+easy easier good better
+
+useful
+easy easier great greater
+
+immense
+easy easier long longer
+
+shorter
+easy easier new newer
+
+the
+easy easier bad worse
+
+unnecessary
+fast faster great greater
+
+immense
+fast faster long longer
+
+shorter
+fast faster low lower
+
+higher
+fast faster new newer
+
+redesigned
+good better low lower
+
+higher
+good better new newer
+
+newly
+good better slow slower
+
+faster
+good better small smaller
+
+larger
+good better bad worse
+
+poor
+great greater hard harder
+
+suburb
+great greater long longer
+
+shorter
+great greater low lower
+
+higher
+great greater new newer
+
+metropolitan
+great greater simple simpler
+
+based
+great greater slow slower
+
+faster
+great greater small smaller
+
+larger
+great greater young younger
+
+adult
+great greater bad worse
+
+poor
+great greater big bigger
+
+larger
+hard harder long longer
+
+shorter
+hard harder low lower
+
+higher
+hard harder new newer
+
+the
+hard harder bad worse
+
+wrong
+hard harder good better
+
+excellent
+hard harder great greater
+
+tremendous
+heavy heavier long longer
+
+shorter
+heavy heavier low lower
+
+higher
+heavy heavier new newer
+
+lighter
+heavy heavier bad worse
+
+wrong
+heavy heavier fast faster
+
+slower
+heavy heavier good better
+
+useful
+heavy heavier great greater
+
+tremendous
+heavy heavier hard harder
+
+lighter
+high higher long longer
+
+shorter
+high higher new newer
+
+expanded
+high higher old older
+
+existing
+high higher simple simpler
+
+basic
+high higher slow slower
+
+faster
+high higher bad worse
+
+wrong
+high higher great greater
+
+immense
+high higher hard harder
+
+better
+high higher heavy heavier
+
+reduced
+large larger long longer
+
+shorter
+large larger low lower
+
+higher
+large larger new newer
+
+bigger
+large larger bad worse
+
+wrong
+long longer low lower
+
+higher
+long longer new newer
+
+newest
+long longer simple simpler
+
+simply
+long longer bad worse
+
+wrong
+long longer great greater
+
+tremendous
+long longer hard harder
+
+otherwise
+low lower new newer
+
+the
+low lower old older
+
+upper
+low lower simple simpler
+
+basic
+low lower young younger
+
+female
+low lower bad worse
+
+wrong
+low lower good better
+
+excellent
+low lower great greater
+
+tremendous
+low lower hard harder
+
+clay
+low lower long longer
+
+shorter
+new newer simple simpler
+
+conventional
+new newer young younger
+
+older
+new newer bad worse
+
+older
+new newer deep deeper
+
+shallow
+new newer good better
+
+excellent
+new newer great greater
+
+significant
+new newer hard harder
+
+older
+new newer high higher
+
+comparable
+new newer large larger
+
+smaller
+new newer long longer
+
+shorter
+new newer low lower
+
+older
+old older slow slower
+
+faster
+old older bad worse
+
+ill
+old older great greater
+
+considerable
+old older hard harder
+
+carpet
+old older large larger
+
+smaller
+old older low lower
+
+higher
+short shorter bad worse
+
+wrong
+short shorter low lower
+
+higher
+simple simpler fast faster
+
+slower
+simple simpler good better
+
+desirable
+simple simpler great greater
+
+tremendous
+simple simpler high higher
+
+comparable
+simple simpler long longer
+
+shorter
+simple simpler low lower
+
+comparable
+simple simpler new newer
+
+cheaper
+simple simpler old older
+
+newer
+slow slower good better
+
+excellent
+slow slower great greater
+
+tremendous
+slow slower high higher
+
+comparable
+slow slower long longer
+
+shorter
+slow slower low lower
+
+higher
+slow slower new newer
+
+the
+small smaller bad worse
+
+wrong
+small smaller great greater
+
+greatest
+small smaller long longer
+
+shorter
+small smaller low lower
+
+higher
+strong stronger bad worse
+
+wrong
+strong stronger great greater
+
+tremendous
+strong stronger long longer
+
+shorter
+strong stronger low lower
+
+higher
+strong stronger new newer
+
+redesigned
+wide wider young younger
+
+female
+wide wider bad worse
+
+wrong
+wide wider great greater
+
+tremendous
+wide wider long longer
+
+shorter
+wide wider low lower
+
+higher
+wide wider new newer
+
+redesigned
+wide wider old older
+
+newer
+wide wider small smaller
+
+larger
+young younger bad worse
+
+crazy
+young younger great greater
+
+considerable
+young younger long longer
+
+shorter
+young younger simple simpler
+
+similar
+young younger slow slower
+
+faster
+young younger wide wider
+
+broad
+bad worst good best
+
+perfect
+bad worst small smallest
+
+largest
+bad worst young youngest
+
+female
+big biggest good best
+
+excellent
+big biggest low lowest
+
+highest
+big biggest small smallest
+
+largest
+big biggest young youngest
+
+female
+fast fastest good best
+
+perfect
+fast fastest small smallest
+
+largest
+fast fastest young youngest
+
+female
+good best small smallest
+
+largest
+good best young youngest
+
+female
+good best fast fastest
+
+slow
+great greatest high highest
+
+higher
+great greatest low lowest
+
+higher
+great greatest small smallest
+
+smaller
+great greatest strong strongest
+
+stronger
+great greatest tall tallest
+
+ft
+great greatest young youngest
+
+female
+great greatest fast fastest
+
+slow
+great greatest good best
+
+better
+high highest small smallest
+
+largest
+high highest tall tallest
+
+pyramid
+high highest young youngest
+
+female
+high highest good best
+
+perfect
+large largest small smallest
+
+biggest
+large largest young youngest
+
+female
+large largest good best
+
+perfect
+long longest low lowest
+
+highest
+long longest small smallest
+
+largest
+long longest young youngest
+
+female
+long longest good best
+
+perfect
+low lowest young youngest
+
+female
+low lowest good best
+
+perfect
+old oldest small smallest
+
+largest
+old oldest young youngest
+
+male
+old oldest good best
+
+excellent
+old oldest low lowest
+
+highest
+small smallest young youngest
+
+male
+small smallest good best
+
+perfect
+small smallest high highest
+
+lowest
+small smallest old oldest
+
+newest
+strong strongest young youngest
+
+female
+strong strongest high highest
+
+lowest
+strong strongest small smallest
+
+smaller
+tall tallest young youngest
+
+female
+tall tallest good best
+
+perfect
+tall tallest high highest
+
+lowest
+tall tallest small smallest
+
+largest
+young youngest fast fastest
+
+slow
+young youngest good best
+
+perfect
+young youngest high highest
+
+higher
+young youngest low lowest
+
+lower
+young youngest small smallest
+
+large
+dance dancing go going
+
+come
+dance dancing listen listening
+
+talking
+dance dancing read reading
+
+talking
+dance dancing say saying
+
+know
+dance dancing see seeing
+
+references
+dance dancing swim swimming
+
+jumping
+dance dancing think thinking
+
+talking
+dance dancing write writing
+
+read
+decrease decreasing fly flying
+
+flies
+decrease decreasing go going
+
+come
+decrease decreasing listen listening
+
+please
+decrease decreasing look looking
+
+looked
+decrease decreasing read reading
+
+written
+decrease decreasing say saying
+
+know
+decrease decreasing see seeing
+
+references
+decrease decreasing sing singing
+
+sang
+decrease decreasing think thinking
+
+know
+decrease decreasing dance dancing
+
+music
+describe describing listen listening
+
+commenting
+describe describing read reading
+
+reads
+describe describing see seeing
+
+references
+describe describing think thinking
+
+saying
+describe describing dance dancing
+
+music
+discover discovering read reading
+
+writing
+discover discovering say saying
+
+think
+discover discovering see seeing
+
+references
+discover discovering sing singing
+
+sang
+discover discovering swim swimming
+
+jumping
+discover discovering think thinking
+
+doing
+discover discovering write writing
+
+composing
+fly flying read reading
+
+writing
+fly flying say saying
+
+think
+fly flying see seeing
+
+references
+fly flying swim swimming
+
+skating
+fly flying think thinking
+
+saying
+fly flying dance dancing
+
+musical
+generate generating read reading
+
+writing
+generate generating say saying
+
+know
+generate generating see seeing
+
+references
+generate generating think thinking
+
+why
+generate generating dance dancing
+
+music
+go going listen listening
+
+gonna
+go going read reading
+
+writing
+go going say saying
+
+think
+go going see seeing
+
+references
+go going swim swimming
+
+jumping
+go going think thinking
+
+sure
+implement implementing say saying
+
+know
+implement implementing see seeing
+
+references
+implement implementing sing singing
+
+sang
+increase increasing listen listening
+
+please
+increase increasing read reading
+
+written
+increase increasing say saying
+
+know
+increase increasing see seeing
+
+references
+increase increasing sing singing
+
+sang
+increase increasing think thinking
+
+know
+increase increasing dance dancing
+
+music
+increase increasing fly flying
+
+flies
+jump jumping listen listening
+
+hear
+jump jumping read reading
+
+reads
+jump jumping say saying
+
+think
+jump jumping see seeing
+
+references
+jump jumping swim swimming
+
+skating
+jump jumping write writing
+
+composing
+listen listening say saying
+
+think
+listen listening see seeing
+
+references
+listen listening dance dancing
+
+music
+look looking read reading
+
+referring
+look looking say saying
+
+know
+look looking see seeing
+
+references
+look looking swim swimming
+
+jumping
+look looking think thinking
+
+talking
+look looking write writing
+
+composing
+move moving read reading
+
+written
+move moving say saying
+
+think
+move moving see seeing
+
+references
+move moving swim swimming
+
+sailing
+move moving think thinking
+
+seeing
+play playing read reading
+
+appearing
+play playing say saying
+
+think
+play playing see seeing
+
+references
+play playing swim swimming
+
+skating
+play playing think thinking
+
+doing
+play playing write writing
+
+composing
+read reading say saying
+
+believe
+read reading see seeing
+
+references
+read reading describe describing
+
+describes
+read reading go going
+
+isbn
+read reading move moving
+
+transfer
+run running say saying
+
+think
+run running see seeing
+
+references
+run running think thinking
+
+maybe
+run running read reading
+
+writing
+say saying see seeing
+
+references
+say saying think thinking
+
+stating
+say saying dance dancing
+
+music
+say saying decrease decreasing
+
+decreased
+say saying generate generating
+
+generated
+say saying listen listening
+
+commenting
+say saying look looking
+
+stating
+say saying read reading
+
+stating
+see seeing swim swimming
+
+watching
+see seeing think thinking
+
+telling
+see seeing generate generating
+
+sending
+see seeing listen listening
+
+telling
+see seeing read reading
+
+telling
+see seeing say saying
+
+knew
+sing singing think thinking
+
+really
+sing singing read reading
+
+writing
+sing singing say saying
+
+think
+sing singing see seeing
+
+references
+sit sitting think thinking
+
+talking
+sit sitting read reading
+
+printed
+sit sitting say saying
+
+why
+sit sitting see seeing
+
+references
+swim swimming think thinking
+
+why
+swim swimming dance dancing
+
+music
+swim swimming go going
+
+come
+swim swimming increase increasing
+
+increased
+swim swimming jump jumping
+
+freestyle
+swim swimming say saying
+
+know
+swim swimming see seeing
+
+references
+swim swimming sing singing
+
+sang
+think thinking dance dancing
+
+music
+think thinking go going
+
+take
+think thinking move moving
+
+moves
+think thinking say saying
+
+thought
+think thinking see seeing
+
+references
+think thinking swim swimming
+
+jumping
+walk walking say saying
+
+think
+walk walking see seeing
+
+references
+walk walking think thinking
+
+saying
+write writing dance dancing
+
+music
+write writing say saying
+
+why
+write writing see seeing
+
+references
+write writing think thinking
+
+why
+australia australian croatia croatian
+
+serbian
+australia australian denmark danish
+
+swedish
+australia australian england english
+
+scottish
+australia australian germany german
+
+austrian
+australia australian greece greek
+
+bulgarian
+australia australian netherlands dutch
+
+austrian
+australia australian norway norwegian
+
+swedish
+australia australian thailand thai
+
+malaysian
+australia australian ukraine ukrainian
+
+bulgarian
+austria austrian england english
+
+scottish
+austria austrian greece greek
+
+bulgarian
+austria austrian ireland irish
+
+scottish
+austria austrian netherlands dutch
+
+danish
+austria austrian poland polish
+
+hungarian
+austria austrian portugal portuguese
+
+argentine
+austria austrian spain spanish
+
+mexican
+austria austrian thailand thai
+
+malaysian
+brazil brazilian england english
+
+scottish
+brazil brazilian france french
+
+belgian
+brazil brazilian germany german
+
+austrian
+brazil brazilian greece greek
+
+bulgarian
+brazil brazilian ireland irish
+
+scottish
+brazil brazilian netherlands dutch
+
+danish
+brazil brazilian poland polish
+
+hungarian
+brazil brazilian portugal portuguese
+
+argentine
+brazil brazilian spain spanish
+
+argentine
+brazil brazilian thailand thai
+
+malaysian
+brazil brazilian ukraine ukrainian
+
+serbian
+bulgaria bulgarian england english
+
+scottish
+bulgaria bulgarian netherlands dutch
+
+swedish
+bulgaria bulgarian austria austrian
+
+polish
+chile chilean england english
+
+scottish
+chile chilean germany german
+
+austrian
+chile chilean greece greek
+
+bulgarian
+chile chilean india indian
+
+pakistani
+chile chilean ireland irish
+
+scottish
+chile chilean italy italian
+
+austrian
+chile chilean netherlands dutch
+
+danish
+chile chilean norway norwegian
+
+danish
+chile chilean poland polish
+
+hungarian
+chile chilean portugal portuguese
+
+argentine
+chile chilean spain spanish
+
+argentine
+chile chilean switzerland swiss
+
+austrian
+chile chilean thailand thai
+
+malaysian
+chile chilean ukraine ukrainian
+
+serbian
+china chinese england english
+
+scottish
+china chinese greece greek
+
+bulgarian
+china chinese netherlands dutch
+
+swedish
+china chinese norway norwegian
+
+swedish
+china chinese switzerland swiss
+
+czech
+china chinese austria austrian
+
+hungarian
+croatia croatian england english
+
+scottish
+croatia croatian greece greek
+
+bulgarian
+croatia croatian netherlands dutch
+
+danish
+croatia croatian thailand thai
+
+indonesian
+denmark danish england english
+
+scottish
+denmark danish greece greek
+
+bulgarian
+denmark danish ireland irish
+
+scottish
+denmark danish netherlands dutch
+
+finnish
+denmark danish poland polish
+
+hungarian
+denmark danish thailand thai
+
+malaysian
+egypt egyptian england english
+
+scottish
+egypt egyptian greece greek
+
+romanian
+egypt egyptian ireland irish
+
+scottish
+egypt egyptian netherlands dutch
+
+finnish
+egypt egyptian poland polish
+
+hungarian
+egypt egyptian portugal portuguese
+
+spanish
+egypt egyptian ukraine ukrainian
+
+romanian
+egypt egyptian bulgaria bulgarian
+
+romanian
+england english greece greek
+
+romanian
+england english italy italian
+
+french
+england english mexico mexican
+
+spanish
+england english netherlands dutch
+
+finnish
+england english norway norwegian
+
+finnish
+england english poland polish
+
+hungarian
+england english portugal portuguese
+
+spanish
+england english switzerland swiss
+
+czech
+england english ukraine ukrainian
+
+romanian
+england english austria austrian
+
+hungarian
+england english brazil brazilian
+
+spanish
+england english bulgaria bulgarian
+
+romanian
+england english chile chilean
+
+spanish
+england english croatia croatian
+
+czech
+england english denmark danish
+
+swedish
+france french greece greek
+
+turkish
+france french netherlands dutch
+
+swedish
+france french poland polish
+
+hungarian
+france french switzerland swiss
+
+finnish
+france french thailand thai
+
+indonesian
+france french ukraine ukrainian
+
+romanian
+france french austria austrian
+
+hungarian
+france french denmark danish
+
+swedish
+germany german greece greek
+
+bulgarian
+germany german netherlands dutch
+
+swedish
+germany german thailand thai
+
+indonesian
+germany german england english
+
+scottish
+greece greek switzerland swiss
+
+italian
+greece greek austria austrian
+
+polish
+greece greek brazil brazilian
+
+spanish
+greece greek chile chilean
+
+spanish
+greece greek croatia croatian
+
+romanian
+greece greek england english
+
+scottish
+india indian netherlands dutch
+
+swedish
+india indian portugal portuguese
+
+spanish
+india indian ukraine ukrainian
+
+romanian
+india indian brazil brazilian
+
+mexican
+india indian chile chilean
+
+mexican
+india indian denmark danish
+
+swedish
+india indian england english
+
+scottish
+india indian greece greek
+
+bulgarian
+ireland irish netherlands dutch
+
+swedish
+ireland irish portugal portuguese
+
+spanish
+ireland irish brazil brazilian
+
+mexican
+ireland irish denmark danish
+
+swedish
+ireland irish england english
+
+scottish
+ireland irish greece greek
+
+bulgarian
+israel israeli netherlands dutch
+
+danish
+israel israeli portugal portuguese
+
+argentine
+israel israeli spain spanish
+
+argentine
+israel israeli thailand thai
+
+malaysian
+israel israeli ukraine ukrainian
+
+bulgarian
+israel israeli england english
+
+scottish
+israel israeli france french
+
+belgian
+israel israeli germany german
+
+austrian
+israel israeli greece greek
+
+bulgarian
+israel israeli india indian
+
+pakistani
+italy italian netherlands dutch
+
+swedish
+italy italian poland polish
+
+hungarian
+italy italian thailand thai
+
+indonesian
+italy italian austria austrian
+
+hungarian
+italy italian denmark danish
+
+swedish
+italy italian england english
+
+scottish
+italy italian greece greek
+
+romanian
+japan japanese netherlands dutch
+
+swedish
+japan japanese norway norwegian
+
+swedish
+japan japanese switzerland swiss
+
+finnish
+japan japanese ukraine ukrainian
+
+bulgarian
+japan japanese austria austrian
+
+hungarian
+japan japanese brazil brazilian
+
+spanish
+japan japanese croatia croatian
+
+serbian
+japan japanese denmark danish
+
+swedish
+japan japanese england english
+
+scottish
+japan japanese greece greek
+
+bulgarian
+korea korean netherlands dutch
+
+danish
+korea korean ukraine ukrainian
+
+romanian
+korea korean austria austrian
+
+hungarian
+korea korean england english
+
+scottish
+korea korean greece greek
+
+bulgarian
+mexico mexican netherlands dutch
+
+danish
+mexico mexican norway norwegian
+
+danish
+mexico mexican sweden swedish
+
+danish
+mexico mexican thailand thai
+
+malaysian
+mexico mexican ukraine ukrainian
+
+serbian
+mexico mexican england english
+
+scottish
+mexico mexican france french
+
+belgian
+mexico mexican germany german
+
+austrian
+mexico mexican greece greek
+
+bulgarian
+mexico mexican ireland irish
+
+scottish
+netherlands dutch thailand thai
+
+indonesian
+netherlands dutch ukraine ukrainian
+
+bulgarian
+netherlands dutch austria austrian
+
+german
+netherlands dutch brazil brazilian
+
+spanish
+netherlands dutch chile chilean
+
+spanish
+netherlands dutch croatia croatian
+
+bulgarian
+netherlands dutch england english
+
+irish
+norway norwegian thailand thai
+
+malaysian
+norway norwegian england english
+
+scottish
+norway norwegian greece greek
+
+bulgarian
+norway norwegian ireland irish
+
+scottish
+poland polish england english
+
+scottish
+poland polish greece greek
+
+bulgarian
+poland polish netherlands dutch
+
+swedish
+portugal portuguese switzerland swiss
+
+finnish
+portugal portuguese austria austrian
+
+hungarian
+portugal portuguese egypt egyptian
+
+persian
+portugal portuguese england english
+
+scottish
+russia russian thailand thai
+
+indonesian
+russia russian ukraine ukrainian
+
+romanian
+russia russian england english
+
+scottish
+russia russian greece greek
+
+bulgarian
+russia russian netherlands dutch
+
+swedish
+spain spanish ukraine ukrainian
+
+romanian
+spain spanish austria austrian
+
+hungarian
+spain spanish england english
+
+scottish
+spain spanish greece greek
+
+turkish
+sweden swedish thailand thai
+
+indonesian
+sweden swedish ukraine ukrainian
+
+romanian
+sweden swedish england english
+
+scottish
+sweden swedish greece greek
+
+bulgarian
+sweden swedish ireland irish
+
+scottish
+sweden swedish netherlands dutch
+
+danish
+switzerland swiss thailand thai
+
+malaysian
+switzerland swiss england english
+
+scottish
+switzerland swiss greece greek
+
+bulgarian
+switzerland swiss ireland irish
+
+scottish
+switzerland swiss netherlands dutch
+
+danish
+switzerland swiss spain spanish
+
+mexican
+thailand thai ukraine ukrainian
+
+romanian
+thailand thai austria austrian
+
+hungarian
+thailand thai brazil brazilian
+
+spanish
+thailand thai chile chilean
+
+spanish
+thailand thai england english
+
+scottish
+thailand thai greece greek
+
+bulgarian
+thailand thai netherlands dutch
+
+finnish
+thailand thai portugal portuguese
+
+spanish
+ukraine ukrainian austria austrian
+
+polish
+ukraine ukrainian denmark danish
+
+swedish
+ukraine ukrainian england english
+
+scottish
+ukraine ukrainian netherlands dutch
+
+swedish
+decreasing decreased describing described
+
+describes
+decreasing decreased feeding fed
+
+breeding
+decreasing decreased flying flew
+
+fly
+decreasing decreased going went
+
+coming
+decreasing decreased hitting hit
+
+handed
+decreasing decreased implementing implemented
+
+implementation
+decreasing decreased jumping jumped
+
+jump
+decreasing decreased knowing knew
+
+realizing
+decreasing decreased reading read
+
+bibliography
+decreasing decreased saying said
+
+stating
+decreasing decreased seeing saw
+
+feeling
+decreasing decreased selling sold
+
+sales
+decreasing decreased singing sang
+
+dancing
+decreasing decreased sitting sat
+
+seated
+decreasing decreased striking struck
+
+unusual
+decreasing decreased thinking thought
+
+mind
+decreasing decreased walking walked
+
+walk
+describing described falling fell
+
+dropped
+describing described feeding fed
+
+breeding
+describing described flying flew
+
+fly
+describing described generating generated
+
+generate
+describing described going went
+
+gone
+describing described jumping jumped
+
+jump
+describing described knowing knew
+
+realised
+describing described reading read
+
+published
+describing described running ran
+
+run
+describing described seeing saw
+
+realized
+describing described singing sang
+
+performed
+describing described sitting sat
+
+seated
+describing described striking struck
+
+spectacular
+describing described walking walked
+
+walk
+falling fell feeding fed
+
+breeding
+falling fell generating generated
+
+generate
+falling fell hitting hit
+
+threw
+falling fell implementing implemented
+
+implement
+falling fell jumping jumped
+
+jump
+falling fell knowing knew
+
+realizing
+falling fell reading read
+
+bibliography
+falling fell saying said
+
+stating
+falling fell selling sold
+
+sells
+falling fell sitting sat
+
+stood
+falling fell striking struck
+
+threw
+falling fell walking walked
+
+walk
+falling fell describing described
+
+describes
+feeding fed flying flew
+
+flown
+feeding fed going went
+
+gone
+feeding fed hitting hit
+
+struck
+feeding fed jumping jumped
+
+jump
+feeding fed knowing knew
+
+shocked
+feeding fed reading read
+
+translated
+feeding fed saying said
+
+stating
+feeding fed seeing saw
+
+telling
+feeding fed singing sang
+
+sing
+feeding fed sitting sat
+
+seated
+feeding fed spending spent
+
+debt
+feeding fed taking took
+
+taken
+feeding fed thinking thought
+
+ideas
+feeding fed walking walked
+
+walk
+feeding fed writing wrote
+
+poetry
+feeding fed describing described
+
+describe
+flying flew generating generated
+
+generate
+flying flew going went
+
+coming
+flying flew hitting hit
+
+threw
+flying flew implementing implemented
+
+implementation
+flying flew jumping jumped
+
+walked
+flying flew knowing knew
+
+realizing
+flying flew reading read
+
+text
+flying flew saying said
+
+stating
+flying flew seeing saw
+
+brings
+flying flew selling sold
+
+sells
+flying flew sitting sat
+
+walked
+flying flew striking struck
+
+threw
+flying flew thinking thought
+
+walked
+flying flew describing described
+
+describes
+flying flew feeding fed
+
+feeds
+generating generated going went
+
+taken
+generating generated hitting hit
+
+handed
+generating generated jumping jumped
+
+jump
+generating generated knowing knew
+
+realizes
+generating generated reading read
+
+drawn
+generating generated saying said
+
+stating
+generating generated seeing saw
+
+showing
+generating generated singing sang
+
+dancing
+generating generated sitting sat
+
+seated
+generating generated spending spent
+
+taxes
+generating generated taking took
+
+taken
+generating generated thinking thought
+
+attitude
+generating generated walking walked
+
+walk
+generating generated writing wrote
+
+read
+generating generated describing described
+
+detailing
+generating generated falling fell
+
+dropped
+generating generated feeding fed
+
+feed
+generating generated flying flew
+
+fly
+going went hitting hit
+
+threw
+going went implementing implemented
+
+implement
+going went jumping jumped
+
+jump
+going went knowing knew
+
+realizing
+going went reading read
+
+wrote
+going went saying said
+
+stating
+going went singing sang
+
+piano
+going went striking struck
+
+distinctive
+going went thinking thought
+
+ideas
+going went describing described
+
+describes
+going went feeding fed
+
+feed
+going went generating generated
+
+generate
+hitting hit implementing implemented
+
+implement
+hitting hit jumping jumped
+
+jump
+hitting hit knowing knew
+
+know
+hitting hit looking looked
+
+look
+hitting hit moving moved
+
+move
+hitting hit paying paid
+
+pay
+hitting hit reading read
+
+translation
+hitting hit running ran
+
+run
+hitting hit seeing saw
+
+baby
+hitting hit selling sold
+
+sales
+hitting hit singing sang
+
+sing
+hitting hit sitting sat
+
+seated
+hitting hit spending spent
+
+unemployment
+hitting hit striking struck
+
+distinctive
+hitting hit taking took
+
+take
+hitting hit walking walked
+
+walk
+hitting hit writing wrote
+
+write
+hitting hit describing described
+
+describe
+hitting hit falling fell
+
+fall
+hitting hit feeding fed
+
+feed
+hitting hit flying flew
+
+fly
+hitting hit going went
+
+come
+implementing implemented jumping jumped
+
+jump
+implementing implemented knowing knew
+
+realized
+implementing implemented running ran
+
+run
+implementing implemented seeing saw
+
+realized
+implementing implemented singing sang
+
+performed
+implementing implemented sitting sat
+
+seated
+implementing implemented taking took
+
+taken
+implementing implemented walking walked
+
+walk
+implementing implemented writing wrote
+
+read
+implementing implemented falling fell
+
+fallen
+implementing implemented feeding fed
+
+feed
+implementing implemented flying flew
+
+fly
+implementing implemented going went
+
+gone
+increasing increased jumping jumped
+
+jump
+increasing increased knowing knew
+
+realizing
+increasing increased reading read
+
+introduction
+increasing increased saying said
+
+stating
+increasing increased seeing saw
+
+watching
+increasing increased selling sold
+
+sales
+increasing increased singing sang
+
+dancing
+increasing increased sitting sat
+
+seated
+increasing increased striking struck
+
+unusual
+increasing increased walking walked
+
+walk
+increasing increased describing described
+
+describes
+increasing increased feeding fed
+
+breeding
+increasing increased flying flew
+
+fly
+increasing increased hitting hit
+
+handed
+increasing increased implementing implemented
+
+implementation
+jumping jumped knowing knew
+
+realizing
+jumping jumped reading read
+
+rushed
+jumping jumped saying said
+
+answered
+jumping jumped seeing saw
+
+realizing
+jumping jumped sitting sat
+
+walked
+jumping jumped striking struck
+
+rushed
+jumping jumped taking took
+
+coming
+jumping jumped thinking thought
+
+walked
+jumping jumped writing wrote
+
+rushed
+jumping jumped decreasing decreased
+
+risen
+jumping jumped describing described
+
+describes
+jumping jumped feeding fed
+
+captive
+jumping jumped going went
+
+coming
+jumping jumped hitting hit
+
+kicked
+jumping jumped implementing implemented
+
+drafted
+knowing knew moving moved
+
+move
+knowing knew reading read
+
+wrote
+knowing knew seeing saw
+
+noticed
+knowing knew selling sold
+
+sales
+knowing knew singing sang
+
+chorus
+knowing knew sitting sat
+
+seated
+knowing knew striking struck
+
+brilliant
+knowing knew walking walked
+
+walk
+knowing knew describing described
+
+describes
+knowing knew falling fell
+
+fall
+knowing knew feeding fed
+
+breeding
+knowing knew flying flew
+
+fly
+knowing knew generating generated
+
+boom
+knowing knew going went
+
+gone
+knowing knew implementing implemented
+
+implementation
+knowing knew jumping jumped
+
+jump
+looking looked reading read
+
+wrote
+looking looked saying said
+
+stating
+looking looked seeing saw
+
+realized
+looking looked sitting sat
+
+stood
+looking looked describing described
+
+describes
+looking looked feeding fed
+
+breeding
+looking looked hitting hit
+
+batted
+looking looked implementing implemented
+
+implementation
+looking looked jumping jumped
+
+swim
+looking looked knowing knew
+
+feels
+moving moved reading read
+
+bibliography
+moving moved saying said
+
+stating
+moving moved seeing saw
+
+realizing
+moving moved thinking thought
+
+ideas
+moving moved describing described
+
+describes
+moving moved feeding fed
+
+breeding
+moving moved generating generated
+
+generate
+moving moved hitting hit
+
+threw
+moving moved implementing implemented
+
+implement
+moving moved jumping jumped
+
+jump
+moving moved knowing knew
+
+realizing
+paying paid reading read
+
+translated
+paying paid seeing saw
+
+realized
+paying paid singing sang
+
+performed
+paying paid sitting sat
+
+seated
+paying paid striking struck
+
+spectacular
+paying paid taking took
+
+taken
+paying paid walking walked
+
+walk
+paying paid falling fell
+
+fallen
+paying paid feeding fed
+
+feed
+paying paid flying flew
+
+fly
+paying paid hitting hit
+
+handed
+paying paid jumping jumped
+
+jump
+paying paid knowing knew
+
+knows
+playing played reading read
+
+edited
+playing played seeing saw
+
+sees
+playing played singing sang
+
+performed
+playing played sitting sat
+
+seated
+playing played spending spent
+
+deficit
+playing played walking walked
+
+walk
+playing played describing described
+
+describes
+playing played feeding fed
+
+feed
+playing played going went
+
+came
+playing played jumping jumped
+
+jump
+playing played knowing knew
+
+knows
+reading read running ran
+
+run
+reading read saying said
+
+stating
+reading read seeing saw
+
+think
+reading read selling sold
+
+sell
+reading read singing sang
+
+sing
+reading read sitting sat
+
+sit
+reading read spending spent
+
+spend
+reading read taking took
+
+take
+reading read thinking thought
+
+think
+reading read walking walked
+
+walk
+reading read writing wrote
+
+write
+reading read decreasing decreased
+
+decrease
+reading read describing described
+
+describe
+reading read falling fell
+
+fallen
+reading read feeding fed
+
+feed
+reading read flying flew
+
+fly
+reading read generating generated
+
+generate
+reading read going went
+
+come
+reading read implementing implemented
+
+implement
+reading read jumping jumped
+
+jump
+reading read knowing knew
+
+knows
+reading read moving moved
+
+move
+running ran saying said
+
+stating
+running ran thinking thought
+
+ideas
+running ran describing described
+
+describes
+running ran feeding fed
+
+diet
+running ran hitting hit
+
+struck
+running ran implementing implemented
+
+implement
+running ran jumping jumped
+
+jump
+running ran knowing knew
+
+realizing
+running ran reading read
+
+published
+saying said seeing saw
+
+realized
+saying said selling sold
+
+sales
+saying said singing sang
+
+dancing
+saying said sitting sat
+
+seated
+saying said striking struck
+
+spectacular
+saying said walking walked
+
+walk
+saying said describing described
+
+describes
+saying said falling fell
+
+fallen
+saying said feeding fed
+
+breeding
+saying said flying flew
+
+flight
+saying said generating generated
+
+generate
+saying said going went
+
+did
+saying said hitting hit
+
+batting
+saying said implementing implemented
+
+implementation
+saying said jumping jumped
+
+jump
+saying said reading read
+
+bibliography
+saying said running ran
+
+run
+seeing saw selling sold
+
+sales
+seeing saw sitting sat
+
+bench
+seeing saw striking struck
+
+spectacular
+seeing saw thinking thought
+
+ideas
+seeing saw walking walked
+
+bicycle
+seeing saw describing described
+
+describes
+seeing saw feeding fed
+
+breeding
+seeing saw flying flew
+
+jet
+seeing saw generating generated
+
+generate
+seeing saw going went
+
+came
+seeing saw implementing implemented
+
+implement
+seeing saw jumping jumped
+
+jump
+seeing saw knowing knew
+
+proves
+seeing saw reading read
+
+oxford
+seeing saw saying said
+
+resulted
+selling sold singing sang
+
+piano
+selling sold sitting sat
+
+seated
+selling sold taking took
+
+taken
+selling sold thinking thought
+
+ideas
+selling sold walking walked
+
+walk
+selling sold describing described
+
+describes
+selling sold falling fell
+
+broken
+selling sold feeding fed
+
+feed
+selling sold going went
+
+gone
+selling sold hitting hit
+
+struck
+selling sold jumping jumped
+
+swim
+selling sold knowing knew
+
+realizes
+selling sold reading read
+
+translated
+selling sold seeing saw
+
+realized
+singing sang sitting sat
+
+hung
+singing sang spending spent
+
+deficit
+singing sang thinking thought
+
+principles
+singing sang describing described
+
+describes
+singing sang feeding fed
+
+breeding
+singing sang going went
+
+came
+singing sang hitting hit
+
+batted
+singing sang implementing implemented
+
+implementation
+singing sang jumping jumped
+
+freestyle
+singing sang knowing knew
+
+knows
+singing sang paying paid
+
+pays
+singing sang reading read
+
+translated
+singing sang saying said
+
+stating
+singing sang seeing saw
+
+feels
+singing sang selling sold
+
+sells
+sitting sat thinking thought
+
+ideas
+sitting sat walking walked
+
+walk
+sitting sat describing described
+
+describes
+sitting sat falling fell
+
+dropped
+sitting sat feeding fed
+
+feed
+sitting sat generating generated
+
+generate
+sitting sat hitting hit
+
+scored
+sitting sat jumping jumped
+
+jump
+sitting sat knowing knew
+
+realizing
+sitting sat reading read
+
+pg
+sitting sat saying said
+
+stating
+sitting sat seeing saw
+
+knowing
+spending spent walking walked
+
+walk
+spending spent describing described
+
+describes
+spending spent feeding fed
+
+feed
+spending spent generating generated
+
+generator
+spending spent hitting hit
+
+threw
+spending spent implementing implemented
+
+solving
+spending spent jumping jumped
+
+jump
+spending spent reading read
+
+bibliography
+spending spent singing sang
+
+performing
+spending spent sitting sat
+
+seated
+striking struck taking took
+
+leaving
+striking struck thinking thought
+
+mind
+striking struck walking walked
+
+walk
+striking struck writing wrote
+
+poetry
+striking struck describing described
+
+describes
+striking struck feeding fed
+
+feed
+striking struck flying flew
+
+flown
+striking struck going went
+
+gone
+striking struck implementing implemented
+
+implementation
+striking struck jumping jumped
+
+jump
+striking struck knowing knew
+
+realizing
+striking struck reading read
+
+translated
+striking struck saying said
+
+stating
+striking struck seeing saw
+
+realizing
+striking struck singing sang
+
+performed
+taking took thinking thought
+
+ideas
+taking took walking walked
+
+walk
+taking took describing described
+
+describes
+taking took feeding fed
+
+feed
+taking took going went
+
+came
+taking took hitting hit
+
+threw
+taking took implementing implemented
+
+implement
+taking took jumping jumped
+
+jump
+taking took knowing knew
+
+thinks
+taking took reading read
+
+started
+taking took sitting sat
+
+seated
+taking took striking struck
+
+subtle
+thinking thought walking walked
+
+believed
+thinking thought decreasing decreased
+
+decrease
+thinking thought feeding fed
+
+breeding
+thinking thought flying flew
+
+flight
+thinking thought going went
+
+did
+thinking thought hitting hit
+
+claimed
+thinking thought implementing implemented
+
+believed
+thinking thought jumping jumped
+
+jump
+thinking thought knowing knew
+
+believed
+thinking thought looking looked
+
+believed
+thinking thought reading read
+
+believed
+thinking thought seeing saw
+
+believed
+thinking thought selling sold
+
+believed
+thinking thought singing sang
+
+chorus
+thinking thought sitting sat
+
+seated
+thinking thought striking struck
+
+believed
+thinking thought taking took
+
+claimed
+walking walked writing wrote
+
+work
+walking walked describing described
+
+recalls
+walking walked falling fell
+
+jumped
+walking walked feeding fed
+
+feeds
+walking walked going went
+
+coming
+walking walked hitting hit
+
+threw
+walking walked implementing implemented
+
+implementation
+walking walked knowing knew
+
+realizes
+walking walked reading read
+
+text
+walking walked saying said
+
+stating
+walking walked seeing saw
+
+realizing
+walking walked taking took
+
+threw
+walking walked thinking thought
+
+thinks
+writing wrote decreasing decreased
+
+increases
+writing wrote describing described
+
+describes
+writing wrote feeding fed
+
+feed
+writing wrote generating generated
+
+generate
+writing wrote going went
+
+came
+writing wrote implementing implemented
+
+implement
+writing wrote jumping jumped
+
+jump
+writing wrote knowing knew
+
+knows
+writing wrote reading read
+
+published
+writing wrote seeing saw
+
+says
+writing wrote sitting sat
+
+seated
+writing wrote striking struck
+
+spectacular
+writing wrote walking walked
+
+walk
+bird birds cat cats
+
+rat
+bird birds color colors
+
+colour
+bird birds eagle eagles
+
+hawk
+bird birds lion lions
+
+elephant
+building buildings cat cats
+
+dog
+building buildings eagle eagles
+
+hawk
+building buildings lion lions
+
+elephant
+building buildings man men
+
+woman
+building buildings mouse mice
+
+rabbit
+building buildings woman women
+
+girl
+car cars cat cats
+
+rabbit
+car cars eagle eagles
+
+hawk
+car cars lion lions
+
+elephant
+car cars mouse mice
+
+rabbit
+cat cats eagle eagles
+
+hawks
+cat cats eye eyes
+
+wings
+cat cats hand hands
+
+blades
+cat cats lion lions
+
+wolves
+cat cats man men
+
+dogs
+cat cats woman women
+
+mothers
+child children dog dogs
+
+cat
+child children eagle eagles
+
+hawk
+child children eye eyes
+
+ear
+child children lion lions
+
+eagle
+child children mouse mice
+
+rabbit
+child children cat cats
+
+dog
+cloud clouds color colors
+
+colour
+cloud clouds eagle eagles
+
+hawk
+cloud clouds lion lions
+
+elephant
+cloud clouds man men
+
+woman
+cloud clouds woman women
+
+girl
+cloud clouds cat cats
+
+rabbit
+color colors eagle eagles
+
+hawk
+color colors lion lions
+
+elephant
+color colors man men
+
+boy
+color colors mouse mice
+
+rabbit
+color colors rat rats
+
+monkey
+color colors woman women
+
+girl
+color colors cat cats
+
+dog
+computer computers eagle eagles
+
+hawk
+computer computers eye eyes
+
+ear
+computer computers hand hands
+
+arm
+computer computers lion lions
+
+eagle
+computer computers man men
+
+boy
+computer computers road roads
+
+highway
+computer computers woman women
+
+girl
+computer computers cat cats
+
+dog
+dog dogs eagle eagles
+
+hawk
+dog dogs hand hands
+
+horses
+dog dogs lion lions
+
+cats
+dog dogs mouse mice
+
+rats
+dollar dollars eagle eagles
+
+hawk
+dollar dollars lion lions
+
+elephant
+dollar dollars man men
+
+woman
+dollar dollars road roads
+
+highway
+dollar dollars woman women
+
+man
+dollar dollars cat cats
+
+dog
+dollar dollars color colors
+
+colour
+dollar dollars dog dogs
+
+cat
+dream dreams eagle eagles
+
+hawk
+dream dreams lion lions
+
+elephant
+dream dreams man men
+
+woman
+dream dreams mouse mice
+
+rabbit
+dream dreams road roads
+
+highway
+dream dreams woman women
+
+person
+dream dreams cat cats
+
+rabbit
+dream dreams color colors
+
+colour
+eagle eagles eye eyes
+
+tigers
+eagle eagles finger fingers
+
+tigers
+eagle eagles hand hands
+
+tigers
+eagle eagles horse horses
+
+lions
+eagle eagles machine machines
+
+tigers
+eagle eagles man men
+
+tigers
+eagle eagles mouse mice
+
+tigers
+eagle eagles rat rats
+
+tigers
+eagle eagles road roads
+
+tigers
+eagle eagles woman women
+
+tigers
+eagle eagles bird birds
+
+tigers
+eagle eagles car cars
+
+cowboys
+eagle eagles cat cats
+
+lions
+eagle eagles child children
+
+panthers
+eagle eagles cloud clouds
+
+raiders
+eagle eagles color colors
+
+panthers
+eagle eagles computer computers
+
+raiders
+eagle eagles dog dogs
+
+lions
+eagle eagles dollar dollars
+
+tigers
+eye eyes lion lions
+
+elephant
+eye eyes man men
+
+girl
+eye eyes mouse mice
+
+frog
+eye eyes rat rats
+
+frog
+eye eyes road roads
+
+highway
+eye eyes woman women
+
+girl
+eye eyes cat cats
+
+dog
+eye eyes child children
+
+daughter
+eye eyes dog dogs
+
+cat
+eye eyes eagle eagles
+
+hawk
+finger fingers lion lions
+
+elephant
+finger fingers man men
+
+boy
+finger fingers road roads
+
+street
+finger fingers woman women
+
+girl
+finger fingers cat cats
+
+rat
+finger fingers color colors
+
+colour
+finger fingers eagle eagles
+
+hawk
+hand hands lion lions
+
+elephant
+hand hands man men
+
+boy
+hand hands mouse mice
+
+rabbit
+hand hands woman women
+
+girl
+hand hands cat cats
+
+dog
+hand hands dog dogs
+
+cat
+hand hands eagle eagles
+
+hawk
+horse horses lion lions
+
+cats
+horse horses man men
+
+woman
+horse horses woman women
+
+girl
+horse horses cat cats
+
+dogs
+horse horses eagle eagles
+
+hawk
+lion lions man men
+
+tigers
+lion lions mouse mice
+
+tigers
+lion lions rat rats
+
+tigers
+lion lions woman women
+
+panthers
+lion lions bird birds
+
+eagles
+lion lions cat cats
+
+tigers
+lion lions child children
+
+panthers
+lion lions cloud clouds
+
+jets
+lion lions color colors
+
+colour
+lion lions dog dogs
+
+eagles
+lion lions eye eyes
+
+rays
+lion lions finger fingers
+
+reds
+lion lions hand hands
+
+tigers
+lion lions horse horses
+
+tigers
+machine machines man men
+
+woman
+machine machines cat cats
+
+rabbit
+machine machines eagle eagles
+
+hawk
+machine machines lion lions
+
+eagle
+man men road roads
+
+street
+man men cat cats
+
+adult
+man men eagle eagles
+
+hawk
+man men eye eyes
+
+ear
+man men hand hands
+
+advance
+man men lion lions
+
+eagle
+mouse mice cat cats
+
+dogs
+mouse mice color colors
+
+colour
+mouse mice eagle eagles
+
+hawk
+mouse mice eye eyes
+
+skin
+mouse mice lion lions
+
+dogs
+rat rats road roads
+
+street
+rat rats cat cats
+
+dogs
+rat rats eagle eagles
+
+hawk
+rat rats lion lions
+
+cats
+road roads woman women
+
+person
+road roads cat cats
+
+dog
+road roads eagle eagles
+
+hawk
+road roads lion lions
+
+elephant
+road roads man men
+
+woman
+road roads mouse mice
+
+rabbit
+woman women cat cats
+
+rabbit
+woman women color colors
+
+colour
+woman women eagle eagles
+
+hawk
+woman women eye eyes
+
+ear
+woman women hand hands
+
+stick
+woman women horse horses
+
+men
+woman women lion lions
+
+tiger
+woman women road roads
+
+park
+describe describes see sees
+
+references
+describe describes sing sings
+
+sang
+describe describes talk talks
+
+news
+describe describes think thinks
+
+says
+describe describes walk walks
+
+walking
+estimate estimates go goes
+
+come
+estimate estimates increase increases
+
+increased
+estimate estimates provide provides
+
+provided
+estimate estimates say says
+
+know
+estimate estimates see sees
+
+references
+estimate estimates sing sings
+
+sang
+estimate estimates sit sits
+
+stand
+estimate estimates talk talks
+
+broadcasts
+estimate estimates think thinks
+
+why
+estimate estimates walk walks
+
+walking
+estimate estimates write writes
+
+read
+find finds see sees
+
+references
+find finds sing sings
+
+sang
+find finds talk talks
+
+syndicated
+go goes see sees
+
+references
+go goes talk talks
+
+airs
+go goes think thinks
+
+knows
+go goes write writes
+
+reads
+increase increases play plays
+
+played
+increase increases say says
+
+know
+increase increases see sees
+
+references
+increase increases sing sings
+
+sang
+increase increases talk talks
+
+am
+increase increases think thinks
+
+say
+increase increases walk walks
+
+walking
+increase increases write writes
+
+read
+play plays see sees
+
+references
+play plays sing sings
+
+sang
+play plays talk talks
+
+airs
+play plays think thinks
+
+says
+play plays write writes
+
+publish
+provide provides see sees
+
+references
+provide provides sing sings
+
+sang
+provide provides talk talks
+
+news
+provide provides think thinks
+
+says
+provide provides walk walks
+
+walking
+provide provides write writes
+
+read
+say says see sees
+
+references
+say says sing sings
+
+sang
+say says talk talks
+
+news
+say says think thinks
+
+saying
+see sees talk talks
+
+morning
+see sees work works
+
+arrives
+see sees write writes
+
+sends
+see sees describe describes
+
+identifies
+see sees estimate estimates
+
+informs
+see sees provide provides
+
+brings
+see sees say says
+
+knows
+sing sings talk talks
+
+syndicated
+sing sings say says
+
+knows
+sing sings see sees
+
+references
+sit sits talk talks
+
+news
+sit sits think thinks
+
+looks
+sit sits write writes
+
+reads
+sit sits see sees
+
+references
+speak speaks talk talks
+
+airs
+speak speaks think thinks
+
+knows
+speak speaks write writes
+
+reads
+speak speaks see sees
+
+references
+talk talks think thinks
+
+knew
+talk talks write writes
+
+negotiations
+talk talks go goes
+
+travels
+talk talks play plays
+
+negotiations
+talk talks say says
+
+knew
+talk talks see sees
+
+references
+talk talks sing sings
+
+sang
+talk talks sit sits
+
+negotiations
+think thinks write writes
+
+learns
+think thinks describe describes
+
+explains
+think thinks estimate estimates
+
+learns
+think thinks find finds
+
+discovers
+think thinks go goes
+
+arrives
+think thinks say says
+
+realizes
+think thinks see sees
+
+realizes
+think thinks sit sits
+
+confronts
+think thinks talk talks
+
+confronts
+walk walks say says
+
+knows
+walk walks see sees
+
+references
+walk walks sing sings
+
+sang
+walk walks talk talks
+
+news
+work works write writes
+
+publish
+work works describe describes
+
+relate
+work works go goes
+
+come
+work works say says
+
+know
+work works see sees
+
+references
+work works sing sings
+
+sang
+work works sit sits
+
+stand
+work works talk talks
+
+broadcasts
+work works think thinks
+
+know
+work works walk walks
+
+walking
+write writes play plays
+
+played
+write writes see sees
+
+references
+write writes talk talks
+
+news
+write writes think thinks
+
+says

@@ -1,2952 +1,15 @@
-athens greece madrid spain
-
-spain
-bangkok thailand madrid spain
-
-spain
-beijing china berlin germany
-
-germany
-beijing china madrid spain
-
-spain
-berlin germany madrid spain
-
-spain
-berlin germany moscow russia
-
-russia
-cairo egypt oslo norway
-
-norway
-cairo egypt ottawa canada
-
-canada
-cairo egypt stockholm sweden
-
-sweden
-helsinki finland stockholm sweden
-
-sweden
-madrid spain moscow russia
-
-russia
-madrid spain oslo norway
-
-norway
-madrid spain bangkok thailand
-
-thailand
-moscow russia madrid spain
-
-spain
-oslo norway stockholm sweden
-
-sweden
-oslo norway madrid spain
-
-spain
-ottawa canada paris france
-
-france
-ottawa canada berlin germany
-
-germany
-ottawa canada canberra australia
-
-australia
-ottawa canada oslo norway
-
-norway
-paris france rome italy
-
-italy
-paris france moscow russia
-
-russia
-paris france ottawa canada
-
-canada
-rome italy madrid spain
-
-spain
-stockholm sweden berlin germany
-
-germany
-stockholm sweden cairo egypt
-
-egypt
-stockholm sweden helsinki finland
-
-finland
-stockholm sweden madrid spain
-
-spain
-stockholm sweden moscow russia
-
-russia
-stockholm sweden paris france
-
-france
-tokyo japan berlin germany
-
-germany
-tokyo japan madrid spain
-
-spain
-beijing china berlin germany
-
-germany
-belgrade serbia berlin germany
-
-germany
-berlin germany kiev ukraine
-
-ukraine
-brussels belgium lisbon portugal
-
-portugal
-budapest hungary lisbon portugal
-
-portugal
-budapest hungary madrid spain
-
-spain
-cairo egypt copenhagen denmark
-
-denmark
-cairo egypt kiev ukraine
-
-ukraine
-canberra australia copenhagen denmark
-
-denmark
-copenhagen denmark kiev ukraine
-
-ukraine
-copenhagen denmark madrid spain
-
-spain
-dublin ireland moscow russia
-
-russia
-kiev ukraine madrid spain
-
-spain
-kiev ukraine moscow russia
-
-russia
-kingston jamaica santiago chile
-
-chile
-lisbon portugal madrid spain
-
-spain
-lisbon portugal paris france
-
-france
-madrid spain moscow russia
-
-russia
-madrid spain oslo norway
-
-norway
-moscow russia santiago chile
-
-chile
-moscow russia warsaw poland
-
-poland
-oslo norway stockholm sweden
-
-sweden
-oslo norway warsaw poland
-
-poland
-ottawa canada paris france
-
-france
-ottawa canada warsaw poland
-
-poland
-paris france rome italy
-
-italy
-paris france warsaw poland
-
-poland
-rome italy santiago chile
-
-chile
-santiago chile warsaw poland
-
-poland
-sofia bulgaria warsaw poland
-
-poland
-stockholm sweden warsaw poland
-
-poland
-tokyo japan warsaw poland
-
-poland
-tokyo japan berlin germany
-
-germany
-vienna austria warsaw poland
-
-poland
-vienna austria berlin germany
-
-germany
-chicago illinois cleveland ohio
-
-ohio
-chicago illinois cincinnati ohio
-
-ohio
-phoenix arizona cleveland ohio
-
-ohio
-phoenix arizona minneapolis minnesota
-
-minnesota
-dallas texas tampa florida
-
-florida
-dallas texas orlando florida
-
-florida
-indianapolis indiana cincinnati ohio
-
-ohio
-detroit michigan milwaukee wisconsin
-
-wisconsin
-detroit michigan minneapolis minnesota
-
-minnesota
-detroit michigan madison wisconsin
-
-wisconsin
-memphis tennessee portland oregon
-
-oregon
-memphis tennessee minneapolis minnesota
-
-minnesota
-boston massachusetts milwaukee wisconsin
-
-wisconsin
-boston massachusetts madison wisconsin
-
-wisconsin
-baltimore maryland henderson nevada
-
-nevada
-nashville tennessee louisville kentucky
-
-kentucky
-nashville tennessee minneapolis minnesota
-
-minnesota
-nashville tennessee lexington kentucky
-
-kentucky
-louisville kentucky cincinnati ohio
-
-ohio
-mesa arizona minneapolis minnesota
-
-minnesota
-oakland california tampa florida
-
-florida
-tampa florida houston texas
-
-texas
-cincinnati ohio henderson nevada
-
-nevada
-henderson nevada chandler arizona
-
-arizona
-henderson nevada phoenix arizona
-
-arizona
-madison wisconsin worcester massachusetts
-
-massachusetts
-boy girl he she
-
-she
-boy girl his her
-
-her
-boy girl husband wife
-
-wife
-boy girl king queen
-
-queen
-boy girl man woman
-
-woman
-boy girl son daughter
-
-daughter
-brother sister brothers sisters
-
-sisters
-brother sister father mother
-
-mother
-brother sister he she
-
-she
-brother sister his her
-
-her
-brother sister husband wife
-
-wife
-brother sister king queen
-
-queen
-brother sister man woman
-
-woman
-brother sister son daughter
-
-daughter
-brother sister boy girl
-
-girl
-brothers sisters he she
-
-she
-brothers sisters his her
-
-her
-brothers sisters man woman
-
-woman
-brothers sisters nephew niece
-
-niece
-brothers sisters son daughter
-
-daughter
-father mother grandson granddaughter
-
-granddaughter
-father mother he she
-
-she
-father mother his her
-
-her
-father mother husband wife
-
-wife
-father mother king queen
-
-queen
-father mother man woman
-
-woman
-father mother prince princess
-
-princess
-father mother son daughter
-
-daughter
-father mother sons daughters
-
-daughters
-father mother boy girl
-
-girl
-grandfather grandmother he she
-
-she
-grandfather grandmother his her
-
-her
-grandfather grandmother uncle aunt
-
-aunt
-grandfather grandmother brothers sisters
-
-sisters
-grandfather grandmother father mother
-
-mother
-grandson granddaughter he she
-
-she
-grandson granddaughter his her
-
-her
-grandson granddaughter king queen
-
-queen
-grandson granddaughter man woman
-
-woman
-grandson granddaughter nephew niece
-
-niece
-grandson granddaughter boy girl
-
-girl
-grandson granddaughter father mother
-
-mother
-he she his her
-
-her
-he she husband wife
-
-wife
-he she king queen
-
-queen
-he she man woman
-
-woman
-he she prince princess
-
-princess
-he she boy girl
-
-girl
-he she father mother
-
-mother
-his her husband wife
-
-wife
-his her king queen
-
-queen
-his her man woman
-
-woman
-his her boy girl
-
-girl
-his her father mother
-
-mother
-his her he she
-
-she
-husband wife king queen
-
-queen
-husband wife man woman
-
-woman
-husband wife son daughter
-
-daughter
-husband wife father mother
-
-mother
-husband wife he she
-
-she
-husband wife his her
-
-her
-king queen man woman
-
-woman
-king queen boy girl
-
-girl
-king queen father mother
-
-mother
-king queen he she
-
-she
-king queen his her
-
-her
-king queen husband wife
-
-wife
-man woman son daughter
-
-daughter
-man woman boy girl
-
-girl
-man woman he she
-
-she
-man woman his her
-
-her
-man woman husband wife
-
-wife
-nephew niece son daughter
-
-daughter
-nephew niece brothers sisters
-
-sisters
-nephew niece father mother
-
-mother
-nephew niece he she
-
-she
-nephew niece his her
-
-her
-nephew niece husband wife
-
-wife
-nephew niece man woman
-
-woman
-prince princess son daughter
-
-daughter
-prince princess sons daughters
-
-daughters
-prince princess he she
-
-she
-prince princess his her
-
-her
-prince princess husband wife
-
-wife
-prince princess king queen
-
-queen
-prince princess man woman
-
-woman
-son daughter sons daughters
-
-daughters
-son daughter uncle aunt
-
-aunt
-son daughter brothers sisters
-
-sisters
-son daughter father mother
-
-mother
-son daughter he she
-
-she
-son daughter his her
-
-her
-son daughter husband wife
-
-wife
-son daughter king queen
-
-queen
-son daughter man woman
-
-woman
-sons daughters boy girl
-
-girl
-sons daughters father mother
-
-mother
-sons daughters he she
-
-she
-sons daughters his her
-
-her
-sons daughters husband wife
-
-wife
-sons daughters man woman
-
-woman
-sons daughters prince princess
-
-princess
-sons daughters son daughter
-
-daughter
-uncle aunt grandfather grandmother
-
-grandmother
-uncle aunt he she
-
-she
-uncle aunt his her
-
-her
-uncle aunt husband wife
-
-wife
-uncle aunt king queen
-
-queen
-uncle aunt son daughter
-
-daughter
-apparent apparently precise precisely
-
-precisely
-free freely occasional occasionally
-
-occasionally
-free freely typical typically
-
-typically
-immediate immediately quick quickly
-
-quickly
-immediate immediately typical typically
-
-typically
-possible possibly occasional occasionally
-
-occasionally
-professional professionally occasional occasionally
-
-occasionally
-professional professionally precise precisely
-
-precisely
-rapid rapidly slow slowly
-
-slowly
-rare rarely typical typically
-
-typically
-rare rarely occasional occasionally
-
-occasionally
-safe safely typical typically
-
-typically
-slow slowly rapid rapidly
-
-rapidly
-sudden suddenly serious seriously
-
-seriously
-typical typically occasional occasionally
-
-occasionally
-usual usually typical typically
-
-typically
-clear unclear likely unlikely
-
-unlikely
-bad worse cheap cheaper
-
-cheaper
-bad worse easy easier
-
-easier
-bad worse hard harder
-
-harder
-bad worse heavy heavier
-
-heavier
-bad worse long longer
-
-longer
-bad worse strong stronger
-
-stronger
-big bigger cheap cheaper
-
-cheaper
-big bigger deep deeper
-
-deeper
-big bigger easy easier
-
-easier
-big bigger heavy heavier
-
-heavier
-big bigger small smaller
-
-smaller
-big bigger strong stronger
-
-stronger
-big bigger young younger
-
-younger
-cheap cheaper deep deeper
-
-deeper
-cheap cheaper easy easier
-
-easier
-cheap cheaper heavy heavier
-
-heavier
-cheap cheaper large larger
-
-larger
-cheap cheaper long longer
-
-longer
-cheap cheaper small smaller
-
-smaller
-cheap cheaper strong stronger
-
-stronger
-cheap cheaper wide wider
-
-wider
-cheap cheaper young younger
-
-younger
-deep deeper easy easier
-
-easier
-deep deeper fast faster
-
-faster
-deep deeper great greater
-
-greater
-deep deeper heavy heavier
-
-heavier
-deep deeper large larger
-
-larger
-deep deeper low lower
-
-lower
-deep deeper short shorter
-
-shorter
-deep deeper strong stronger
-
-stronger
-deep deeper wide wider
-
-wider
-deep deeper cheap cheaper
-
-cheaper
-easy easier hard harder
-
-harder
-easy easier heavy heavier
-
-heavier
-easy easier large larger
-
-larger
-easy easier strong stronger
-
-stronger
-easy easier wide wider
-
-wider
-easy easier cheap cheaper
-
-cheaper
-fast faster hard harder
-
-harder
-fast faster heavy heavier
-
-heavier
-fast faster strong stronger
-
-stronger
-fast faster cheap cheaper
-
-cheaper
-fast faster deep deeper
-
-deeper
-fast faster easy easier
-
-easier
-good better large larger
-
-larger
-good better cheap cheaper
-
-cheaper
-great greater large larger
-
-larger
-great greater wide wider
-
-wider
-great greater young younger
-
-younger
-great greater easy easier
-
-easier
-great greater good better
-
-better
-hard harder heavy heavier
-
-heavier
-hard harder large larger
-
-larger
-hard harder strong stronger
-
-stronger
-hard harder young younger
-
-younger
-hard harder cheap cheaper
-
-cheaper
-hard harder easy easier
-
-easier
-heavy heavier short shorter
-
-shorter
-heavy heavier small smaller
-
-smaller
-heavy heavier strong stronger
-
-stronger
-heavy heavier young younger
-
-younger
-heavy heavier cheap cheaper
-
-cheaper
-heavy heavier deep deeper
-
-deeper
-heavy heavier easy easier
-
-easier
-high higher large larger
-
-larger
-high higher short shorter
-
-shorter
-high higher small smaller
-
-smaller
-high higher strong stronger
-
-stronger
-high higher young younger
-
-younger
-high higher cheap cheaper
-
-cheaper
-large larger short shorter
-
-shorter
-large larger small smaller
-
-smaller
-large larger strong stronger
-
-stronger
-large larger wide wider
-
-wider
-large larger young younger
-
-younger
-large larger big bigger
-
-bigger
-large larger cheap cheaper
-
-cheaper
-large larger deep deeper
-
-deeper
-large larger great greater
-
-greater
-large larger heavy heavier
-
-heavier
-long longer cheap cheaper
-
-cheaper
-low lower strong stronger
-
-stronger
-low lower cheap cheaper
-
-cheaper
-low lower heavy heavier
-
-heavier
-low lower large larger
-
-larger
-new newer old older
-
-older
-new newer short shorter
-
-shorter
-new newer small smaller
-
-smaller
-new newer cheap cheaper
-
-cheaper
-new newer large larger
-
-larger
-new newer long longer
-
-longer
-old older small smaller
-
-smaller
-old older young younger
-
-younger
-old older cheap cheaper
-
-cheaper
-old older new newer
-
-newer
-short shorter small smaller
-
-smaller
-short shorter strong stronger
-
-stronger
-short shorter young younger
-
-younger
-short shorter cheap cheaper
-
-cheaper
-short shorter heavy heavier
-
-heavier
-short shorter large larger
-
-larger
-short shorter long longer
-
-longer
-simple simpler small smaller
-
-smaller
-simple simpler strong stronger
-
-stronger
-simple simpler wide wider
-
-wider
-simple simpler young younger
-
-younger
-simple simpler cheap cheaper
-
-cheaper
-simple simpler deep deeper
-
-deeper
-simple simpler easy easier
-
-easier
-simple simpler hard harder
-
-harder
-simple simpler heavy heavier
-
-heavier
-simple simpler large larger
-
-larger
-slow slower cheap cheaper
-
-cheaper
-slow slower deep deeper
-
-deeper
-slow slower fast faster
-
-faster
-slow slower heavy heavier
-
-heavier
-slow slower large larger
-
-larger
-small smaller strong stronger
-
-stronger
-small smaller young younger
-
-younger
-small smaller cheap cheaper
-
-cheaper
-small smaller deep deeper
-
-deeper
-small smaller easy easier
-
-easier
-small smaller heavy heavier
-
-heavier
-small smaller large larger
-
-larger
-small smaller short shorter
-
-shorter
-strong stronger wide wider
-
-wider
-strong stronger young younger
-
-younger
-strong stronger cheap cheaper
-
-cheaper
-strong stronger deep deeper
-
-deeper
-strong stronger easy easier
-
-easier
-strong stronger large larger
-
-larger
-strong stronger low lower
-
-lower
-strong stronger small smaller
-
-smaller
-wide wider cheap cheaper
-
-cheaper
-wide wider large larger
-
-larger
-young younger big bigger
-
-bigger
-young younger cheap cheaper
-
-cheaper
-young younger deep deeper
-
-deeper
-young younger easy easier
-
-easier
-young younger short shorter
-
-shorter
-young younger small smaller
-
-smaller
-bad worst high highest
-
-highest
-bad worst long longest
-
-longest
-big biggest high highest
-
-highest
-big biggest large largest
-
-largest
-fast fastest high highest
-
-highest
-high highest large largest
-
-largest
-high highest low lowest
-
-lowest
-large largest long longest
-
-longest
-large largest tall tallest
-
-tallest
-large largest high highest
-
-highest
-long longest tall tallest
-
-tallest
-long longest bad worst
-
-worst
-long longest high highest
-
-highest
-long longest large largest
-
-largest
-low lowest strong strongest
-
-strongest
-low lowest high highest
-
-highest
-old oldest long longest
-
-longest
-small smallest low lowest
-
-lowest
-tall tallest large largest
-
-largest
-tall tallest long longest
-
-longest
-dance dancing generate generating
-
-generating
-dance dancing move moving
-
-moving
-dance dancing run running
-
-running
-dance dancing sit sitting
-
-sitting
-dance dancing walk walking
-
-walking
-decrease decreasing jump jumping
-
-jumping
-decrease decreasing move moving
-
-moving
-decrease decreasing walk walking
-
-walking
-describe describing generate generating
-
-generating
-describe describing jump jumping
-
-jumping
-describe describing move moving
-
-moving
-describe describing walk walking
-
-walking
-discover discovering generate generating
-
-generating
-discover discovering move moving
-
-moving
-discover discovering play playing
-
-playing
-discover discovering run running
-
-running
-discover discovering swim swimming
-
-swimming
-fly flying play playing
-
-playing
-fly flying run running
-
-running
-fly flying swim swimming
-
-swimming
-fly flying walk walking
-
-walking
-generate generating look looking
-
-looking
-generate generating run running
-
-running
-generate generating swim swimming
-
-swimming
-go going run running
-
-running
-go going sit sitting
-
-sitting
-go going walk walking
-
-walking
-implement implementing play playing
-
-playing
-implement implementing run running
-
-running
-implement implementing generate generating
-
-generating
-increase increasing look looking
-
-looking
-increase increasing run running
-
-running
-increase increasing dance dancing
-
-dancing
-increase increasing decrease decreasing
-
-decreasing
-jump jumping look looking
-
-looking
-jump jumping move moving
-
-moving
-jump jumping run running
-
-running
-jump jumping walk walking
-
-walking
-jump jumping dance dancing
-
-dancing
-jump jumping decrease decreasing
-
-decreasing
-jump jumping generate generating
-
-generating
-listen listening look looking
-
-looking
-listen listening play playing
-
-playing
-listen listening walk walking
-
-walking
-listen listening generate generating
-
-generating
-look looking move moving
-
-moving
-look looking run running
-
-running
-look looking walk walking
-
-walking
-move moving sit sitting
-
-sitting
-move moving walk walking
-
-walking
-move moving dance dancing
-
-dancing
-move moving jump jumping
-
-jumping
-move moving look looking
-
-looking
-play playing swim swimming
-
-swimming
-play playing fly flying
-
-flying
-play playing implement implementing
-
-implementing
-play playing move moving
-
-moving
-read reading jump jumping
-
-jumping
-read reading move moving
-
-moving
-run running walk walking
-
-walking
-run running dance dancing
-
-dancing
-run running increase increasing
-
-increasing
-run running look looking
-
-looking
-run running move moving
-
-moving
-say saying walk walking
-
-walking
-say saying describe describing
-
-describing
-sing singing describe describing
-
-describing
-sing singing generate generating
-
-generating
-sing singing move moving
-
-moving
-sing singing play playing
-
-playing
-sing singing run running
-
-running
-sit sitting walk walking
-
-walking
-sit sitting dance dancing
-
-dancing
-sit sitting look looking
-
-looking
-sit sitting play playing
-
-playing
-sit sitting run running
-
-running
-swim swimming dance dancing
-
-dancing
-swim swimming look looking
-
-looking
-swim swimming play playing
-
-playing
-walk walking dance dancing
-
-dancing
-walk walking look looking
-
-looking
-walk walking move moving
-
-moving
-walk walking run running
-
-running
-write writing describe describing
-
-describing
-write writing jump jumping
-
-jumping
-write writing move moving
-
-moving
-write writing run running
-
-running
-australia australian brazil brazilian
-
-brazilian
-australia australian denmark danish
-
-danish
-australia australian france french
-
-french
-australia australian india indian
-
-indian
-australia australian ireland irish
-
-irish
-australia australian israel israeli
-
-israeli
-australia australian japan japanese
-
-japanese
-australia australian korea korean
-
-korean
-australia australian mexico mexican
-
-mexican
-australia australian netherlands dutch
-
-dutch
-australia australian russia russian
-
-russian
-australia australian sweden swedish
-
-swedish
-austria austrian brazil brazilian
-
-brazilian
-austria austrian china chinese
-
-chinese
-austria austrian egypt egyptian
-
-egyptian
-austria austrian germany german
-
-german
-austria austrian india indian
-
-indian
-austria austrian japan japanese
-
-japanese
-austria austrian mexico mexican
-
-mexican
-austria austrian norway norwegian
-
-norwegian
-austria austrian poland polish
-
-polish
-austria austrian sweden swedish
-
-swedish
-brazil brazilian chile chilean
-
-chilean
-brazil brazilian egypt egyptian
-
-egyptian
-brazil brazilian france french
-
-french
-brazil brazilian germany german
-
-german
-brazil brazilian india indian
-
-indian
-brazil brazilian israel israeli
-
-israeli
-brazil brazilian japan japanese
-
-japanese
-brazil brazilian korea korean
-
-korean
-brazil brazilian mexico mexican
-
-mexican
-brazil brazilian poland polish
-
-polish
-brazil brazilian russia russian
-
-russian
-brazil brazilian australia australian
-
-australian
-bulgaria bulgarian china chinese
-
-chinese
-bulgaria bulgarian germany german
-
-german
-bulgaria bulgarian india indian
-
-indian
-bulgaria bulgarian korea korean
-
-korean
-bulgaria bulgarian norway norwegian
-
-norwegian
-bulgaria bulgarian poland polish
-
-polish
-bulgaria bulgarian portugal portuguese
-
-portuguese
-bulgaria bulgarian spain spanish
-
-spanish
-bulgaria bulgarian sweden swedish
-
-swedish
-bulgaria bulgarian thailand thai
-
-thai
-bulgaria bulgarian austria austrian
-
-austrian
-chile chilean egypt egyptian
-
-egyptian
-chile chilean germany german
-
-german
-chile chilean india indian
-
-indian
-chile chilean mexico mexican
-
-mexican
-chile chilean poland polish
-
-polish
-chile chilean sweden swedish
-
-swedish
-chile chilean australia australian
-
-australian
-chile chilean brazil brazilian
-
-brazilian
-china chinese france french
-
-french
-china chinese germany german
-
-german
-china chinese greece greek
-
-greek
-china chinese japan japanese
-
-japanese
-china chinese korea korean
-
-korean
-china chinese mexico mexican
-
-mexican
-china chinese portugal portuguese
-
-portuguese
-china chinese russia russian
-
-russian
-croatia croatian korea korean
-
-korean
-croatia croatian poland polish
-
-polish
-croatia croatian russia russian
-
-russian
-croatia croatian spain spanish
-
-spanish
-croatia croatian thailand thai
-
-thai
-croatia croatian china chinese
-
-chinese
-denmark danish india indian
-
-indian
-denmark danish italy italian
-
-italian
-denmark danish korea korean
-
-korean
-denmark danish mexico mexican
-
-mexican
-denmark danish netherlands dutch
-
-dutch
-denmark danish poland polish
-
-polish
-denmark danish sweden swedish
-
-swedish
-denmark danish australia australian
-
-australian
-denmark danish austria austrian
-
-austrian
-denmark danish brazil brazilian
-
-brazilian
-egypt egyptian germany german
-
-german
-egypt egyptian india indian
-
-indian
-egypt egyptian israel israeli
-
-israeli
-egypt egyptian korea korean
-
-korean
-egypt egyptian mexico mexican
-
-mexican
-egypt egyptian poland polish
-
-polish
-egypt egyptian russia russian
-
-russian
-egypt egyptian thailand thai
-
-thai
-egypt egyptian australia australian
-
-australian
-egypt egyptian austria austrian
-
-austrian
-egypt egyptian brazil brazilian
-
-brazilian
-england english france french
-
-french
-england english germany german
-
-german
-england english japan japanese
-
-japanese
-england english netherlands dutch
-
-dutch
-england english portugal portuguese
-
-portuguese
-england english spain spanish
-
-spanish
-england english china chinese
-
-chinese
-france french germany german
-
-german
-france french india indian
-
-indian
-france french ireland irish
-
-irish
-france french italy italian
-
-italian
-france french japan japanese
-
-japanese
-france french netherlands dutch
-
-dutch
-france french portugal portuguese
-
-portuguese
-france french russia russian
-
-russian
-france french spain spanish
-
-spanish
-france french australia australian
-
-australian
-france french brazil brazilian
-
-brazilian
-germany german india indian
-
-indian
-germany german italy italian
-
-italian
-germany german japan japanese
-
-japanese
-germany german korea korean
-
-korean
-germany german poland polish
-
-polish
-germany german russia russian
-
-russian
-germany german china chinese
-
-chinese
-greece greek india indian
-
-indian
-greece greek ireland irish
-
-irish
-greece greek japan japanese
-
-japanese
-greece greek korea korean
-
-korean
-greece greek poland polish
-
-polish
-greece greek russia russian
-
-russian
-greece greek spain spanish
-
-spanish
-greece greek sweden swedish
-
-swedish
-greece greek china chinese
-
-chinese
-greece greek france french
-
-french
-india indian ireland irish
-
-irish
-india indian italy italian
-
-italian
-india indian japan japanese
-
-japanese
-india indian korea korean
-
-korean
-india indian mexico mexican
-
-mexican
-india indian poland polish
-
-polish
-india indian thailand thai
-
-thai
-india indian australia australian
-
-australian
-india indian china chinese
-
-chinese
-india indian germany german
-
-german
-ireland irish italy italian
-
-italian
-ireland irish japan japanese
-
-japanese
-ireland irish mexico mexican
-
-mexican
-ireland irish netherlands dutch
-
-dutch
-ireland irish poland polish
-
-polish
-ireland irish russia russian
-
-russian
-ireland irish sweden swedish
-
-swedish
-ireland irish switzerland swiss
-
-swiss
-ireland irish china chinese
-
-chinese
-ireland irish germany german
-
-german
-ireland irish greece greek
-
-greek
-israel israeli japan japanese
-
-japanese
-israel israeli korea korean
-
-korean
-israel israeli mexico mexican
-
-mexican
-israel israeli netherlands dutch
-
-dutch
-israel israeli poland polish
-
-polish
-israel israeli switzerland swiss
-
-swiss
-israel israeli australia australian
-
-australian
-israel israeli brazil brazilian
-
-brazilian
-israel israeli chile chilean
-
-chilean
-israel israeli germany german
-
-german
-italy italian japan japanese
-
-japanese
-italy italian mexico mexican
-
-mexican
-italy italian poland polish
-
-polish
-italy italian russia russian
-
-russian
-italy italian sweden swedish
-
-swedish
-italy italian austria austrian
-
-austrian
-italy italian brazil brazilian
-
-brazilian
-italy italian denmark danish
-
-danish
-italy italian france french
-
-french
-italy italian germany german
-
-german
-italy italian india indian
-
-indian
-italy italian ireland irish
-
-irish
-japan japanese korea korean
-
-korean
-japan japanese mexico mexican
-
-mexican
-japan japanese poland polish
-
-polish
-japan japanese russia russian
-
-russian
-japan japanese austria austrian
-
-austrian
-japan japanese brazil brazilian
-
-brazilian
-japan japanese china chinese
-
-chinese
-japan japanese france french
-
-french
-japan japanese germany german
-
-german
-japan japanese ireland irish
-
-irish
-korea korean mexico mexican
-
-mexican
-korea korean poland polish
-
-polish
-korea korean portugal portuguese
-
-portuguese
-korea korean brazil brazilian
-
-brazilian
-korea korean france french
-
-french
-korea korean germany german
-
-german
-korea korean greece greek
-
-greek
-korea korean israel israeli
-
-israeli
-mexico mexican poland polish
-
-polish
-mexico mexican australia australian
-
-australian
-mexico mexican brazil brazilian
-
-brazilian
-mexico mexican germany german
-
-german
-mexico mexican india indian
-
-indian
-mexico mexican israel israeli
-
-israeli
-mexico mexican italy italian
-
-italian
-mexico mexican japan japanese
-
-japanese
-mexico mexican korea korean
-
-korean
-netherlands dutch poland polish
-
-polish
-netherlands dutch sweden swedish
-
-swedish
-netherlands dutch switzerland swiss
-
-swiss
-netherlands dutch brazil brazilian
-
-brazilian
-netherlands dutch france french
-
-french
-netherlands dutch germany german
-
-german
-netherlands dutch india indian
-
-indian
-netherlands dutch italy italian
-
-italian
-netherlands dutch japan japanese
-
-japanese
-norway norwegian poland polish
-
-polish
-norway norwegian russia russian
-
-russian
-norway norwegian sweden swedish
-
-swedish
-norway norwegian switzerland swiss
-
-swiss
-norway norwegian austria austrian
-
-austrian
-norway norwegian brazil brazilian
-
-brazilian
-norway norwegian bulgaria bulgarian
-
-bulgarian
-norway norwegian chile chilean
-
-chilean
-norway norwegian china chinese
-
-chinese
-norway norwegian germany german
-
-german
-norway norwegian israel israeli
-
-israeli
-norway norwegian japan japanese
-
-japanese
-norway norwegian mexico mexican
-
-mexican
-poland polish russia russian
-
-russian
-poland polish spain spanish
-
-spanish
-poland polish sweden swedish
-
-swedish
-poland polish switzerland swiss
-
-swiss
-poland polish thailand thai
-
-thai
-poland polish australia australian
-
-australian
-poland polish brazil brazilian
-
-brazilian
-poland polish china chinese
-
-chinese
-poland polish germany german
-
-german
-poland polish india indian
-
-indian
-poland polish italy italian
-
-italian
-poland polish japan japanese
-
-japanese
-poland polish korea korean
-
-korean
-poland polish mexico mexican
-
-mexican
-portugal portuguese russia russian
-
-russian
-portugal portuguese spain spanish
-
-spanish
-portugal portuguese china chinese
-
-chinese
-portugal portuguese denmark danish
-
-danish
-portugal portuguese germany german
-
-german
-portugal portuguese india indian
-
-indian
-portugal portuguese italy italian
-
-italian
-portugal portuguese japan japanese
-
-japanese
-portugal portuguese korea korean
-
-korean
-russia russian sweden swedish
-
-swedish
-russia russian china chinese
-
-chinese
-russia russian france french
-
-french
-russia russian germany german
-
-german
-russia russian greece greek
-
-greek
-russia russian india indian
-
-indian
-russia russian ireland irish
-
-irish
-russia russian italy italian
-
-italian
-russia russian japan japanese
-
-japanese
-russia russian poland polish
-
-polish
-spain spanish china chinese
-
-chinese
-spain spanish france french
-
-french
-spain spanish germany german
-
-german
-spain spanish japan japanese
-
-japanese
-spain spanish korea korean
-
-korean
-spain spanish poland polish
-
-polish
-spain spanish portugal portuguese
-
-portuguese
-spain spanish russia russian
-
-russian
-sweden swedish australia australian
-
-australian
-sweden swedish bulgaria bulgarian
-
-bulgarian
-sweden swedish china chinese
-
-chinese
-sweden swedish denmark danish
-
-danish
-sweden swedish germany german
-
-german
-sweden swedish india indian
-
-indian
-sweden swedish ireland irish
-
-irish
-sweden swedish italy italian
-
-italian
-sweden swedish japan japanese
-
-japanese
-sweden swedish norway norwegian
-
-norwegian
-sweden swedish poland polish
-
-polish
-sweden swedish russia russian
-
-russian
-switzerland swiss bulgaria bulgarian
-
-bulgarian
-switzerland swiss france french
-
-french
-switzerland swiss germany german
-
-german
-switzerland swiss israel israeli
-
-israeli
-switzerland swiss italy italian
-
-italian
-switzerland swiss japan japanese
-
-japanese
-switzerland swiss mexico mexican
-
-mexican
-switzerland swiss netherlands dutch
-
-dutch
-switzerland swiss poland polish
-
-polish
-thailand thai austria austrian
-
-austrian
-thailand thai brazil brazilian
-
-brazilian
-thailand thai germany german
-
-german
-thailand thai india indian
-
-indian
-thailand thai japan japanese
-
-japanese
-thailand thai korea korean
-
-korean
-thailand thai mexico mexican
-
-mexican
-thailand thai poland polish
-
-polish
-ukraine ukrainian bulgaria bulgarian
-
-bulgarian
-ukraine ukrainian france french
-
-french
-ukraine ukrainian germany german
-
-german
-ukraine ukrainian greece greek
-
-greek
-ukraine ukrainian ireland irish
-
-irish
-ukraine ukrainian israel israeli
-
-israeli
-ukraine ukrainian japan japanese
-
-japanese
-ukraine ukrainian korea korean
-
-korean
-ukraine ukrainian mexico mexican
-
-mexican
-ukraine ukrainian poland polish
-
-polish
-ukraine ukrainian portugal portuguese
-
-portuguese
-ukraine ukrainian sweden swedish
-
-swedish
-decreasing decreased increasing increased
-
-increased
-describing described going went
-
-went
-describing described increasing increased
-
-increased
-describing described taking took
-
-took
-falling fell going went
-
-went
-falling fell increasing increased
-
-increased
-falling fell knowing knew
-
-knew
-falling fell paying paid
-
-paid
-falling fell spending spent
-
-spent
-falling fell writing wrote
-
-wrote
-feeding fed generating generated
-
-generated
-flying flew running ran
-
-ran
-flying flew walking walked
-
-walked
-generating generated implementing implemented
-
-implemented
-generating generated increasing increased
-
-increased
-going went increasing increased
-
-increased
-going went moving moved
-
-moved
-going went paying paid
-
-paid
-going went selling sold
-
-sold
-going went spending spent
-
-spent
-going went taking took
-
-took
-going went writing wrote
-
-wrote
-hitting hit writing wrote
-
-wrote
-implementing implemented increasing increased
-
-increased
-implementing implemented sitting sat
-
-sat
-implementing implemented describing described
-
-described
-increasing increased writing wrote
-
-wrote
-increasing increased decreasing decreased
-
-decreased
-jumping jumped walking walked
-
-walked
-jumping jumped flying flew
-
-flew
-jumping jumped increasing increased
-
-increased
-knowing knew taking took
-
-took
-knowing knew thinking thought
-
-thought
-knowing knew decreasing decreased
-
-decreased
-knowing knew generating generated
-
-generated
-looking looked taking took
-
-took
-looking looked writing wrote
-
-wrote
-looking looked increasing increased
-
-increased
-moving moved running ran
-
-ran
-moving moved taking took
-
-took
-moving moved writing wrote
-
-wrote
-moving moved knowing knew
-
-knew
-paying paid running ran
-
-ran
-paying paid spending spent
-
-spent
-paying paid taking took
-
-took
-paying paid describing described
-
-described
-paying paid going went
-
-went
-paying paid increasing increased
-
-increased
-playing played sitting sat
-
-sat
-playing played falling fell
-
-fell
-playing played going went
-
-went
-running ran selling sold
-
-sold
-running ran writing wrote
-
-wrote
-running ran generating generated
-
-generated
-running ran increasing increased
-
-increased
-running ran paying paid
-
-paid
-running ran playing played
-
-played
-saying said taking took
-
-took
-saying said thinking thought
-
-thought
-saying said writing wrote
-
-wrote
-saying said decreasing decreased
-
-decreased
-saying said describing described
-
-described
-saying said playing played
-
-played
-seeing saw taking took
-
-took
-seeing saw increasing increased
-
-increased
-seeing saw playing played
-
-played
-selling sold generating generated
-
-generated
-selling sold going went
-
-went
-selling sold increasing increased
-
-increased
-selling sold knowing knew
-
-knew
-selling sold playing played
-
-played
-selling sold running ran
-
-ran
-singing sang taking took
-
-took
-singing sang running ran
-
-ran
-sitting sat taking took
-
-took
-sitting sat thinking thought
-
-thought
-sitting sat falling fell
-
-fell
-spending spent taking took
-
-took
-spending spent writing wrote
-
-wrote
-spending spent going went
-
-went
-spending spent increasing increased
-
-increased
-spending spent paying paid
-
-paid
-spending spent playing played
-
-played
-striking struck writing wrote
-
-wrote
-taking took writing wrote
-
-wrote
-taking took going went
-
-went
-taking took knowing knew
-
-knew
-taking took paying paid
-
-paid
-taking took sitting sat
-
-sat
-taking took spending spent
-
-spent
-thinking thought writing wrote
-
-wrote
-thinking thought falling fell
-
-fell
-thinking thought hitting hit
-
-hit
-thinking thought saying said
-
-said
-walking walked playing played
-
-played
-walking walked sitting sat
-
-sat
-writing wrote falling fell
-
-fell
-writing wrote going went
-
-went
-writing wrote increasing increased
-
-increased
-writing wrote playing played
-
-played
-writing wrote saying said
-
-said
-writing wrote spending spent
-
-spent
-writing wrote taking took
-
-took
-bird birds building buildings
-
-buildings
-bird birds computer computers
-
-computers
-bird birds horse horses
-
-horses
-bird birds machine machines
-
-machines
-building buildings car cars
-
-cars
-building buildings machine machines
-
-machines
-building buildings road roads
-
-roads
-car cars machine machines
-
-machines
-cat cats dollar dollars
-
-dollars
-cat cats horse horses
-
-horses
-cat cats machine machines
-
-machines
-cat cats building buildings
-
-buildings
-cat cats car cars
-
-cars
-child children woman women
-
-women
-child children building buildings
-
-buildings
-child children car cars
-
-cars
-cloud clouds woman women
-
-women
-color colors horse horses
-
-horses
-color colors cloud clouds
-
-clouds
-computer computers horse horses
-
-horses
-computer computers child children
-
-children
-dog dogs horse horses
-
-horses
-dog dogs rat rats
-
-rats
-dog dogs woman women
-
-women
-dog dogs building buildings
-
-buildings
-dollar dollars building buildings
-
-buildings
-dollar dollars cat cats
-
-cats
-eagle eagles horse horses
-
-horses
-eagle eagles lion lions
-
-lions
-eagle eagles bird birds
-
-birds
-eagle eagles child children
-
-children
-eye eyes woman women
-
-women
-finger fingers rat rats
-
-rats
-finger fingers bird birds
-
-birds
-finger fingers building buildings
-
-buildings
-finger fingers car cars
-
-cars
-hand hands horse horses
-
-horses
-hand hands building buildings
-
-buildings
-horse horses rat rats
-
-rats
-horse horses bird birds
-
-birds
-horse horses building buildings
-
-buildings
-horse horses car cars
-
-cars
-horse horses hand hands
-
-hands
-lion lions woman women
-
-women
-lion lions building buildings
-
-buildings
-lion lions eagle eagles
-
-eagles
-lion lions horse horses
-
-horses
-machine machines building buildings
-
-buildings
-man men woman women
-
-women
-man men bird birds
-
-birds
-man men building buildings
-
-buildings
-mouse mice rat rats
-
-rats
-mouse mice building buildings
-
-buildings
-mouse mice dream dreams
-
-dreams
-rat rats building buildings
-
-buildings
-rat rats car cars
-
-cars
-rat rats dollar dollars
-
-dollars
-rat rats horse horses
-
-horses
-road roads building buildings
-
-buildings
-road roads machine machines
-
-machines
-woman women building buildings
-
-buildings
-woman women child children
-
-children
-woman women man men
-
-men
-describe describes find finds
-
-finds
-describe describes go goes
-
-goes
-describe describes provide provides
-
-provides
-describe describes say says
-
-says
-estimate estimates write writes
-
-writes
-find finds go goes
-
-goes
-find finds increase increases
-
-increases
-find finds provide provides
-
-provides
-find finds speak speaks
-
-speaks
-go goes sing sings
-
-sings
-go goes speak speaks
-
-speaks
-go goes estimate estimates
-
-estimates
-go goes find finds
-
-finds
-increase increases estimate estimates
-
-estimates
-increase increases find finds
-
-finds
-play plays provide provides
-
-provides
-play plays estimate estimates
-
-estimates
-play plays find finds
-
-finds
-play plays increase increases
-
-increases
-provide provides speak speaks
-
-speaks
-provide provides work works
-
-works
-provide provides estimate estimates
-
-estimates
-provide provides find finds
-
-finds
-provide provides increase increases
-
-increases
-say says describe describes
-
-describes
-say says estimate estimates
-
-estimates
-say says increase increases
-
-increases
-say says provide provides
-
-provides
-see sees speak speaks
-
-speaks
-see sees walk walks
-
-walks
-see sees find finds
-
-finds
-see sees say says
-
-says
-sing sings find finds
-
-finds
-sit sits walk walks
-
-walks
-sit sits work works
-
-works
-sit sits find finds
-
-finds
-speak speaks find finds
-
-finds
-speak speaks go goes
-
-goes
-speak speaks increase increases
-
-increases
-speak speaks provide provides
-
-provides
-talk talks walk walks
-
-walks
-talk talks find finds
-
-finds
-talk talks speak speaks
-
-speaks
-think thinks find finds
-
-finds
-walk walks find finds
-
-finds
-work works estimate estimates
-
-estimates
-work works find finds
-
-finds
-work works provide provides
-
-provides
-write writes estimate estimates
-
-estimates
-write writes find finds
-
-finds
-write writes provide provides
-
-provides
 athens greece bangkok thailand
 
 thailand
 athens greece berlin germany
 
 germany
+athens greece helsinki finland
+
+finland
+athens greece moscow russia
+
+russia
 athens greece paris france
 
 france
@@ -2962,6 +25,9 @@ germany
 bangkok thailand cairo egypt
 
 egypt
+bangkok thailand canberra australia
+
+australia
 bangkok thailand helsinki finland
 
 finland
@@ -2971,6 +37,9 @@ england
 bangkok thailand moscow russia
 
 russia
+bangkok thailand ottawa canada
+
+canada
 bangkok thailand paris france
 
 france
@@ -2989,6 +58,9 @@ germany
 beijing china cairo egypt
 
 egypt
+beijing china canberra australia
+
+australia
 beijing china moscow russia
 
 russia
@@ -3046,15 +118,15 @@ thailand
 cairo egypt canberra australia
 
 australia
+cairo egypt helsinki finland
+
+finland
 cairo egypt madrid spain
 
 spain
 cairo egypt moscow russia
 
 russia
-cairo egypt ottawa canada
-
-canada
 cairo egypt paris france
 
 france
@@ -3079,6 +151,9 @@ china
 cairo egypt berlin germany
 
 germany
+canberra australia madrid spain
+
+spain
 canberra australia ottawa canada
 
 canada
@@ -3088,12 +163,21 @@ france
 canberra australia rome italy
 
 italy
+canberra australia stockholm sweden
+
+sweden
 canberra australia tokyo japan
 
 japan
+canberra australia bangkok thailand
+
+thailand
 canberra australia berlin germany
 
 germany
+canberra australia cairo egypt
+
+egypt
 helsinki finland madrid spain
 
 spain
@@ -3205,15 +289,15 @@ greece
 moscow russia bangkok thailand
 
 thailand
-moscow russia beijing china
-
-china
 moscow russia berlin germany
 
 germany
 moscow russia canberra australia
 
 australia
+moscow russia helsinki finland
+
+finland
 moscow russia madrid spain
 
 spain
@@ -3226,6 +310,9 @@ france
 oslo norway rome italy
 
 italy
+oslo norway stockholm sweden
+
+sweden
 oslo norway tokyo japan
 
 japan
@@ -3238,12 +325,12 @@ thailand
 oslo norway berlin germany
 
 germany
+oslo norway cairo egypt
+
+egypt
 oslo norway canberra australia
 
 australia
-oslo norway london england
-
-england
 oslo norway madrid spain
 
 spain
@@ -3259,9 +346,6 @@ italy
 ottawa canada tokyo japan
 
 japan
-ottawa canada athens greece
-
-greece
 ottawa canada berlin germany
 
 germany
@@ -3289,21 +373,18 @@ thailand
 paris france berlin germany
 
 germany
+paris france canberra australia
+
+australia
 paris france helsinki finland
 
 finland
-paris france london england
-
-england
 paris france madrid spain
 
 spain
 paris france moscow russia
 
 russia
-paris france oslo norway
-
-norway
 rome italy tokyo japan
 
 japan
@@ -3316,6 +397,12 @@ thailand
 rome italy berlin germany
 
 germany
+rome italy canberra australia
+
+australia
+rome italy helsinki finland
+
+finland
 rome italy paris france
 
 france
@@ -3334,12 +421,12 @@ germany
 stockholm sweden cairo egypt
 
 egypt
+stockholm sweden canberra australia
+
+australia
 stockholm sweden helsinki finland
 
 finland
-stockholm sweden london england
-
-england
 stockholm sweden madrid spain
 
 spain
@@ -3403,6 +490,9 @@ belgium
 athens greece dublin ireland
 
 ireland
+athens greece helsinki finland
+
+finland
 bangkok thailand berlin germany
 
 germany
@@ -3412,9 +502,9 @@ belgium
 bangkok thailand cairo egypt
 
 egypt
-bangkok thailand copenhagen denmark
+bangkok thailand canberra australia
 
-denmark
+australia
 bangkok thailand dublin ireland
 
 ireland
@@ -3427,12 +517,12 @@ germany
 beijing china cairo egypt
 
 egypt
+beijing china canberra australia
+
+australia
 beijing china copenhagen denmark
 
 denmark
-belgrade serbia berlin germany
-
-germany
 belgrade serbia budapest hungary
 
 hungary
@@ -3475,12 +565,18 @@ ireland
 brussels belgium helsinki finland
 
 finland
+brussels belgium kingston jamaica
+
+jamaica
 brussels belgium lisbon portugal
 
 portugal
 budapest hungary cairo egypt
 
 egypt
+budapest hungary canberra australia
+
+australia
 budapest hungary copenhagen denmark
 
 denmark
@@ -3493,9 +589,6 @@ finland
 budapest hungary lisbon portugal
 
 portugal
-budapest hungary madrid spain
-
-spain
 cairo egypt canberra australia
 
 australia
@@ -3505,6 +598,9 @@ denmark
 cairo egypt dublin ireland
 
 ireland
+cairo egypt helsinki finland
+
+finland
 cairo egypt lima peru
 
 peru
@@ -3520,12 +616,18 @@ philippines
 canberra australia dublin ireland
 
 ireland
+canberra australia madrid spain
+
+spain
 canberra australia manila philippines
 
 philippines
 copenhagen denmark dublin ireland
 
 ireland
+copenhagen denmark helsinki finland
+
+finland
 copenhagen denmark lisbon portugal
 
 portugal
@@ -3646,6 +748,9 @@ france
 london england rome italy
 
 italy
+london england sofia bulgaria
+
+bulgaria
 madrid spain manila philippines
 
 philippines
@@ -3670,6 +775,9 @@ chile
 madrid spain stockholm sweden
 
 sweden
+manila philippines paris france
+
+france
 manila philippines rome italy
 
 italy
@@ -3682,6 +790,9 @@ france
 moscow russia rome italy
 
 italy
+moscow russia santiago chile
+
+chile
 moscow russia sofia bulgaria
 
 bulgaria
@@ -3703,6 +814,12 @@ france
 oslo norway rome italy
 
 italy
+oslo norway santiago chile
+
+chile
+oslo norway stockholm sweden
+
+sweden
 oslo norway tokyo japan
 
 japan
@@ -3742,6 +859,12 @@ japan
 rome italy athens greece
 
 greece
+santiago chile sofia bulgaria
+
+bulgaria
+santiago chile tokyo japan
+
+japan
 santiago chile athens greece
 
 greece
@@ -3805,6 +928,9 @@ belgium
 vienna austria budapest hungary
 
 hungary
+vienna austria canberra australia
+
+australia
 warsaw poland athens greece
 
 greece
@@ -3823,12 +949,6 @@ hungary
 warsaw poland canberra australia
 
 australia
-canada dollar europe euro
-
-euro
-europe euro canada dollar
-
-dollar
 chicago illinois baltimore maryland
 
 maryland
@@ -3856,6 +976,9 @@ tennessee
 phoenix arizona portland oregon
 
 oregon
+phoenix arizona miami florida
+
+florida
 dallas texas baltimore maryland
 
 maryland
@@ -3865,33 +988,45 @@ kentucky
 dallas texas miami florida
 
 florida
-dallas texas tampa florida
-
-florida
 jacksonville florida sacramento california
 
 california
 jacksonville florida oakland california
 
 california
+indianapolis indiana memphis tennessee
+
+tennessee
 indianapolis indiana boston massachusetts
 
 massachusetts
 indianapolis indiana baltimore maryland
 
 maryland
-indianapolis indiana milwaukee wisconsin
+indianapolis indiana nashville tennessee
 
-wisconsin
+tennessee
+austin texas denver colorado
+
+colorado
 austin texas miami florida
 
 florida
+austin texas chandler arizona
+
+arizona
 detroit michigan memphis tennessee
 
 tennessee
+detroit michigan boston massachusetts
+
+massachusetts
 detroit michigan baltimore maryland
 
 maryland
+detroit michigan nashville tennessee
+
+tennessee
 memphis tennessee milwaukee wisconsin
 
 wisconsin
@@ -3901,13 +1036,13 @@ oregon
 boston massachusetts baltimore maryland
 
 maryland
+denver colorado portland oregon
+
+oregon
 denver colorado miami florida
 
 florida
 baltimore maryland milwaukee wisconsin
-
-wisconsin
-louisville kentucky milwaukee wisconsin
 
 wisconsin
 sacramento california miami florida
@@ -3922,15 +1057,15 @@ florida
 oakland california tampa florida
 
 florida
+oakland california orlando florida
+
+florida
 arlington texas tampa florida
 
 florida
 arlington texas orlando florida
 
 florida
-tampa florida houston texas
-
-texas
 pittsburgh pennsylvania cincinnati ohio
 
 ohio
@@ -3949,7 +1084,10 @@ illinois
 toledo ohio detroit michigan
 
 michigan
-orlando florida austin texas
+toledo ohio memphis tennessee
+
+tennessee
+henderson nevada austin texas
 
 texas
 orlando florida detroit michigan
@@ -3964,6 +1102,9 @@ texas
 irving texas miami florida
 
 florida
+worcester massachusetts dallas texas
+
+texas
 worcester massachusetts jacksonville florida
 
 florida
@@ -3982,6 +1123,9 @@ sisters
 boy girl father mother
 
 mother
+boy girl grandfather grandmother
+
+grandmother
 boy girl he she
 
 she
@@ -4063,9 +1207,6 @@ she
 brothers sisters his her
 
 her
-brothers sisters husband wife
-
-wife
 brothers sisters king queen
 
 queen
@@ -4180,6 +1321,9 @@ she
 grandson granddaughter his her
 
 her
+grandson granddaughter husband wife
+
+wife
 grandson granddaughter king queen
 
 queen
@@ -4222,6 +1366,9 @@ her
 he she husband wife
 
 wife
+he she man woman
+
+woman
 he she prince princess
 
 princess
@@ -4276,6 +1423,9 @@ sisters
 husband wife father mother
 
 mother
+husband wife grandfather grandmother
+
+grandmother
 husband wife he she
 
 she
@@ -4294,6 +1444,9 @@ daughter
 king queen sons daughters
 
 daughters
+king queen uncle aunt
+
+aunt
 king queen boy girl
 
 girl
@@ -4306,6 +1459,9 @@ mother
 king queen grandfather grandmother
 
 grandmother
+king queen grandson granddaughter
+
+granddaughter
 king queen he she
 
 she
@@ -4462,6 +1618,9 @@ wife
 son daughter king queen
 
 queen
+son daughter man woman
+
+woman
 son daughter prince princess
 
 princess
@@ -4531,6 +1690,9 @@ her
 uncle aunt husband wife
 
 wife
+uncle aunt king queen
+
+queen
 uncle aunt man woman
 
 woman
@@ -4552,24 +1714,39 @@ obviously
 apparent apparently occasional occasionally
 
 occasionally
+apparent apparently possible possibly
+
+possibly
 complete completely rapid rapidly
 
 rapidly
+complete completely slow slowly
+
+slowly
 free freely professional professionally
 
 professionally
 free freely rapid rapidly
 
 rapidly
-free freely rare rarely
+free freely typical typically
 
-rarely
-immediate immediately occasional occasionally
-
-occasionally
+typically
 immediate immediately quick quickly
 
 quickly
+immediate immediately slow slowly
+
+slowly
+immediate immediately sudden suddenly
+
+suddenly
+immediate immediately typical typically
+
+typically
+obvious obviously occasional occasionally
+
+occasionally
 occasional occasionally precise precisely
 
 precisely
@@ -4579,12 +1756,18 @@ rapidly
 occasional occasionally rare rarely
 
 rarely
+occasional occasionally sudden suddenly
+
+suddenly
 occasional occasionally typical typically
 
 typically
 occasional occasionally immediate immediately
 
 immediately
+possible possibly professional professionally
+
+professionally
 possible possibly occasional occasionally
 
 occasionally
@@ -4594,6 +1777,9 @@ professionally
 precise precisely rare rarely
 
 rarely
+precise precisely serious seriously
+
+seriously
 precise precisely typical typically
 
 typically
@@ -4606,15 +1792,15 @@ occasionally
 professional professionally serious seriously
 
 seriously
-professional professionally free freely
-
-freely
 professional professionally occasional occasionally
 
 occasionally
 quick quickly rapid rapidly
 
 rapidly
+rapid rapidly safe safely
+
+safely
 rapid rapidly serious seriously
 
 seriously
@@ -4624,9 +1810,9 @@ slowly
 rapid rapidly sudden suddenly
 
 suddenly
-rapid rapidly occasional occasionally
+rapid rapidly free freely
 
-occasionally
+freely
 rapid rapidly quick quickly
 
 quickly
@@ -4645,18 +1831,24 @@ typically
 safe safely free freely
 
 freely
-safe safely occasional occasionally
-
-occasionally
 safe safely professional professionally
 
 professionally
+safe safely rapid rapidly
+
+rapidly
+serious seriously obvious obviously
+
+obviously
 serious seriously occasional occasionally
 
 occasionally
 serious seriously professional professionally
 
 professionally
+slow slowly sudden suddenly
+
+suddenly
 sudden suddenly occasional occasionally
 
 occasionally
@@ -4699,6 +1891,9 @@ unaware
 likely unlikely possible impossible
 
 impossible
+bad worse big bigger
+
+bigger
 bad worse cheap cheaper
 
 cheaper
@@ -4837,9 +2032,6 @@ wider
 cheap cheaper young younger
 
 younger
-cheap cheaper bad worse
-
-worse
 cheap cheaper big bigger
 
 bigger
@@ -4897,6 +2089,9 @@ cheaper
 easy easier fast faster
 
 faster
+easy easier good better
+
+better
 easy easier hard harder
 
 harder
@@ -4984,9 +2179,6 @@ wider
 fast faster young younger
 
 younger
-fast faster bad worse
-
-worse
 fast faster big bigger
 
 bigger
@@ -4999,9 +2191,6 @@ deeper
 fast faster easy easier
 
 easier
-good better great greater
-
-greater
 good better hard harder
 
 harder
@@ -5014,9 +2203,6 @@ higher
 good better large larger
 
 larger
-good better long longer
-
-longer
 good better old older
 
 older
@@ -5065,6 +2251,9 @@ older
 great greater short shorter
 
 shorter
+great greater slow slower
+
+slower
 great greater strong stronger
 
 stronger
@@ -5089,9 +2278,6 @@ better
 hard harder heavy heavier
 
 heavier
-hard harder high higher
-
-higher
 hard harder large larger
 
 larger
@@ -5158,9 +2344,6 @@ smaller
 heavy heavier strong stronger
 
 stronger
-heavy heavier wide wider
-
-wider
 heavy heavier young younger
 
 younger
@@ -5176,12 +2359,18 @@ deeper
 heavy heavier easy easier
 
 easier
+heavy heavier hard harder
+
+harder
 high higher large larger
 
 larger
 high higher low lower
 
 lower
+high higher old older
+
+older
 high higher short shorter
 
 shorter
@@ -5215,6 +2404,9 @@ faster
 high higher good better
 
 better
+large larger new newer
+
+newer
 large larger old older
 
 older
@@ -5257,9 +2449,6 @@ faster
 large larger good better
 
 better
-large larger great greater
-
-greater
 large larger hard harder
 
 harder
@@ -5284,9 +2473,6 @@ smaller
 long longer strong stronger
 
 stronger
-long longer wide wider
-
-wider
 long longer young younger
 
 younger
@@ -5314,9 +2500,6 @@ heavier
 long longer high higher
 
 higher
-long longer large larger
-
-larger
 low lower short shorter
 
 shorter
@@ -5338,18 +2521,12 @@ bigger
 low lower cheap cheaper
 
 cheaper
-low lower deep deeper
-
-deeper
 low lower easy easier
 
 easier
 low lower fast faster
 
 faster
-low lower heavy heavier
-
-heavier
 low lower high higher
 
 higher
@@ -5386,9 +2563,6 @@ easier
 new newer fast faster
 
 faster
-new newer heavy heavier
-
-heavier
 old older short shorter
 
 shorter
@@ -5413,9 +2587,6 @@ bigger
 old older cheap cheaper
 
 cheaper
-old older deep deeper
-
-deeper
 old older easy easier
 
 easier
@@ -5431,9 +2602,6 @@ heavier
 old older high higher
 
 higher
-old older long longer
-
-longer
 old older new newer
 
 newer
@@ -5473,9 +2641,6 @@ faster
 short shorter good better
 
 better
-short shorter great greater
-
-greater
 short shorter hard harder
 
 harder
@@ -5551,9 +2716,6 @@ wider
 slow slower young younger
 
 younger
-slow slower bad worse
-
-worse
 slow slower big bigger
 
 bigger
@@ -5575,6 +2737,9 @@ harder
 slow slower heavy heavier
 
 heavier
+slow slower high higher
+
+higher
 slow slower large larger
 
 larger
@@ -5686,9 +2851,6 @@ shorter
 strong stronger simple simpler
 
 simpler
-strong stronger slow slower
-
-slower
 strong stronger small smaller
 
 smaller
@@ -5776,6 +2938,9 @@ older
 young younger short shorter
 
 shorter
+young younger simple simpler
+
+simpler
 young younger small smaller
 
 smaller
@@ -5812,6 +2977,9 @@ strongest
 bad worst tall tallest
 
 tallest
+bad worst young youngest
+
+youngest
 big biggest fast fastest
 
 fastest
@@ -5899,6 +3067,9 @@ worst
 good best big biggest
 
 biggest
+good best fast fastest
+
+fastest
 great greatest large largest
 
 largest
@@ -5908,9 +3079,12 @@ longest
 great greatest old oldest
 
 oldest
-great greatest bad worst
+great greatest strong strongest
 
-worst
+strongest
+great greatest tall tallest
+
+tallest
 great greatest big biggest
 
 biggest
@@ -5929,6 +3103,9 @@ oldest
 high highest strong strongest
 
 strongest
+high highest tall tallest
+
+tallest
 high highest bad worst
 
 worst
@@ -5971,6 +3148,9 @@ greatest
 large largest high highest
 
 highest
+long longest low lowest
+
+lowest
 long longest old oldest
 
 oldest
@@ -5980,6 +3160,9 @@ strongest
 long longest tall tallest
 
 tallest
+long longest young youngest
+
+youngest
 long longest bad worst
 
 worst
@@ -6037,6 +3220,9 @@ strongest
 old oldest tall tallest
 
 tallest
+old oldest young youngest
+
+youngest
 old oldest bad worst
 
 worst
@@ -6058,6 +3244,9 @@ largest
 old oldest long longest
 
 longest
+old oldest low lowest
+
+lowest
 small smallest strong strongest
 
 strongest
@@ -6088,6 +3277,9 @@ lowest
 strong strongest tall tallest
 
 tallest
+strong strongest young youngest
+
+youngest
 strong strongest bad worst
 
 worst
@@ -6097,9 +3289,6 @@ biggest
 strong strongest fast fastest
 
 fastest
-strong strongest good best
-
-best
 strong strongest great greatest
 
 greatest
@@ -6151,6 +3340,9 @@ biggest
 young youngest great greatest
 
 greatest
+young youngest high highest
+
+highest
 young youngest large largest
 
 largest
@@ -6337,12 +3529,21 @@ playing
 discover discovering run running
 
 running
+discover discovering say saying
+
+saying
 discover discovering sit sitting
 
 sitting
+discover discovering swim swimming
+
+swimming
 discover discovering walk walking
 
 walking
+discover discovering write writing
+
+writing
 discover discovering dance dancing
 
 dancing
@@ -6391,9 +3592,9 @@ sitting
 fly flying walk walking
 
 walking
-fly flying write writing
+fly flying dance dancing
 
-writing
+dancing
 fly flying decrease decreasing
 
 decreasing
@@ -6445,6 +3646,9 @@ walking
 generate generating write writing
 
 writing
+generate generating dance dancing
+
+dancing
 generate generating decrease decreasing
 
 decreasing
@@ -6532,15 +3736,15 @@ reading
 implement implementing run running
 
 running
+implement implementing sing singing
+
+singing
 implement implementing sit sitting
 
 sitting
 implement implementing swim swimming
 
 swimming
-implement implementing think thinking
-
-thinking
 implement implementing walk walking
 
 walking
@@ -6631,6 +3835,9 @@ singing
 jump jumping sit sitting
 
 sitting
+jump jumping swim swimming
+
+swimming
 jump jumping think thinking
 
 thinking
@@ -6649,9 +3856,6 @@ describing
 jump jumping discover discovering
 
 discovering
-jump jumping fly flying
-
-flying
 jump jumping generate generating
 
 generating
@@ -6661,9 +3865,6 @@ going
 jump jumping implement implementing
 
 implementing
-jump jumping increase increasing
-
-increasing
 listen listening look looking
 
 looking
@@ -6697,6 +3898,9 @@ walking
 listen listening write writing
 
 writing
+listen listening dance dancing
+
+dancing
 listen listening decrease decreasing
 
 decreasing
@@ -6787,6 +3991,9 @@ singing
 move moving sit sitting
 
 sitting
+move moving swim swimming
+
+swimming
 move moving walk walking
 
 walking
@@ -6838,6 +4045,9 @@ singing
 play playing sit sitting
 
 sitting
+play playing swim swimming
+
+swimming
 play playing walk walking
 
 walking
@@ -6919,9 +4129,6 @@ generating
 read reading implement implementing
 
 implementing
-read reading increase increasing
-
-increasing
 read reading jump jumping
 
 jumping
@@ -6931,6 +4138,9 @@ listening
 read reading look looking
 
 looking
+read reading move moving
+
+moving
 read reading play playing
 
 playing
@@ -7012,12 +4222,6 @@ describing
 say saying discover discovering
 
 discovering
-say saying fly flying
-
-flying
-say saying go going
-
-going
 say saying implement implementing
 
 implementing
@@ -7027,6 +4231,9 @@ increasing
 say saying jump jumping
 
 jumping
+say saying look looking
+
+looking
 say saying move moving
 
 moving
@@ -7042,6 +4249,9 @@ singing
 see seeing sit sitting
 
 sitting
+see seeing swim swimming
+
+swimming
 see seeing walk walking
 
 walking
@@ -7063,6 +4273,9 @@ discovering
 see seeing fly flying
 
 flying
+see seeing generate generating
+
+generating
 see seeing go going
 
 going
@@ -7207,9 +4420,9 @@ walking
 swim swimming write writing
 
 writing
-swim swimming decrease decreasing
+swim swimming dance dancing
 
-decreasing
+dancing
 swim swimming describe describing
 
 describing
@@ -7243,6 +4456,9 @@ reading
 swim swimming run running
 
 running
+swim swimming sing singing
+
+singing
 swim swimming sit sitting
 
 sitting
@@ -7252,6 +4468,9 @@ walking
 think thinking write writing
 
 writing
+think thinking dance dancing
+
+dancing
 think thinking decrease decreasing
 
 decreasing
@@ -7261,9 +4480,6 @@ describing
 think thinking discover discovering
 
 discovering
-think thinking fly flying
-
-flying
 think thinking generate generating
 
 generating
@@ -7282,6 +4498,9 @@ listening
 think thinking look looking
 
 looking
+think thinking move moving
+
+moving
 think thinking play playing
 
 playing
@@ -7324,9 +4543,6 @@ going
 walk walking implement implementing
 
 implementing
-walk walking increase increasing
-
-increasing
 walk walking jump jumping
 
 jumping
@@ -7378,9 +4594,6 @@ going
 write writing implement implementing
 
 implementing
-write writing increase increasing
-
-increasing
 write writing jump jumping
 
 jumping
@@ -7435,6 +4648,9 @@ egyptian
 australia australian france french
 
 french
+australia australian germany german
+
+german
 australia australian india indian
 
 indian
@@ -7456,9 +4672,6 @@ korean
 australia australian mexico mexican
 
 mexican
-australia australian poland polish
-
-polish
 australia australian portugal portuguese
 
 portuguese
@@ -7522,6 +4735,9 @@ mexican
 austria austrian norway norwegian
 
 norwegian
+austria austrian portugal portuguese
+
+portuguese
 austria austrian russia russian
 
 russian
@@ -7573,6 +4789,9 @@ mexican
 brazil brazilian norway norwegian
 
 norwegian
+brazil brazilian portugal portuguese
+
+portuguese
 brazil brazilian russia russian
 
 russian
@@ -7609,9 +4828,6 @@ french
 bulgaria bulgarian germany german
 
 german
-bulgaria bulgarian greece greek
-
-greek
 bulgaria bulgarian india indian
 
 indian
@@ -7663,12 +4879,12 @@ ukrainian
 bulgaria bulgarian australia australian
 
 australian
+bulgaria bulgarian austria austrian
+
+austrian
 chile chilean china chinese
 
 chinese
-chile chilean croatia croatian
-
-croatian
 chile chilean denmark danish
 
 danish
@@ -7678,9 +4894,15 @@ egyptian
 chile chilean france french
 
 french
+chile chilean india indian
+
+indian
 chile chilean israel israeli
 
 israeli
+chile chilean italy italian
+
+italian
 chile chilean japan japanese
 
 japanese
@@ -7690,12 +4912,18 @@ korean
 chile chilean mexico mexican
 
 mexican
+chile chilean portugal portuguese
+
+portuguese
 chile chilean russia russian
 
 russian
 chile chilean sweden swedish
 
 swedish
+chile chilean switzerland swiss
+
+swiss
 chile chilean australia australian
 
 australian
@@ -7723,6 +4951,9 @@ french
 china chinese germany german
 
 german
+china chinese greece greek
+
+greek
 china chinese india indian
 
 indian
@@ -7885,9 +5116,6 @@ portuguese
 denmark danish russia russian
 
 russian
-denmark danish spain spanish
-
-spanish
 denmark danish sweden swedish
 
 swedish
@@ -7966,6 +5194,9 @@ austrian
 egypt egyptian brazil brazilian
 
 brazilian
+egypt egyptian bulgaria bulgarian
+
+bulgarian
 egypt egyptian chile chilean
 
 chilean
@@ -7981,12 +5212,12 @@ french
 england english germany german
 
 german
+england english greece greek
+
+greek
 england english india indian
 
 indian
-england english ireland irish
-
-irish
 england english israel israeli
 
 israeli
@@ -8005,9 +5236,6 @@ spanish
 england english sweden swedish
 
 swedish
-england english thailand thai
-
-thai
 england english australia australian
 
 australian
@@ -8038,6 +5266,9 @@ korean
 france french mexico mexican
 
 mexican
+france french netherlands dutch
+
+dutch
 france french norway norwegian
 
 norwegian
@@ -8053,6 +5284,12 @@ spanish
 france french sweden swedish
 
 swedish
+france french switzerland swiss
+
+swiss
+france french thailand thai
+
+thai
 france french australia australian
 
 australian
@@ -8188,6 +5425,9 @@ spanish
 greece greek sweden swedish
 
 swedish
+greece greek switzerland swiss
+
+swiss
 greece greek thailand thai
 
 thai
@@ -8197,9 +5437,6 @@ ukrainian
 greece greek australia australian
 
 australian
-greece greek bulgaria bulgarian
-
-bulgarian
 greece greek china chinese
 
 chinese
@@ -8233,9 +5470,6 @@ mexican
 india indian norway norwegian
 
 norwegian
-india indian poland polish
-
-polish
 india indian russia russian
 
 russian
@@ -8248,9 +5482,6 @@ swedish
 india indian switzerland swiss
 
 swiss
-india indian thailand thai
-
-thai
 india indian australia australian
 
 australian
@@ -8296,6 +5527,9 @@ norwegian
 ireland irish poland polish
 
 polish
+ireland irish portugal portuguese
+
+portuguese
 ireland irish russia russian
 
 russian
@@ -8317,9 +5551,6 @@ ukrainian
 ireland irish australia australian
 
 australian
-ireland irish austria austrian
-
-austrian
 ireland irish bulgaria bulgarian
 
 bulgarian
@@ -8353,12 +5584,12 @@ korean
 israel israeli mexico mexican
 
 mexican
-israel israeli norway norwegian
-
-norwegian
 israel israeli poland polish
 
 polish
+israel israeli portugal portuguese
+
+portuguese
 israel israeli russia russian
 
 russian
@@ -8395,6 +5626,9 @@ danish
 israel israeli egypt egyptian
 
 egyptian
+israel israeli france french
+
+french
 italy italian japan japanese
 
 japanese
@@ -8479,6 +5713,9 @@ spanish
 japan japanese sweden swedish
 
 swedish
+japan japanese switzerland swiss
+
+swiss
 japan japanese thailand thai
 
 thai
@@ -8494,6 +5731,9 @@ chilean
 japan japanese china chinese
 
 chinese
+japan japanese denmark danish
+
+danish
 japan japanese egypt egyptian
 
 egyptian
@@ -8539,6 +5779,9 @@ swiss
 korea korean thailand thai
 
 thai
+korea korean ukraine ukrainian
+
+ukrainian
 korea korean australia australian
 
 australian
@@ -8590,9 +5833,9 @@ portuguese
 mexico mexican russia russian
 
 russian
-mexico mexican spain spanish
+mexico mexican sweden swedish
 
-spanish
+swedish
 mexico mexican switzerland swiss
 
 swiss
@@ -8623,6 +5866,9 @@ danish
 mexico mexican egypt egyptian
 
 egyptian
+mexico mexican france french
+
+french
 mexico mexican india indian
 
 indian
@@ -8665,6 +5911,9 @@ australian
 netherlands dutch bulgaria bulgarian
 
 bulgarian
+netherlands dutch chile chilean
+
+chilean
 netherlands dutch china chinese
 
 chinese
@@ -8800,9 +6049,6 @@ ukrainian
 poland polish australia australian
 
 australian
-poland polish austria austrian
-
-austrian
 poland polish brazil brazilian
 
 brazilian
@@ -8935,6 +6181,9 @@ swedish
 russia russian switzerland swiss
 
 swiss
+russia russian thailand thai
+
+thai
 russia russian australia australian
 
 australian
@@ -8992,9 +6241,6 @@ mexican
 russia russian norway norwegian
 
 norwegian
-russia russian poland polish
-
-polish
 spain spanish sweden swedish
 
 swedish
@@ -9004,6 +6250,9 @@ swiss
 spain spanish thailand thai
 
 thai
+spain spanish ukraine ukrainian
+
+ukrainian
 spain spanish australia australian
 
 australian
@@ -9019,12 +6268,6 @@ chilean
 spain spanish china chinese
 
 chinese
-spain spanish croatia croatian
-
-croatian
-spain spanish denmark danish
-
-danish
 spain spanish egypt egyptian
 
 egyptian
@@ -9034,6 +6277,9 @@ french
 spain spanish germany german
 
 german
+spain spanish greece greek
+
+greek
 spain spanish india indian
 
 indian
@@ -9073,6 +6319,9 @@ russian
 sweden swedish switzerland swiss
 
 swiss
+sweden swedish ukraine ukrainian
+
+ukrainian
 sweden swedish australia australian
 
 australian
@@ -9205,9 +6454,15 @@ russian
 thailand thai australia australian
 
 australian
+thailand thai brazil brazilian
+
+brazilian
 thailand thai bulgaria bulgarian
 
 bulgarian
+thailand thai chile chilean
+
+chilean
 thailand thai china chinese
 
 chinese
@@ -9358,15 +6613,18 @@ played
 decreasing decreased running ran
 
 ran
+decreasing decreased selling sold
+
+sold
 decreasing decreased spending spent
 
 spent
 decreasing decreased taking took
 
 took
-decreasing decreased writing wrote
+describing described falling fell
 
-wrote
+fell
 describing described hitting hit
 
 hit
@@ -9433,12 +6691,6 @@ played
 falling fell running ran
 
 ran
-falling fell seeing saw
-
-saw
-falling fell singing sang
-
-sang
 falling fell spending spent
 
 spent
@@ -9457,6 +6709,9 @@ decreased
 feeding fed generating generated
 
 generated
+feeding fed hitting hit
+
+hit
 feeding fed implementing implemented
 
 implemented
@@ -9475,9 +6730,6 @@ paid
 feeding fed playing played
 
 played
-feeding fed running ran
-
-ran
 feeding fed selling sold
 
 sold
@@ -9490,6 +6742,9 @@ decreased
 feeding fed falling fell
 
 fell
+flying flew generating generated
+
+generated
 flying flew increasing increased
 
 increased
@@ -9514,6 +6769,9 @@ sang
 flying flew spending spent
 
 spent
+flying flew striking struck
+
+struck
 flying flew taking took
 
 took
@@ -9553,9 +6811,6 @@ ran
 generating generated selling sold
 
 sold
-generating generated striking struck
-
-struck
 generating generated decreasing decreased
 
 decreased
@@ -9592,9 +6847,6 @@ spent
 going went taking took
 
 took
-going went walking walked
-
-walked
 going went writing wrote
 
 wrote
@@ -9619,9 +6871,9 @@ said
 hitting hit thinking thought
 
 thought
-hitting hit decreasing decreased
+hitting hit falling fell
 
-decreased
+fell
 hitting hit generating generated
 
 generated
@@ -9649,6 +6901,9 @@ said
 implementing implemented selling sold
 
 sold
+implementing implemented sitting sat
+
+sat
 implementing implemented spending spent
 
 spent
@@ -9685,6 +6940,9 @@ played
 increasing increased running ran
 
 ran
+increasing increased selling sold
+
+sold
 increasing increased spending spent
 
 spent
@@ -9721,15 +6979,15 @@ paid
 jumping jumped playing played
 
 played
-jumping jumped running ran
-
-ran
 jumping jumped selling sold
 
 sold
 jumping jumped singing sang
 
 sang
+jumping jumped sitting sat
+
+sat
 jumping jumped spending spent
 
 spent
@@ -9757,9 +7015,6 @@ paid
 knowing knew playing played
 
 played
-knowing knew running ran
-
-ran
 knowing knew saying said
 
 said
@@ -9775,12 +7030,9 @@ thought
 knowing knew writing wrote
 
 wrote
-knowing knew decreasing decreased
+knowing knew falling fell
 
-decreased
-knowing knew hitting hit
-
-hit
+fell
 knowing knew increasing increased
 
 increased
@@ -9802,6 +7054,9 @@ sold
 looking looked singing sang
 
 sang
+looking looked sitting sat
+
+sat
 looking looked spending spent
 
 spent
@@ -9835,6 +7090,9 @@ generated
 looking looked going went
 
 went
+looking looked implementing implemented
+
+implemented
 looking looked increasing increased
 
 increased
@@ -9847,6 +7105,9 @@ played
 moving moved running ran
 
 ran
+moving moved seeing saw
+
+saw
 moving moved selling sold
 
 sold
@@ -9859,15 +7120,9 @@ sat
 moving moved spending spent
 
 spent
-moving moved striking struck
-
-struck
 moving moved taking took
 
 took
-moving moved walking walked
-
-walked
 moving moved writing wrote
 
 wrote
@@ -9922,6 +7177,9 @@ generated
 paying paid going went
 
 went
+paying paid hitting hit
+
+hit
 paying paid implementing implemented
 
 implemented
@@ -9934,9 +7192,6 @@ looked
 paying paid moving moved
 
 moved
-playing played running ran
-
-ran
 playing played saying said
 
 said
@@ -9985,9 +7240,9 @@ moved
 playing played paying paid
 
 paid
-reading read striking struck
+reading read generating generated
 
-struck
+generated
 reading read hitting hit
 
 hit
@@ -10060,6 +7315,9 @@ paid
 running ran playing played
 
 played
+saying said selling sold
+
+sold
 saying said spending spent
 
 spent
@@ -10072,9 +7330,9 @@ thought
 saying said writing wrote
 
 wrote
-saying said decreasing decreased
+saying said falling fell
 
-decreased
+fell
 saying said increasing increased
 
 increased
@@ -10093,21 +7351,12 @@ paid
 saying said playing played
 
 played
-seeing saw singing sang
-
-sang
 seeing saw spending spent
 
 spent
 seeing saw taking took
 
 took
-seeing saw writing wrote
-
-wrote
-seeing saw decreasing decreased
-
-decreased
 seeing saw falling fell
 
 fell
@@ -10129,24 +7378,27 @@ paid
 seeing saw playing played
 
 played
-seeing saw running ran
+seeing saw saying said
 
-ran
+said
+selling sold sitting sat
+
+sat
 selling sold spending spent
 
 spent
 selling sold striking struck
 
 struck
-selling sold writing wrote
+selling sold thinking thought
 
-wrote
+thought
 selling sold decreasing decreased
 
 decreased
-selling sold flying flew
+selling sold falling fell
 
-flew
+fell
 selling sold generating generated
 
 generated
@@ -10174,6 +7426,9 @@ ran
 selling sold saying said
 
 said
+singing sang sitting sat
+
+sat
 singing sang striking struck
 
 struck
@@ -10207,6 +7462,9 @@ looked
 singing sang moving moved
 
 moved
+singing sang paying paid
+
+paid
 singing sang playing played
 
 played
@@ -10219,18 +7477,15 @@ spent
 sitting sat striking struck
 
 struck
-sitting sat taking took
-
-took
-sitting sat writing wrote
-
-wrote
 sitting sat decreasing decreased
 
 decreased
 sitting sat flying flew
 
 flew
+sitting sat generating generated
+
+generated
 sitting sat going went
 
 went
@@ -10348,6 +7603,9 @@ ran
 striking struck selling sold
 
 sold
+striking struck singing sang
+
+sang
 striking struck sitting sat
 
 sat
@@ -10363,9 +7621,6 @@ decreased
 taking took falling fell
 
 fell
-taking took flying flew
-
-flew
 taking took generating generated
 
 generated
@@ -10396,9 +7651,6 @@ saw
 taking took selling sold
 
 sold
-taking took singing sang
-
-sang
 taking took spending spent
 
 spent
@@ -10408,9 +7660,6 @@ wrote
 thinking thought describing described
 
 described
-thinking thought falling fell
-
-fell
 thinking thought generating generated
 
 generated
@@ -10426,9 +7675,6 @@ paid
 thinking thought playing played
 
 played
-thinking thought running ran
-
-ran
 thinking thought saying said
 
 said
@@ -10438,6 +7684,9 @@ spent
 walking walked decreasing decreased
 
 decreased
+walking walked falling fell
+
+fell
 walking walked flying flew
 
 flew
@@ -10465,21 +7714,18 @@ played
 walking walked running ran
 
 ran
-walking walked selling sold
-
-sold
 walking walked singing sang
 
 sang
 walking walked sitting sat
 
 sat
-walking walked spending spent
-
-spent
 walking walked striking struck
 
 struck
+walking walked taking took
+
+took
 writing wrote falling fell
 
 fell
@@ -10519,9 +7765,6 @@ sang
 writing wrote spending spent
 
 spent
-writing wrote taking took
-
-took
 writing wrote thinking thought
 
 thought
@@ -10672,9 +7915,6 @@ rats
 car cars road roads
 
 roads
-car cars woman women
-
-women
 car cars bird birds
 
 birds
@@ -10708,18 +7948,21 @@ fingers
 cat cats horse horses
 
 horses
+cat cats lion lions
+
+lions
 cat cats machine machines
 
 machines
-cat cats mouse mice
-
-mice
 cat cats rat rats
 
 rats
 cat cats road roads
 
 roads
+cat cats woman women
+
+women
 cat cats bird birds
 
 birds
@@ -10738,6 +7981,9 @@ colors
 child children computer computers
 
 computers
+child children dog dogs
+
+dogs
 child children dollar dollars
 
 dollars
@@ -10747,9 +7993,6 @@ dreams
 child children finger fingers
 
 fingers
-child children hand hands
-
-hands
 child children horse horses
 
 horses
@@ -10762,9 +8005,6 @@ men
 child children rat rats
 
 rats
-child children road roads
-
-roads
 child children woman women
 
 women
@@ -10777,9 +8017,6 @@ buildings
 child children car cars
 
 cars
-cloud clouds computer computers
-
-computers
 cloud clouds dog dogs
 
 dogs
@@ -10864,9 +8101,6 @@ buildings
 color colors car cars
 
 cars
-color colors child children
-
-children
 color colors cloud clouds
 
 clouds
@@ -10879,9 +8113,15 @@ dollars
 computer computers dream dreams
 
 dreams
+computer computers eye eyes
+
+eyes
 computer computers finger fingers
 
 fingers
+computer computers hand hands
+
+hands
 computer computers horse horses
 
 horses
@@ -11026,6 +8266,9 @@ machines
 dream dreams rat rats
 
 rats
+dream dreams road roads
+
+roads
 dream dreams bird birds
 
 birds
@@ -11146,6 +8389,9 @@ horses
 hand hands machine machines
 
 machines
+hand hands mouse mice
+
+mice
 hand hands rat rats
 
 rats
@@ -11206,6 +8452,9 @@ buildings
 horse horses car cars
 
 cars
+horse horses cat cats
+
+cats
 horse horses child children
 
 children
@@ -11236,12 +8485,6 @@ fingers
 horse horses hand hands
 
 hands
-lion lions machine machines
-
-machines
-lion lions road roads
-
-roads
 lion lions building buildings
 
 buildings
@@ -11251,9 +8494,6 @@ cars
 lion lions computer computers
 
 computers
-lion lions dollar dollars
-
-dollars
 lion lions dream dreams
 
 dreams
@@ -11365,9 +8605,6 @@ machines
 mouse mice rat rats
 
 rats
-mouse mice road roads
-
-roads
 mouse mice woman women
 
 women
@@ -11431,9 +8668,6 @@ children
 rat rats cloud clouds
 
 clouds
-rat rats color colors
-
-colors
 rat rats computer computers
 
 computers
@@ -11578,27 +8812,15 @@ provides
 describe describes say says
 
 says
-describe describes sit sits
-
-sits
 describe describes speak speaks
 
 speaks
 describe describes work works
 
 works
-describe describes write writes
-
-writes
 estimate estimates find finds
 
 finds
-estimate estimates play plays
-
-plays
-estimate estimates speak speaks
-
-speaks
 estimate estimates work works
 
 works
@@ -11620,6 +8842,9 @@ provides
 find finds say says
 
 says
+find finds sing sings
+
+sings
 find finds sit sits
 
 sits
@@ -11638,9 +8863,6 @@ works
 find finds write writes
 
 writes
-find finds describe describes
-
-describes
 find finds estimate estimates
 
 estimates
@@ -11806,9 +9028,6 @@ provides
 see sees sing sings
 
 sings
-see sees sit sits
-
-sits
 see sees speak speaks
 
 speaks
@@ -11848,9 +9067,6 @@ works
 sing sings write writes
 
 writes
-sing sings describe describes
-
-describes
 sing sings estimate estimates
 
 estimates
@@ -11869,18 +9085,15 @@ plays
 sing sings provide provides
 
 provides
+sing sings say says
+
+says
 sit sits speak speaks
 
 speaks
-sit sits walk walks
-
-walks
 sit sits work works
 
 works
-sit sits describe describes
-
-describes
 sit sits estimate estimates
 
 estimates
@@ -11959,24 +9172,30 @@ finds
 talk talks increase increases
 
 increases
+talk talks play plays
+
+plays
 talk talks provide provides
 
 provides
+talk talks say says
+
+says
 talk talks speak speaks
 
 speaks
 think thinks walk walks
 
 walks
-think thinks work works
+think thinks estimate estimates
 
-works
+estimates
+think thinks find finds
+
+finds
 think thinks increase increases
 
 increases
-think thinks play plays
-
-plays
 think thinks provide provides
 
 provides
@@ -12013,6 +9232,9 @@ plays
 walk walks provide provides
 
 provides
+walk walks say says
+
+says
 walk walks sit sits
 
 sits
@@ -12022,6 +9244,9 @@ speaks
 walk walks think thinks
 
 thinks
+work works describe describes
+
+describes
 work works estimate estimates
 
 estimates
