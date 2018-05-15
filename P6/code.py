@@ -214,9 +214,10 @@ eigenvalues, eigenvectors = np.linalg.eig(Laplacian)
 idx = eigenvalues.argsort() #[::-1]
 eigenvalues = eigenvalues[idx]
 eigenvectors = eigenvectors[:, idx]
+eigenvectors = np.log(eigenvectors)
 
 
-# eigenvectors = np.log(eigenvectors)
+
 # smallest_eigenvector = eigenvectors[0, :]
 # second_smallest_eigenvector = eigenvectors[1, :]
 # third_smallest_eigenvector = eigenvectors[2, :]
@@ -238,6 +239,13 @@ eigenvectors = eigenvectors[:, idx]
 #0.12022393183749233, 0.13283886699780015]
 
 
+#plot a bunch of eigenvectors:
+
+# for i in range(100):
+#  	plot_eigenvector_vs_person(eigenvectors[i, :], "Eigenvector_" + str(i + 1), "2b_eigenvector_no_log_" + str(i + 1))
+
+# for i in range(100):
+# 	plot_two_eigenvectors(eigenvectors[i, :], eigenvectors[i + 1, :], "Eigenvector_" + str(i + 1), "Eigenvector_" + str(i + 2), "Eigenvectors_" + str(i + 1) + "_and_" + str(i + 2), "2b_eigenvectors_no_log_" + str(i + 1) + "_" + str(i + 2) )
 #2D
 
 def calculate_conductance(A, S):
@@ -253,12 +261,14 @@ def calculate_conductance(A, S):
 
 	A_without_S_sum = np.sum(A_without_S_nodes)
 	A_with_S_sum = np.sum(A_with_S_nodes)
-	#print("A without S sum: ", A_without_S_sum)
-	#print("A with S sum: ", A_with_S_sum)
+	print("sum of original A: ", np.sum(A))
+	print("A without S sum: ", A_without_S_sum)
+	print("A with S sum: ", A_with_S_sum)
 	denominator = min(A_with_S_sum, A_without_S_sum)
 
 	numerator = 0
-	A = np.tril(A)
+	#A = np.tril(A)
+	print("sum of diagional half A: ", np.sum(A))
 	for row in range(A.shape[0]):
 		for column in range(A.shape[1]):
 			if row in S and column not in S:
@@ -271,15 +281,28 @@ def calculate_conductance(A, S):
 
 import random 
 
-#test_S = [x for x in range(50, 200)]
-#2D NOT DONE
+test_S = [x for x in range(0, 75)] + [x for x in range(1325, 1375)]
+test_S = [1]
+test_S = [x for x in range(1350, 1475)]
+test_S = [x for x in range(1270, 1300)] #0.99 conductance
+test_S = [x for x in range(0, 10)]
 
+test_S = []
+
+eigenvector_7 = eigenvectors[6, :]
+for i in range(len(eigenvector_7)):
+	if eigenvector_7[i] < -30:
+		print(i)
+		test_S.append(i)
+
+cond = calculate_conductance(A, test_S)
+print("conductance: ", cond)
 
 #2E
-
-random_S = random.sample(range(0, 1495), 150)
-print("Len of Test S: ", len(random_S))
-cond = calculate_conductance(A, random_S)
-print("conductance: ", cond)
+# print("random")
+# random_S = random.sample(range(0, 1495), 150)
+# print("Len of Test S: ", len(random_S))
+# cond = calculate_conductance(A, random_S)
+# print("conductance: ", cond)
 
 #conductance:  0.47379285586070724
