@@ -68,7 +68,7 @@ def plot_embeddings_d(vals, vecs, points, title, filename):
 	plt.close()
 
 
-#B
+# B
 # line_a = np.zeros((n, n))
 # for i in range(n - 1):
 # 	line_a[i][i + 1] = 1
@@ -214,7 +214,7 @@ eigenvalues, eigenvectors = np.linalg.eig(Laplacian)
 idx = eigenvalues.argsort() #[::-1]
 eigenvalues = eigenvalues[idx]
 eigenvectors = eigenvectors[:, idx]
-eigenvectors = np.log(eigenvectors)
+#eigenvectors = np.log(eigenvectors)
 
 
 
@@ -241,62 +241,46 @@ eigenvectors = np.log(eigenvectors)
 
 #plot a bunch of eigenvectors:
 
-# for i in range(100):
-#  	plot_eigenvector_vs_person(eigenvectors[i, :], "Eigenvector_" + str(i + 1), "2b_eigenvector_no_log_" + str(i + 1))
+for i in range(100):
+ 	plot_eigenvector_vs_person(eigenvectors[:, i], "Eigenvector_" + str(i + 1), "2b_eigenvector_no_log_colum_" + str(i + 1))
 
 # for i in range(100):
 # 	plot_two_eigenvectors(eigenvectors[i, :], eigenvectors[i + 1, :], "Eigenvector_" + str(i + 1), "Eigenvector_" + str(i + 2), "Eigenvectors_" + str(i + 1) + "_and_" + str(i + 2), "2b_eigenvectors_no_log_" + str(i + 1) + "_" + str(i + 2) )
 #2D
 
-def calculate_conductance(A, S):
-	#A is adjacency matrixx
-	#S is list of nodes that we are considering for calculating conductance (should be >= 150)
-	A_without_S_nodes = A.copy()
-	A_with_S_nodes = np.zeros_like(A)
-	for node in S:
-		A_without_S_nodes[node] = 0
-		A_without_S_nodes[:, node] = 0
-		A_with_S_nodes[node] = A[node]
-		A_with_S_nodes[:, node] = A[:, node]
+#networkx time
+import networkx as nx 
 
-	A_without_S_sum = np.sum(A_without_S_nodes)
-	A_with_S_sum = np.sum(A_with_S_nodes)
-	print("sum of original A: ", np.sum(A))
-	print("A without S sum: ", A_without_S_sum)
-	print("A with S sum: ", A_with_S_sum)
-	denominator = min(A_with_S_sum, A_without_S_sum)
+#eigenvectors = 1000 * eigenvectors
+#eigenvectors = np.log(eigenvectors)
 
-	numerator = 0
-	#A = np.tril(A)
-	print("sum of diagional half A: ", np.sum(A))
-	for row in range(A.shape[0]):
-		for column in range(A.shape[1]):
-			if row in S and column not in S:
-				numerator += A[row, column]
-			elif row not in S and column in S:
-				numerator += A[row, column]
-	print("numerator: ", numerator)
-	print("denominator: ", denominator)
-	return numerator / denominator
+#eigenvectors_summed = np.sum(eigenvectors, axis = 1)
+# print("shape of summed: ", eigenvectors_summed.shape)
+# plot_eigenvector_vs_person(eigenvectors_summed, "Eigenvector Summed", "2b_SUMMED")
 
-import random 
+G = nx.from_numpy_matrix(A)
 
-test_S = [x for x in range(0, 75)] + [x for x in range(1325, 1375)]
-test_S = [1]
-test_S = [x for x in range(1350, 1475)]
-test_S = [x for x in range(1270, 1300)] #0.99 conductance
-test_S = [x for x in range(0, 10)]
+#nx.draw(G)
 
+test_S = [x for x in range(0, 150)]
 test_S = []
+eigenvector_curr = eigenvectors[:, 6]
+print("shape of eigenvector curr: ", eigenvector_curr.shape)
+#eigenvector_curr = eigenvector_curr.T
+#eigenvector_next = eigenvectors[9, :]
+#eigenvectors_temp = eigenvector_curr + eigenvector_next
+for i in range(len(eigenvector_curr)):
 
-eigenvector_7 = eigenvectors[6, :]
-for i in range(len(eigenvector_7)):
-	if eigenvector_7[i] < -30:
-		print(i)
+
+	if eigenvector_curr[i] > 0.041:
 		test_S.append(i)
 
-cond = calculate_conductance(A, test_S)
-print("conductance: ", cond)
+print("test_S: ", test_S)
+other_S = [x for x in range(A.shape[0]) if  x not in test_S]
+print("Len of test_S: ", len(test_S))
+print("Len of other_S: ", len(other_S))
+conduct = nx.algorithms.cuts.conductance(G, test_S, other_S)
+print("conductance: ", conduct)
 
 #2E
 # print("random")
@@ -304,5 +288,13 @@ print("conductance: ", cond)
 # print("Len of Test S: ", len(random_S))
 # cond = calculate_conductance(A, random_S)
 # print("conductance: ", cond)
+print("random")
 
-#conductance:  0.47379285586070724
+random_S = random.sample(range(0, 1495), 150)
+other_S = [x for x in range(A.shape[0]) if  x not in random_S]
+print("Len of test_S: ", len(random_S))
+print("Len of other_S: ", len(other_S))
+conduct = nx.algorithms.cuts.conductance(G, other_S, random_S)
+print("conductance: ", conduct)
+
+#conductance:  0.936127122604767
