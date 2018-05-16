@@ -282,6 +282,10 @@ print("Len of other_S: ", len(other_S))
 conduct = nx.algorithms.cuts.conductance(G, test_S, other_S)
 print("conductance: ", conduct)
 
+
+eigenvector_10 = eigenvectors[:, 9]
+eigenvector_15 = eigenvectors[:, 14]
+
 #2E
 # print("random")
 # random_S = random.sample(range(0, 1495), 150)
