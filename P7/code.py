@@ -13,7 +13,7 @@ def read_csv(csv_name):
 
 parks_info = read_csv('parks.csv')
 
-print("parks info: ", parks_info)
+#print("parks info: ", parks_info)
 parks_info = np.delete(parks_info, (0), axis=0)
 
 #converting parks info from np array to dict for easier use key: park name, value: (longitude, latitude)
@@ -24,7 +24,7 @@ for row in range(parks_info.shape[0]):
 	latitude = float(parks_info[row][2])
 	parks_dict[park_name] = (longitude, latitude)
 
-print(parks_dict)
+#print(parks_dict)
 
 def calculate_distance_two_parks(park_1, park_2):
 	longitude_1, latitude_1 = parks_dict[park_1]
@@ -53,8 +53,8 @@ all_park_names = list(parks_dict.keys())
 
 temp = all_park_names.copy()
 temp.sort()
-print("Distance between Acadia and Arches: ", calculate_distance_two_parks("Acadia", "Arches"))
-print("Distance Alphabetical ", calculate_route_total_distance(temp))
+#print("Distance between Acadia and Arches: ", calculate_distance_two_parks("Acadia", "Arches"))
+#print("Distance Alphabetical ", calculate_route_total_distance(temp))
 
 
 def MCMC_algorithm(max_iterations, park_list, T, c = False):
@@ -91,7 +91,7 @@ def MCMC_algorithm(max_iterations, park_list, T, c = False):
 
 	return best_route, route_distance_history #best route is best one we found, distance history is the distance of each route we tried
 
-found_route, route_distance_history = MCMC_algorithm(1000, all_park_names, 0.1)
+#found_route, route_distance_history = MCMC_algorithm(1000, all_park_names, 0.1)
 
 def plot_2b_c(X_axis, sets_route_histories, title, file_name):
 
@@ -127,3 +127,11 @@ def part_b_c(c = False):
 #part_b_c(c = True)
 
 
+
+from QWOP import sim
+
+#Question 3
+
+plan =[random.uniform(-1, 1) for x in range(40)]
+
+sim(plan)

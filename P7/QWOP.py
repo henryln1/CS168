@@ -209,7 +209,7 @@ def init():
 
 def animate(j):
     points = zip([data[j][0][i] for i in joints], [data[j][1][i] for i in joints])
-    patch.set_xy(points)
+    patch.set_xy(list(points))
     head.center = (data[j][0][5], data[j][1][5])
     return patch,head
 
@@ -217,6 +217,8 @@ anim = animation.FuncAnimation(fig, animate,
                                init_func=init,
                                frames=len(data),
                                interval=20)
+
+#anim.to_html5_video()
 anim.save('animation.mp4', fps=50)
 
 plt.show()
