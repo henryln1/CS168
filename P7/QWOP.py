@@ -188,7 +188,58 @@ def sim(plan):
 
 plan = [random.uniform(-1,1) for i in range(40)]
 
-sim(plan)
+max_iterations = 3000
+
+
+#MCMC algorithm
+
+best_plan = plan
+
+
+best_plan = plan
+furthest_distance = sim(plan)
+
+T = 10
+
+replace_number = 4
+print_every = 1000
+number_trials = 50
+best_distance = float('-infinity')
+best_plan_overall_all_trials = []
+
+for g in range(number_trials):
+    print("Trial: ", g)
+    for i in range(max_iterations):
+        #furthest_distance = float('-infinity')
+        if i % print_every == 0 :
+            print("Iteration: ", i)
+        #random_index = random.randint(0, len(plan) - 1)
+        #random_index_two = random.randint(0, len(plan) - 1)
+        possible_new_plan = best_plan.copy()
+        #possible_new_plan[random_index] = random.uniform(-1 , 1)
+        #possible_new_plan[random_index_two] = random.uniform(-1 , 1)
+        for i in range(replace_number):
+            random_index = random.randint(0, len(plan) - 1)
+            possible_new_plan[random_index] = random.uniform(-1 , 1)
+        change_distance_traveled = sim(possible_new_plan) - sim(plan)
+        if change_distance_traveled < 0 or (T > 10 and random.uniform(0, 1) < math.exp( - change_distance_traveled / T)):
+            plan = possible_new_plan
+        if sim(possible_new_plan) > furthest_distance:
+            best_plan = possible_new_plan
+            furthest_distance = sim(possible_new_plan)
+    print("This trial's furthest distance: ", furthest_distance)
+    if furthest_distance > best_distance:
+        best_distance = furthest_distance
+        best_plan_overall_all_trials = best_plan
+
+
+
+print("Furthest Distance reached over all trials: ", best_distance)
+
+data = []
+
+sim(best_plan_overall_all_trials)
+
 
 # draw the simulation
 fig = plt.figure()
