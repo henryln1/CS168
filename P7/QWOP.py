@@ -186,59 +186,112 @@ def sim(plan):
 # function and maximize it.
 ###########
 
+def sim_wrapper(plan):
+    return - sim(plan)
 plan = [random.uniform(-1,1) for i in range(40)]
 
-max_iterations = 3000
-
-
-#MCMC algorithm
-
-best_plan = plan
-
-
-best_plan = plan
-furthest_distance = sim(plan)
-
-T = 10
-
-replace_number = 4
-print_every = 1000
-number_trials = 50
-best_distance = float('-infinity')
-best_plan_overall_all_trials = []
-
-for g in range(number_trials):
-    print("Trial: ", g)
-    for i in range(max_iterations):
-        #furthest_distance = float('-infinity')
-        if i % print_every == 0 :
-            print("Iteration: ", i)
-        #random_index = random.randint(0, len(plan) - 1)
-        #random_index_two = random.randint(0, len(plan) - 1)
-        possible_new_plan = best_plan.copy()
-        #possible_new_plan[random_index] = random.uniform(-1 , 1)
-        #possible_new_plan[random_index_two] = random.uniform(-1 , 1)
-        for i in range(replace_number):
-            random_index = random.randint(0, len(plan) - 1)
-            possible_new_plan[random_index] = random.uniform(-1 , 1)
-        change_distance_traveled = sim(possible_new_plan) - sim(plan)
-        if change_distance_traveled < 0 or (T > 10 and random.uniform(0, 1) < math.exp( - change_distance_traveled / T)):
-            plan = possible_new_plan
-        if sim(possible_new_plan) > furthest_distance:
-            best_plan = possible_new_plan
-            furthest_distance = sim(possible_new_plan)
-    print("This trial's furthest distance: ", furthest_distance)
-    if furthest_distance > best_distance:
-        best_distance = furthest_distance
-        best_plan_overall_all_trials = best_plan
+MCMC = True
 
 
 
-print("Furthest Distance reached over all trials: ", best_distance)
+if MCMC: 
+    max_iterations = 3000
+
+
+    #MCMC algorithm
+
+    best_plan = plan
+
+
+    best_plan = plan
+    furthest_distance = sim(plan)
+
+    T = 10
+
+    replace_number = 4
+    print_every = 500
+    number_trials = 50
+    best_distance = float('-infinity')
+    best_plan_overall_all_trials = []
+
+    for g in range(number_trials):
+        print("Trial: ", g)
+        for i in range(max_iterations):
+            #furthest_distance = float('-infinity')
+            if i % print_every == 0 :
+                print("Iteration: ", i)
+            #random_index = random.randint(0, len(plan) - 1)
+            #random_index_two = random.randint(0, len(plan) - 1)
+            possible_new_plan = best_plan.copy()
+            #possible_new_plan[random_index] = random.uniform(-1 , 1)
+            #possible_new_plan[random_index_two] = random.uniform(-1 , 1)
+            for i in range(replace_number):
+                random_index = random.randint(0, len(plan) - 1)
+                possible_new_plan[random_index] = random.uniform(-1 , 1)
+            change_distance_traveled = sim(possible_new_plan) - sim(plan)
+            if change_distance_traveled < 0 or (T > 10 and random.uniform(0, 1) < math.exp( - change_distance_traveled / T)):
+                plan = possible_new_plan
+            if sim(possible_new_plan) > furthest_distance:
+                best_plan = possible_new_plan
+                furthest_distance = sim(possible_new_plan)
+        print(best_plan)
+        print("This trial's furthest distance: ", furthest_distance)
+        if furthest_distance > best_distance:
+            best_distance = furthest_distance
+            best_plan_overall_all_trials = best_plan
+
+
+
+    print("Furthest Distance reached over all trials: ", best_distance)
+
+    data = []
+
+    sim(best_plan_overall_all_trials)
+
+
+print("best plan post MCMC: ", best_plan_overall_all_trials)
+#try scipy.optimize.minimize to try and solve this. Remember to do a - sign so that it will actually maxximize distance
+
+#else: #Do gradient descent algorithm
+
+# learning_rate = 0.01
+# plan = [random.uniform(-1,1) for i in range(40)]
+# plan = best_plan_overall_all_trials
+# gradient_descent_num_iterations = 3000
+# print_every = 100
+# for i in range(gradient_descent_num_iterations):
+#     data = []
+#     shifted_plan = [x - 0.05 for x in plan]
+#     if i % 100 == 0:
+#         print ("Gradient Descent Iteration: ", i)
+#         print("Max Distance Achieved: ", sim(plan))
+
+#     distance = sim(plan)
+#     shifted_distance = sim(shifted_plan)
+#     numerical_gradient = (shifted_distance - distance) / 2
+
+#     numerical_gradient = learning_rate * numerical_gradient
+
+#     new_plan = [x - numerical_gradient for x in plan]
+#     plan = new_plan
+
+plan = best_plan_overall_all_trials
+
+
+from scipy.optimize import minimize, rosen, rosen_der
+
+print("Scipy")
+results = minimize(sim_wrapper, plan)
+print(results)
+best_option = results.x
+print("Best Distance: ", sim(best_option))
+#exit()
+
 
 data = []
+sim(best_option)
 
-sim(best_plan_overall_all_trials)
+print("best plan after scipy: ", best_option)
 
 
 # draw the simulation
