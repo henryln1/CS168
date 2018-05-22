@@ -70,7 +70,7 @@ plt.savefig("1_b.png", format = 'png')
 plt.close()
 
 
-#Question 2
+# Question 2
 
 # def read_csv(csv_name):
 # 	df = pd.read_csv(csv_name, header = None)
