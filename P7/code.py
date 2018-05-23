@@ -10,21 +10,26 @@ import math
 
 # PART A 
 part_1_1 = np.matrix([[0, 0.5, 0, 0, 0, 0, 0, 0, 0, 0.5], [0.5, 0, 0.5, 0, 0, 0, 0, 0, 0, 0], [0, 0.5, 0, 0.5, 0, 0, 0, 0, 0, 0], [0, 0, 0.5, 0, 0.5, 0, 0, 0, 0, 0], [0, 0, 0, 0.5, 0, 0.5, 0, 0, 0, 0], [0, 0, 0, 0, 0.5, 0, 0.5, 0, 0, 0], [0, 0, 0, 0, 0, 0.5, 0, 0.5, 0, 0], [0, 0, 0, 0, 0, 0, 0.5, 0, 0.5, 0], [0, 0, 0, 0, 0, 0, 0, 0.5, 0, 0.5], [0.5, 0, 0, 0, 0, 0, 0, 0, 0, 0.5]])
-print(part_1_1)
-print(part_1_1.shape)
+print("CHAIN 1: ", part_1_1)
+chain_1_eigs = np.linalg.eig(part_1_1.T)
+print("Eigs: ", chain_1_eigs)
 stationary_dist_1 = np.array([0.1 for i in range(10)])
 part_1_2 = np.matrix([[0, 0.5, 0, 0, 0, 0, 0, 0, 0.5], [0.5, 0, 0.5, 0, 0, 0, 0, 0, 0], [0, 0.5, 0, 0.5, 0, 0, 0, 0, 0], [0, 0, 0.5, 0, 0.5, 0, 0, 0, 0], [0, 0, 0, 0.5, 0, 0.5, 0, 0, 0], [0, 0, 0, 0, 0.5, 0, 0.5, 0, 0], [0, 0, 0, 0, 0, 0.5, 0, 0.5, 0], [0, 0, 0, 0, 0, 0, 0.5, 0, 0.5], [0.5, 0, 0, 0, 0, 0, 0, 0.5, 0]])
-print(part_1_2)
-dist_vec = np.linalg.eig(part_1_2.T)[1][:,3]
+print("CHAIN 2: ", part_1_2)
+chain_2_eigs = np.linalg.eig(part_1_2.T)
+print("Eigs: ", chain_2_eigs)
+dist_vec = chain_2_eigs[1][:,3]
 stationary_dist_2_nonorm = np.squeeze(np.asarray(dist_vec))
 stationary_dist_2 = stationary_dist_2_nonorm / sum(stationary_dist_2_nonorm)
-print(stationary_dist_2)
+print("Std dist: ", stationary_dist_2)
 part_1_3 = np.matrix([[0, 1./3, 0, 0, 1./3, 0, 0, 0, 1./3], [0.5, 0, 0.5, 0, 0, 0, 0, 0, 0], [0, 0.5, 0, 0.5, 0, 0, 0, 0, 0], [0, 0, 0.5, 0, 0.5, 0, 0, 0, 0], [1./3, 0, 0, 1./3, 0, 1./3, 0, 0, 0], [0, 0, 0, 0, 0.5, 0, 0.5, 0, 0], [0, 0, 0, 0, 0, 0.5, 0, 0.5, 0], [0, 0, 0, 0, 0, 0, 0.5, 0, 0.5], [0.5, 0, 0, 0, 0, 0, 0, 0.5, 0]])
-print(part_1_3)
-dist_vec_2 = np.linalg.eig(part_1_3.T)[1][:,4]
+print("CHAIN 3: ", part_1_3)
+chain_3_eigs = np.linalg.eig(part_1_3.T)
+print("Eigs: ", chain_3_eigs)
+dist_vec_2 = chain_3_eigs[1][:,4]
 stationary_dist_3_nonorm = np.squeeze(np.asarray(dist_vec_2))
 stationary_dist_3 = stationary_dist_3_nonorm / sum(stationary_dist_3_nonorm)
-print(stationary_dist_3)
+print("Std dist: ", stationary_dist_3)
 
 # PART B
 state_s_1 = np.array([1, 0, 0, 0, 0, 0, 0, 0, 0, 0])
@@ -58,7 +63,6 @@ for time in times:
     state_s_2 = np.squeeze(np.asarray(np.dot(state_s_2, part_1_2)))
     state_s_3 = np.squeeze(np.asarray(np.dot(state_s_3, part_1_3)))
 
-print(state_s_2)
 plt.plot(times, markov_dists_1, 'rs', label="Markov Chain 1")
 plt.plot(times, markov_dists_2, 'bs', label="Markov Chain 2")
 plt.plot(times, markov_dists_3, 'gs', label="Markov Chain 3")
