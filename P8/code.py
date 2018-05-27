@@ -71,7 +71,7 @@ def generate_heatmap(data, output_filename):
 	plt.savefig(output_filename + '.png', format = 'png')
 	plt.close()
 
-#generate_heatmap(data, "2D_Square_Root")
+generate_heatmap(data, "3D_Square_Root")
 
 
 #part e
@@ -97,8 +97,8 @@ high_thresholds = [5, 10, 15, 20, 30, 100, 200]
 high_thresholds = [x for x in range(10000) if x % 100 == 0]
 
 
-for threshold in high_thresholds:
-	zero_out_frequencies(data, threshold, high = False)
+# for threshold in high_thresholds:
+# 	zero_out_frequencies(data, threshold, high = False)
 
 
 
