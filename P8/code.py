@@ -71,7 +71,7 @@ def generate_heatmap(data, output_filename):
 	plt.savefig(output_filename + '.png', format = 'png')
 	plt.close()
 
-generate_heatmap(data, "3D_Square_Root")
+#generate_heatmap(data, "3D_Square_Root")
 
 
 #part e
@@ -81,11 +81,15 @@ def save_wav_file(data, threshold):
 		wavfile.write(f, sampleRate, data)
 
 
+#print(np.absolute(np.fft.fft(data)))
 def zero_out_frequencies(data, threshold, high = True):
 
 	data = np.fft.fft(data)
+	data = np.absolute(data)
+	#print(data)
 	if high == True: #zeroing out above threshold
 		data[data > threshold] = 0
+		#print(data)
 	else: #zero out below certain threshold
 		data[data < threshold] = 0
 	inverse_fourier = np.fft.ifft(data)
@@ -94,11 +98,11 @@ def zero_out_frequencies(data, threshold, high = True):
 
 high_thresholds = [5, 10, 15, 20, 30, 100, 200]
 
-high_thresholds = [x for x in range(10000) if x % 100 == 0]
+high_thresholds = [x for x in range(100000) if x % 1000 == 0]
 
-
-# for threshold in high_thresholds:
-# 	zero_out_frequencies(data, threshold, high = False)
+#high_thresholds = [10]
+for threshold in high_thresholds:
+	zero_out_frequencies(data, threshold, high = False)
 
 
 
