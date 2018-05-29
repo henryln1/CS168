@@ -75,34 +75,74 @@ def generate_heatmap(data, output_filename):
 
 
 #part e
-def save_wav_file(data, threshold):
-	data = (data * 1.0 / np.max(np.absolute(data)) * 32767).astype(np.int16)
-	with open("output_threshold_low=" + str(threshold) + ".wav", "wb") as f:
-		wavfile.write(f, sampleRate, data)
+def save_wav_file(data, threshold, low = False):
+	data = (np.absolute(data) * 1.0 / np.max(np.absolute(data)) * 32767).astype(np.int16)
+	with open(str(threshold) + ".wav", "wb") as f:
+		sample_rate = sampleRate
+		if low:
+			sample_rate *= 1.3
+		sample_rate = int(sample_rate)
+		wavfile.write(f, sample_rate, data)
 
 
 #print(np.absolute(np.fft.fft(data)))
-def zero_out_frequencies(data, threshold, high = True):
+def zero_out_frequencies(data, threshold):
 
 	data = np.fft.fft(data)
-	data = np.absolute(data)
+	#data = np.absolute(data)
+	print("fourier: ", data)
 	#print(data)
-	if high == True: #zeroing out above threshold
-		data[data > threshold] = 0
+	#if high == True: #zeroing out above threshold
+	#data[data < high_threshold] = 0
 		#print(data)
-	else: #zero out below certain threshold
-		data[data < threshold] = 0
+	#else: #zero out below certain threshold
+	#data[data < low_threshold] = 0
+	#for x in range(threshold, data.shape[0]):
+	#	data[x] = 0
+	#data[data > threshold] = 0
+	print(data)
 	inverse_fourier = np.fft.ifft(data)
-	inverse_fourier = np.absolute(inverse_fourier)
+	#inverse_fourier = np.absolute(inverse_fourier)
 	save_wav_file(inverse_fourier, threshold)
 
-high_thresholds = [5, 10, 15, 20, 30, 100, 200]
+#high_thresholds = [5, 10, 15, 20, 30, 100, 200]
 
-high_thresholds = [x for x in range(100000) if x % 1000 == 0]
+#high_thresholds = [x for x in range(100000) if x % 1000 == 0]
 
 #high_thresholds = [10]
-for threshold in high_thresholds:
-	zero_out_frequencies(data, threshold, high = False)
+#for threshold in high_thresholds:
+#high = 400000
+#ow = 42000
+#zero_out_frequencies(data, low, high)
+save_wav_file(data, "temp")
+transformed_data = np.fft.fft(data)
+# #high_threshold = 400000
+# #low_threshold = 42000
+# #transformed_data[transformed_data > high_threshold] = 0
+# #transformed_data[transformed_data < low_threshold] = 0
+# transformed_data[transformed_data > threshold] = 0
+# reverted = np.fft.ifft(transformed_data)
+# #transformed = np.fft.ifft(np.fft.fft(data))
+# save_wav_file(reverted, "zero_below_42000_zero_above_400000")
+# #print("diff: ", np.sum(transformed) - np.sum(data))
+# print("sum", np.sum(data))
+# zero_out_frequencies(data, 0)
+
+thresholds = [x * 40000 for x in range(1, 25)]
+
+thresholds = [2000000]
+transformed_data = np.fft.fft(data)
+for threshold in thresholds:
+	curr_high_transformed = transformed_data.copy()
+	curr_high_transformed[curr_high_transformed > threshold] = 0
+
+	curr_low_transformed = transformed_data.copy()
+	curr_low_transformed[curr_low_transformed < threshold] = 0
+
+	curr_high_transformed_reverted = np.fft.ifft(curr_high_transformed)
+	curr_low_transformed_reverted = np.fft.ifft(curr_low_transformed)
+	save_wav_file(curr_high_transformed_reverted, "zero_above_" + str(threshold))
+	save_wav_file(curr_low_transformed_reverted, "zero_below_" + str(threshold), low = True)
 
 
 
