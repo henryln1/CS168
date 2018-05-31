@@ -1,7 +1,47 @@
 import scipy.io.wavfile as wavfile 
 import numpy as np
 import matplotlib.pyplot as plt
+import math
 
+# question 2
+def pad_arrays(x, y):
+	x_len = len(x)
+	y_len = len(y)
+	x_padded = x
+	y_padded = y
+	if x_len < y_len:
+		x_padded += [0 for i in range(y_len - x_len)]
+	elif y_len < x_len:
+		y_padded += [0 for i in range(x_len - y_len)]
+	x_padded += [0 for i in range(len(x_padded))]
+	y_padded += [0 for i in range(len(y_padded))]
+
+	return x_padded, y_padded
+
+def multiply(x, y):
+	x_padded, y_padded = pad_arrays(x, y)
+	x_fft = np.fft.fft(x_padded)
+	y_fft = np.fft.fft(y_padded)
+	x_y_mult = np.multiply(x_fft, y_fft)
+	inv = np.fft.ifft(x_y_mult)
+	values = []
+	carry_over = 0
+	for val in inv:
+		print(val)
+		curr = int(round(val.real, 0) + carry_over)
+		if curr >= 10:
+			carry_over = int(curr)//10
+			curr %= 10
+		else:
+			carry_over = 0
+		values.append(curr)
+	while(values[-1] == 0):
+		del values[-1]
+	return values
+	
+x = [0,9,8,7,6,5,4,3,2,1,0,9,8,7,6,5,4,3,2,1]
+y = [0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9]
+print(multiply(x, y))
 
 
 
