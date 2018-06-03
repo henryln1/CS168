@@ -1,15 +1,19 @@
 import numpy as np 
 import random
 from PIL import Image
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+import cvxpy as cvx
 
 
-#YAYYYYY FINAL PSET
+#YAYYYYY FINAL PSET :) :) :) :D :D :D
 
 #Question 1
+wonderland_tree = 'p9_images/wonderland-tree.txt'
 
 #Part A
-def load_text_file_as_array(file_location):
+def load_text_file_as_matrix(file_location):
 	array = []
 	with open(file_location) as f:
 		for line in f:
@@ -24,14 +28,35 @@ def load_text_file_as_array(file_location):
 	print("array shape: ", array.shape)
 	return array
 
+def load_text_file_as_array(file_location):
+	array = []
+	with open(file_location) as f:
+		for line in f:
+			for index in range(len(line) - 1):
+				array.append(int(line[index]))
+	array = np.asarray(array)
+	print("array shape: ", array.shape)
+	return array
 
-image = load_text_file_as_array('p9_images/wonderland-tree.txt')
+image = load_text_file_as_matrix(wonderland_tree)
 print("Number of ones (k): ", np.sum(image))
 print("Total number of pixels (n): ", image.shape[0] * image.shape[1])
 print("k / n: ", np.sum(image) / (image.shape[0] * image.shape[1]))
 
 
 #Part B
+n = 1200
+r = 600
+A = np.random.normal(size=(n, n))
+x = load_text_file_as_array(wonderland_tree)
+b = cvx.Variable(r)
+objective = cvx.Minimize(cvx.norm(x, 1))
+constraints = [b == np.dot(A[0:r], x), x >= 0]
+prob = cvx.Problem(objective, constraints)
+
+print("prob.solve(): ", prob.solve())
+print("b.value: ", b.value)
+
 
 #Part C
 
