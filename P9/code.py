@@ -14,29 +14,29 @@ wonderland_tree = 'p9_images/wonderland-tree.txt'
 
 #Part A
 def load_text_file_as_matrix(file_location):
-	array = []
-	with open(file_location) as f:
-		for line in f:
-			#line = line.split()
-			temp = []
-			for index in range(len(line) - 1):
-				temp.append(int(line[index]))
-			#array.append(line)
-			array.append(temp)
-			#print(temp)
-	array = np.asarray(array)
-	print("array shape: ", array.shape)
-	return array
+    array = []
+    with open(file_location) as f:
+        for line in f:
+            #line = line.split()
+            temp = []
+            for index in range(len(line) - 1):
+                temp.append(int(line[index]))
+            #array.append(line)
+            array.append(temp)
+            #print(temp)
+    array = np.asarray(array)
+    print("array shape: ", array.shape)
+    return array
 
 def load_text_file_as_array(file_location):
-	array = []
-	with open(file_location) as f:
-		for line in f:
-			for index in range(len(line) - 1):
-				array.append(int(line[index]))
-	array = np.asarray(array)
-	print("array shape: ", array.shape)
-	return array
+    array = []
+    with open(file_location) as f:
+        for line in f:
+            for index in range(len(line) - 1):
+                array.append(int(line[index]))
+    array = np.asarray(array)
+    print("array shape: ", array.shape)
+    return array
 
 image = load_text_file_as_matrix(wonderland_tree)
 print("Number of ones (k): ", np.sum(image))
@@ -44,23 +44,75 @@ print("Total number of pixels (n): ", image.shape[0] * image.shape[1])
 print("k / n: ", np.sum(image) / (image.shape[0] * image.shape[1]))
 
 
-# #Part B
-# n = 1200
-# r = 600
-# A = np.random.normal(size=(n, n))
-# x = load_text_file_as_array(wonderland_tree)
-# b = cvx.Variable(r)
-# objective = cvx.Minimize(cvx.norm(x, 1))
-# constraints = [b == np.dot(A[0:r], x), x >= 0]
-# prob = cvx.Problem(objective, constraints)
+# Part B
+n = 1200
+x = load_text_file_as_array(wonderland_tree)
+A = np.random.normal(size=(n, n))
 
-# print("prob.solve(): ", prob.solve())
-# print("b.value: ", b.value)
+def compressive_sensing(r, binarized = False):
+    x_r = cvx.Variable(n)
+    b = np.dot(A[0:r], x)
+    objective = cvx.Minimize(cvx.norm(x_r, 1))
+    constraints = [b == A[0:r] * x_r, x_r >= 0, x_r <= 1]
+    prob = cvx.Problem(objective, constraints)
+    prob.solve()
+    if binarized:
+        binarized_x_r = []
+        for i in range(n):
+            x_r_val = x_r.value[i]
+            diff_0 = x_r_val
+            diff_1 = abs(1 - x_r_val)
+            new_val = 0 if diff_0 < diff_1 else 1
+            binarized_x_r.append(new_val)
+        return binarized_x_r
+    return x_r.value
 
+print("Part B: ", np.allclose(compressive_sensing(600, True), x))
 
-#Part C
+# Part C
+def r_value_binary_search():
+    possible_r_values = [x for x in range(1, 1200)]
+    valid_r_values = []
+    target = .001
+    lower = 0
+    upper = 1199
+    while lower < upper:
+        index = lower + (upper - lower) // 2
+        r = possible_r_values[index]
+        print(r)
+        x_r = compressive_sensing(r, True)
+        val = np.linalg.norm(x - x_r, 1)
+        print(val)
+        if val < target:
+            valid_r_values.append(r) 
+            upper = index # see if there's a smaller r
+        else:
+            if lower == index:
+                break
+            lower = index
+    return min(valid_r_values)
+
+r_star = r_value_binary_search()
+print("Part C: ", r_star) 
+
 
 #Part D
+def plot_l1_norms():
+    r_s = [r_star + x for x in range(-10, 3)]
+    norms = []
+    for r in r_s:
+        x_r = compressive_sensing(r, True)
+        val = np.linalg.norm(x - x_r, 1)
+        norms.append(val)
+
+    plt.plot(r_s, norms, 'rs')
+    plt.title("Distance between x and x_r for different r values")
+    plt.xlabel("r")
+    plt.ylabel("L1 norm of x - x_r")
+    plt.savefig("1d.png", format = 'png')
+    plt.close()
+
+plot_l1_norms()
 
 
 #Question 2
