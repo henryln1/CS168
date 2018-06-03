@@ -47,6 +47,7 @@ print("k / n: ", np.sum(image) / (image.shape[0] * image.shape[1]))
 # Part B
 n = 1200
 x = load_text_file_as_array(wonderland_tree)
+np.random.seed(42)
 A = np.random.normal(size=(n, n))
 
 def compressive_sensing(r, binarized = False):
