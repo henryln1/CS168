@@ -50,25 +50,16 @@ x = load_text_file_as_array(wonderland_tree)
 np.random.seed(42)
 A = np.random.normal(size=(n, n))
 
-def compressive_sensing(r, binarized = False):
+def compressive_sensing(r):
     x_r = cvx.Variable(n)
     b = np.dot(A[0:r], x)
     objective = cvx.Minimize(cvx.norm(x_r, 1))
     constraints = [b == A[0:r] * x_r, x_r >= 0, x_r <= 1]
     prob = cvx.Problem(objective, constraints)
-    prob.solve()
-    if binarized:
-        binarized_x_r = []
-        for i in range(n):
-            x_r_val = x_r.value[i]
-            diff_0 = x_r_val
-            diff_1 = abs(1 - x_r_val)
-            new_val = 0 if diff_0 < diff_1 else 1
-            binarized_x_r.append(new_val)
-        return binarized_x_r
+    prob.solve(cvx.ECOS)
     return x_r.value
 
-print("Part B: ", np.allclose(compressive_sensing(600, True), x))
+print("Part B: ", np.allclose(compressive_sensing(600), x))
 
 # Part C
 def r_value_binary_search():
@@ -81,7 +72,7 @@ def r_value_binary_search():
         index = lower + (upper - lower) // 2
         r = possible_r_values[index]
         print(r)
-        x_r = compressive_sensing(r, True)
+        x_r = compressive_sensing(r)
         val = np.linalg.norm(x - x_r, 1)
         print(val)
         if val < target:
@@ -102,7 +93,7 @@ def plot_l1_norms():
     r_s = [r_star + x for x in range(-10, 3)]
     norms = []
     for r in r_s:
-        x_r = compressive_sensing(r, True)
+        x_r = compressive_sensing(r)
         val = np.linalg.norm(x - x_r, 1)
         norms.append(val)
 
